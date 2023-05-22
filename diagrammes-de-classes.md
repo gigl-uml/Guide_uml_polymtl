@@ -30,6 +30,26 @@ Elles sont représenté par des rectangles séparés en trois parties:
 ![](/out/classexample/classexample.svg)
 
 ## Attributs
+Il existe 2 notations permettants de représenter des attributs:  
+
+1. En ligne (*inlined attributes*):  
+    **visibilité / nom : type multiplicité = défaut**
+
+    | ------------ | ----------- |
+    | Visibilité   | {public: +, privé: -, protégé: #, pacquet: ~} |
+    | /            | La présence de ce symbole indique que la valeur de cet attribut peut être obtenue à l'aide d'autres attributs déjà dans le modèle                           |
+    | Nom          | Le nom de l'attribut                          |
+    | Type         | Le type de l'attribut                         |
+    | Multiplicité | Le nombre d'instance de l'attribut [min..max]            |
+    | Défaut       | La valeur par défaut de l'attribut            |
+
+    ![](/out/attributesInlineExample\attributesInlineExample.svg)
+
+2. Par relation:
+
+    Permet de montrer plus de détails des attributs sur le diagramme  
+    
+    ![](/out/attributeRelationExample\attributeRelationExample.svg)  
 
 ## Opérations
 

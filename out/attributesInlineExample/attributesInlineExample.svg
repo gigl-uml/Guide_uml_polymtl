@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="187px" preserveAspectRatio="none" style="width:229px;height:187px;background:#FFFFFF;" version="1.1" viewBox="0 0 229 187" width="229px" zoomAndPan="magnify"><defs/><g><!--MD5=[3f0ef310aaa84a542276992c5216544d]
+class Car--><g id="elem_Car"><rect codeLine="2" fill="#F1F1F1" height="166.875" id="Car" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="208" x="7" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="23" x="99.5" y="26.5332">Car</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="214" y1="34.6094" y2="34.6094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="45.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="27" y="53.1426">engine: Engine</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="63.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="27" y="70.752">wheels: Wheel[4]</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="81.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="27" y="88.3613">passengers: Passenger[1..5]</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="214" y1="95.4375" y2="95.4375"/><ellipse cx="18" cy="109.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="27" y="113.9707">start()</text><ellipse cx="18" cy="127.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="27" y="131.5801">stop()</text><ellipse cx="18" cy="144.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="27" y="149.1895">accelerate(speed: double)</text><ellipse cx="18" cy="162.5703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="27" y="166.7988">brake()</text></g><!--MD5=[27f1e0731ee5bff9cc08b598643f9713]
+@startuml
+hide circle
+class Car {
+  - engine: Engine
+  - wheels: Wheel[4]
+  - passengers: Passenger[1..5]
+  + start()
+  + stop()
+  + accelerate(speed: double)
+  + brake()
+}
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

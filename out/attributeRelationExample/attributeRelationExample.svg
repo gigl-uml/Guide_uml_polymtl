@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="337px" preserveAspectRatio="none" style="width:458px;height:337px;background:#FFFFFF;" version="1.1" viewBox="0 0 458 337" width="458px" zoomAndPan="magnify"><defs/><g><!--MD5=[3f0ef310aaa84a542276992c5216544d]
+class Car--><g id="elem_Car"><rect codeLine="3" fill="#F1F1F1" height="114.0469" id="Car" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="192" x="129.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="23" x="214" y="26.5332">Car</text><line style="stroke:#181818;stroke-width:0.5;" x1="130.5" x2="320.5" y1="34.6094" y2="34.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="130.5" x2="320.5" y1="42.6094" y2="42.6094"/><ellipse cx="140.5" cy="56.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="149.5" y="61.1426">start()</text><ellipse cx="140.5" cy="74.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="149.5" y="78.752">stop()</text><ellipse cx="140.5" cy="92.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="149.5" y="96.3613">accelerate(speed: double)</text><ellipse cx="140.5" cy="109.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="149.5" y="113.9707">brake()</text></g><!--MD5=[c86ce95fe6226f2d2796c0513d8e83fe]
+class Engine--><g id="elem_Engine"><rect codeLine="10" fill="#F1F1F1" height="114.0469" id="Engine" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="123" x="7" y="198.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="46.5" y="218.0332">Engine</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="129" y1="226.1094" y2="226.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="237.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="27" y="244.6426">cylinders: int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="255.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="27" y="262.252">horsepower: int</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="129" y1="269.3281" y2="269.3281"/><ellipse cx="18" cy="283.6328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="27" y="287.8613">start()</text><ellipse cx="18" cy="301.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="27" y="305.4707">stop()</text></g><!--MD5=[63ed6a0a2dfd613875880437a5e2b06e]
+class Wheel--><g id="elem_Wheel"><rect codeLine="17" fill="#F1F1F1" height="96.4375" id="Wheel" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="121" x="165" y="207.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="205.5" y="227.0332">Wheel</text><line style="stroke:#181818;stroke-width:0.5;" x1="166" x2="285" y1="235.1094" y2="235.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="173" y="246.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="185" y="253.6426">size: int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="173" y="264.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="185" y="271.252">material: String</text><line style="stroke:#181818;stroke-width:0.5;" x1="166" x2="285" y1="278.3281" y2="278.3281"/><ellipse cx="176" cy="292.6328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="185" y="296.8613">rotate()</text></g><!--MD5=[044d80e6112339a70fe50413576e9bf7]
+class Passenger--><g id="elem_Passenger"><rect codeLine="23" fill="#F1F1F1" height="149.2656" id="Passenger" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="130" x="321.5" y="181"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="352.5" y="200.5332">Passenger</text><line style="stroke:#181818;stroke-width:0.5;" x1="322.5" x2="450.5" y1="208.6094" y2="208.6094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="329.5" y="219.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="341.5" y="227.1426">firstName: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="329.5" y="237.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="341.5" y="244.752">lastName: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="329.5" y="255.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="341.5" y="262.3613">/name: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="329.5" y="272.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="341.5" y="279.9707">age: int</text><line style="stroke:#181818;stroke-width:0.5;" x1="322.5" x2="450.5" y1="287.0469" y2="287.0469"/><ellipse cx="332.5" cy="301.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="341.5" y="305.5801">getName()</text><ellipse cx="332.5" cy="318.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="341.5" y="323.1895">getAge()</text></g><!--MD5=[81348e79ed31ab560c01d4053cd4a360]
+link Car to Engine--><g id="link_Car_Engine"><path codeLine="32" d="M179.03,121.09 C159.97,144.09 137.87,170.77 118.46,194.2 " fill="none" id="Car-to-Engine" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="115.12,198.23,123.945,193.8574,118.3125,194.3819,117.788,188.7494,115.12,198.23" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="113.3753" y="187.7889">1</text></g><!--MD5=[2ea1030a1cbd423ae6287d5d7d5e8969]
+link Car to Wheel--><g id="link_Car_Wheel"><path codeLine="33" d="M225.5,121.09 C225.5,146.66 225.5,176.77 225.5,201.91 " fill="none" id="Car-to-Wheel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="225.5,207.2,229.5,198.2,225.5,202.2,221.5,198.2,225.5,207.2" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="218.0734" y="142.5365">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="218.0078" y="196.7719">1</text></g><!--MD5=[7885c521807ac1a6c3748add29360233]
+link Car to Passenger--><g id="link_Car_Passenger"><path codeLine="34" d="M273.15,121.09 C287.98,138.54 304.6,158.1 320.45,176.76 " fill="none" id="Car-to-Passenger" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="324.03,180.97,321.2479,171.5223,320.7913,177.1607,315.1529,176.7041,324.03,180.97" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="255.6167" y="142.5365">1..5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="310.2268" y="169.9586">1</text></g><!--MD5=[fdb909f1b1cc7050df381995edc0e5e0]
+@startuml
+hide circle
+
+class Car {
+  + start()
+  + stop()
+  + accelerate(speed: double)
+  + brake()
+}
+
+class Engine {
+  - cylinders: int
+  - horsepower: int
+  + start()
+  + stop()
+}
+
+class Wheel {
+  - size: int
+  - material: String
+  + rotate()
+}
+
+class Passenger {
+  - firstName: String
+  - lastName: String
+  - /name: String
+  - age: int
+  + getName()
+  + getAge()
+}
+
+Car - -> "1" Engine
+Car "4" - -> "1" Wheel
+Car "1..5" - -> "1" Passenger
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

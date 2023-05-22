@@ -1,0 +1,37 @@
+@startuml
+hide circle
+
+class Car {
+  + start()
+  + stop()
+  + accelerate(speed: double)
+  + brake()
+}
+
+class Engine {
+  - cylinders: int
+  - horsepower: int
+  + start()
+  + stop()
+}
+
+class Wheel {
+  - size: int
+  - material: String
+  + rotate()
+}
+
+class Passenger {
+  - firstName: String
+  - lastName: String
+  - /name: String
+  - age: int
+  + getName()
+  + getAge()
+}
+
+Car --> "1" Engine
+Car "4" --> "1" Wheel
+Car "1..5" --> "1" Passenger
+
+@enduml

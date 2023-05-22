@@ -1,0 +1,12 @@
+@startuml
+hide circle
+class Car {
+  - engine: Engine
+  - wheels: Wheel[4]
+  - passengers: Passenger[1..5]
+  + start()
+  + stop()
+  + accelerate(speed: double)
+  + brake()
+}
+@enduml
