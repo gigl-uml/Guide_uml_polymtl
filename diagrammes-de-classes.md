@@ -20,8 +20,8 @@ _____
 {:toc}
 
 ## Classes
-Une classe est le schéma de construction d'un object.  
-Elles sont représenté par des rectangles séparés en trois parties:  
+Une classe est le schéma de construction d'un objet.  
+Elles sont représentées par des rectangles séparés en trois parties:  
 
 1. Le nom de la classe. Il doit être centré et la première lettre doit être en majuscule
 2. Les attributs
@@ -30,17 +30,17 @@ Elles sont représenté par des rectangles séparés en trois parties:
 ![](/out/classexample/classexample.svg)
 
 ## Attributs
-Il existe 2 notations permettants de représenter des attributs:  
+Il existe 2 notations permettant de représenter des attributs:  
 
 1. En ligne (*inlined attributes*):  
     **visibilité / nom : type multiplicité = défaut**
 
     | ------------ | ----------- |
-    | Visibilité   | {public: +, privé: -, protégé: #, pacquet: ~} |
+    | Visibilité   | {public: +, privé: -, protégé: #, paquet: ~} |
     | /            | La présence de ce symbole indique que la valeur de cet attribut peut être obtenue à l'aide d'autres attributs déjà dans le modèle                           |
     | Nom          | Le nom de l'attribut                          |
     | Type         | Le type de l'attribut                         |
-    | Multiplicité | Le nombre d'instance de l'attribut [min..max]            |
+    | Multiplicité | Le nombre d'instances de l'attribut [min..max]            |
     | Défaut       | La valeur par défaut de l'attribut            |
 
     ![](/out/attributesInlineExample\attributesInlineExample.svg)
@@ -61,4 +61,4 @@ Il existe 2 notations permettants de représenter des attributs:
 
 ## Interfaces
 
-## Templates
+## Modèles

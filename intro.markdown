@@ -14,5 +14,5 @@ Modéliser un système avant sa réalisation permet de mieux comprendre le fonct
 
 _____
 ## Qu'est-ce que l'UML ?
-Le *Unified Modeling Language* (UML) est le langage de modélisation utilisé en développement logiciel. Son but principal est d’aider à la rédactions d’artéfacts de développement standardisés. L'UML ne standardise cependant pas le processus de développement en lui même.
+Le *Unified Modeling Language* (UML) est le langage de modélisation utilisé en développement logiciel. Son but principal est d’aider à la rédaction d’artéfacts de développement standardisés. L'UML ne standardise cependant pas le processus de développement en lui-même.
 
