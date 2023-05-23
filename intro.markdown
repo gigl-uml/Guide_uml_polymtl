@@ -2,7 +2,6 @@
 layout: page
 title: Introduction
 permalink: /intro/
-has_children: true
 nav_order: 1
 ---
 
