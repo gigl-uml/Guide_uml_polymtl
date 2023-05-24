@@ -1,9 +1,9 @@
 @startuml
 hide circle
 class Class {
-    attribut1
-    attribut2
-    méthode1()
-    méthode2()
+    attribute1
+    attribute2
+    method1()
+    method2()
 }
 @enduml

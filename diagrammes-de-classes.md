@@ -58,6 +58,8 @@ Il existe 2 notations permettant de représenter des attributs:
 
 ## Opérations
 
+Il est important de faire la distinction entre une **opération** et une **méthode**. Une opération permet de représenter comment **déclencher** un comportement. 
+
 ## Methodes
 
 ## Classes abstraites
