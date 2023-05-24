@@ -9,7 +9,12 @@ nav_order: 2
 
 # Diagrammes de classes
 {: .no_toc }
-_____
+
+Les diagrammes de classes sont utilisés pour :
+-   Explorer les concepts d'un domaine
+-   Analyser les besoins à l'aide d'un modèle conceptuel 
+-   Décrire de façon détaillée une conception orienté objet
+
 
 ## Sommaire
 {: .no_toc .text-delta }
@@ -18,10 +23,11 @@ _____
 {:toc}
 
 ## Classes
-Une classe est le schéma de construction d'un objet.  
+Une classe est le schéma de construction d'un objet. Elle décrit une collection d'objets qui
+partagent les mêmes attributs, les mêmes opérations, les mêmes relations et la même sémantique.  
 Elles sont représentées par des rectangles séparés en trois parties:  
 
-1. Le nom de la classe. Il doit être centré et la première lettre doit être en majuscule
+1. Le nom de la classe. Il doit être unique, constitué d'une chaine de caractères, centré et la première lettre doit être en majuscule
 2. Les attributs
 3. Les opérations
 
