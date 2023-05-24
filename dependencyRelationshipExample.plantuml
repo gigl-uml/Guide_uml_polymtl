@@ -1,0 +1,6 @@
+@startuml
+rectangle A
+rectangle B
+
+A -[dotted]r-> B
+@enduml

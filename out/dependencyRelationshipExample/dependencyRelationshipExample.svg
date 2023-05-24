@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="50px" preserveAspectRatio="none" style="width:106px;height:50px;background:#FFFFFF;" version="1.1" viewBox="0 0 106 50" width="106px" zoomAndPan="magnify"><defs/><g><!--MD5=[770389ab9df153645bc6ef28055eb2b5]
+entity A--><g id="elem_A"><rect fill="#F1F1F1" height="37.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="29" x="7" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="9" x="17" y="31.5332">A</text></g><!--MD5=[b2d39259b6aeabc16b394deeb0238426]
+entity B--><g id="elem_B"><rect fill="#F1F1F1" height="37.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="29" x="71" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="9" x="81" y="31.5332">B</text></g><!--MD5=[5e2eec62a50b26b6b0db6c12e4ee289c]
+link A to B--><g id="link_A_B"><path d="M36.25,26 C46.08,26 55.91,26 65.74,26 " fill="none" id="A-to-B" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:1.0,3.0;"/><polygon fill="#181818" points="70.88,26,61.88,22,65.88,26,61.88,30,70.88,26" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[87d19525efa0987bd9a9148fc7400e92]
+@startuml
+rectangle A
+rectangle B
+
+A -[dotted]r-> B
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

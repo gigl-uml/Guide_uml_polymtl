@@ -48,13 +48,13 @@ Il existe 2 notations permettant de représenter des attributs:
     | Multiplicité | Le nombre d'instances de l'attribut [min..max]            |
     | Défaut       | La valeur par défaut de l'attribut            |
 
-    ![](/out/attributesInlineExample\attributesInlineExample.svg)
+    ![](/out/attributesInlineExample/attributesInlineExample.svg)
 
 2. Par relation:
 
     Permet de montrer plus de détails des attributs sur le diagramme  
     
-    ![](/out/attributeRelationExample\attributeRelationExample.svg)  
+    ![](/out/attributeRelationExample/attributeRelationExample.svg)  
 
 ## Opérations
 
@@ -72,6 +72,19 @@ Il est important de faire la distinction entre une **opération** et une **méth
 ## Classes abstraites
 
 ## Relations
+
+Les relations UML représentes différents types de connection entre les classes.  
+
+| ------------ | ----------- |
+| Dépendance     | ![](/out/dependencyRelationshipExample/dependencyRelationshipExample.svg)         |
+| Association    | ![](/out/associationRelationshipExample/associationRelationshipExample.svg)       |
+| Aggrégation    | ![](/out/aggregationRelationshipExample/aggregationRelationshipExample.svg)       |
+| Composition    | ![](/out/compositionRelationshipExample/compositionRelationshipExample.svg)       |
+| Généralisation | ![](/out/generalizationRelationshipExample/generalizationRelationshipExample.svg) |
+
+
+
+
 
 ## Interfaces
 
