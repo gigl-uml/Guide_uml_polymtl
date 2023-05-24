@@ -11,8 +11,6 @@ nav_order: 2
 {: .no_toc }
 _____
 
-![](/out/classdiagramexemple/classdiagramexemple.svg)
-
 ## Sommaire
 {: .no_toc .text-delta }
 
