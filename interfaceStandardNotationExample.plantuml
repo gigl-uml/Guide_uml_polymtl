@@ -1,0 +1,12 @@
+@startuml
+hide circle
+
+class ICollection <<Interface>> 
+class IList <<Interface>>
+class IEnumerable <<Interface>>
+class Array
+
+Array -[dotted]-|> ICollection
+Array -[dotted]-|> IList
+Array -[dotted]-|> IEnumerable
+@enduml

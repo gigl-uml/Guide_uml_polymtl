@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="176px" preserveAspectRatio="none" style="width:305px;height:176px;background:#FFFFFF;" version="1.1" viewBox="0 0 305 176" width="305px" zoomAndPan="magnify"><defs/><g><!--MD5=[00e26693e2858d7cce830424ef4d5ed2]
+class ICollection--><g id="elem_ICollection"><rect codeLine="3" fill="#F1F1F1" height="58.7031" id="ICollection" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="71" x="7" y="111"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="62" x="11.5" y="128.457">«Interface»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="10" y="145.627">ICollection</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="77" y1="153.7031" y2="153.7031"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="77" y1="161.7031" y2="161.7031"/></g><!--MD5=[e9daf3f04ba70fbc9d6267d7b1ae7833]
+class IList--><g id="elem_IList"><rect codeLine="4" fill="#F1F1F1" height="58.7031" id="IList" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="64" x="113.5" y="111"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="62" x="114.5" y="128.457">«Interface»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="25" x="133" y="145.627">IList</text><line style="stroke:#181818;stroke-width:0.5;" x1="114.5" x2="176.5" y1="153.7031" y2="153.7031"/><line style="stroke:#181818;stroke-width:0.5;" x1="114.5" x2="176.5" y1="161.7031" y2="161.7031"/></g><!--MD5=[4c77c41311008385c3bc5cfe0fcbe6f3]
+class IEnumerable--><g id="elem_IEnumerable"><rect codeLine="5" fill="#F1F1F1" height="58.7031" id="IEnumerable" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="85" x="213" y="111"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="62" x="224.5" y="128.457">«Interface»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="216" y="145.627">IEnumerable</text><line style="stroke:#181818;stroke-width:0.5;" x1="214" x2="297" y1="153.7031" y2="153.7031"/><line style="stroke:#181818;stroke-width:0.5;" x1="214" x2="297" y1="161.7031" y2="161.7031"/></g><!--MD5=[99f32fa4e73f6681c1a0ac5117bd3ce1]
+class Array--><g id="elem_Array"><rect codeLine="6" fill="#F1F1F1" height="43.6094" id="Array" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="40" x="125.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="128.5" y="26.5332">Array</text><line style="stroke:#181818;stroke-width:0.5;" x1="126.5" x2="164.5" y1="34.6094" y2="34.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="126.5" x2="164.5" y1="42.6094" y2="42.6094"/></g><!--MD5=[f4f88f5c56b05e88e1e81c0fdef3790e]
+link Array to ICollection--><g id="link_Array_ICollection"><path codeLine="8" d="M125.64,51.11 C113.63,63.88 97.86,80.64 83.3,96.13 " fill="none" id="Array-to-ICollection" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:1.0,3.0;"/><polygon fill="none" points="88.11,101.23,69.31,111,77.91,91.63,88.11,101.23" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[37d427aed6cf2e3553b2488be9919475]
+link Array to IList--><g id="link_Array_IList"><path codeLine="9" d="M145.5,51.11 C145.5,62.42 145.5,76.85 145.5,90.76 " fill="none" id="Array-to-IList" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:1.0,3.0;"/><polygon fill="none" points="152.5,91,145.5,111,138.5,91,152.5,91" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7abaf0030bf8cd34cfd3f1d56992d8c5]
+link Array to IEnumerable--><g id="link_Array_IEnumerable"><path codeLine="10" d="M165.68,50.08 C178.78,63.13 196.37,80.64 212.51,96.7 " fill="none" id="Array-to-IEnumerable" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:1.0,3.0;"/><polygon fill="none" points="217.52,91.81,226.75,110.88,207.64,101.73,217.52,91.81" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f57cc1e41edecb82045cee8c3fd95f42]
+@startuml
+hide circle
+
+class ICollection <<Interface>> 
+class IList <<Interface>>
+class IEnumerable <<Interface>>
+class Array
+
+Array -[dotted]-|> ICollection
+Array -[dotted]-|> IList
+Array -[dotted]-|> IEnumerable
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

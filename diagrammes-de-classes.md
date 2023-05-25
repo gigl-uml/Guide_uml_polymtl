@@ -75,17 +75,40 @@ Il est important de faire la distinction entre une **opération** et une **méth
 
 Les relations UML représentes différents types de connection entre les classes.  
 
-| ------------ | ----------- |
-| Dépendance     | ![](/out/dependencyRelationshipExample/dependencyRelationshipExample.svg)         |
-| Association    | ![](/out/associationRelationshipExample/associationRelationshipExample.svg)       |
-| Aggrégation    | ![](/out/aggregationRelationshipExample/aggregationRelationshipExample.svg)       |
-| Composition    | ![](/out/compositionRelationshipExample/compositionRelationshipExample.svg)       |
-| Généralisation | ![](/out/generalizationRelationshipExample/generalizationRelationshipExample.svg) |
-
+| ------------ | ----------- | ----------- |
+| Dépendance     | ![](/out/dependencyRelationshipExample/dependencyRelationshipExample.svg)         | Indique que A dépend de B. Des modifications dans l'élément cible (B) peuvent affecter l'élément source (A). |
+| Association    | ![](/out/associationRelationshipExample/associationRelationshipExample.svg)       | Relation plus forte que la dépendance. Indique qu'il existe un lien sémentique ou structurel entre A et B.  |
+| Agrégation    | ![](/out/aggregationRelationshipExample/aggregationRelationshipExample.svg)       | Relation plus forte que l'association. Indique que A possède B. |
+| Composition    | ![](/out/compositionRelationshipExample/compositionRelationshipExample.svg)       | Relation plus forte que l'agrégation. Indique que B est une partie de A. |
+| Généralisation | ![](/out/generalizationRelationshipExample/generalizationRelationshipExample.svg) | Indique que A est une version générale de B. Exprime une hiérarchie d'héritage. |
+| Réalisation | ![](/out/realizationRelationshipExample/realizationRelationshipExample.svg) | Indique que A fournit l'implémentation des méthodes de B. Représente la mise en œuvre concrète d'une interface par une classe.  |
 
 
 
 
 ## Interfaces
+
+Une interaface est un élément de modélisation qui représente un ensemble de spécifications pour les services fournis par une classe ou un composant. Elle possède les déclarations des attributs et des méthodes, mais pas d'implémentation. C'est l'équivalent d'une classe abstraite pure en C++.
+
+Il existe 2 façons de représenter une interface:  
+
+1. Notation Standard:
+
+    Dans cette exemple, la classe *Array* implémente les interfaces *ICollection*, *IList* et *IEnumerable*.
+    ![](/out/interfaceStandardNotationExample/interfaceStandardNotationExample.svg)  
+
+    Si une classe *User* veut utiliser l’implémentation de IList de la classe Array:  
+
+    ![](/out/interfaceStandardNotationExample2/interfaceStandardNotationExample2.svg)  
+
+2. Notation *ball-and-socket*:
+
+    On représente la class *Array* comme ceci:  
+
+    ![](/out/interfaceBallAndSocketNotationExample/interfaceBallAndSocketNotationExample.svg)
+
+    Si une classe *User* veut utiliser l'implémentation de IList de la classe *Array*:  
+
+    ![](/out/interfaceBallAndSocketNotationExample2/interfaceBallAndSocketNotationExample2.svg)
 
 ## Modèles

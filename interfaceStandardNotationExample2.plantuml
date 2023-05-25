@@ -1,0 +1,12 @@
+@startuml
+hide circle
+
+class IList <<Interface>> 
+class Array
+class User 
+
+
+Array -u[dotted]-|> IList
+IList <-r[dotted]- User
+
+@enduml

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="69px" preserveAspectRatio="none" style="width:263px;height:69px;background:#FFFFFF;" version="1.1" viewBox="0 0 263 69" width="263px" zoomAndPan="magnify"><defs/><g><!--MD5=[99f32fa4e73f6681c1a0ac5117bd3ce1]
+class Array--><g id="elem_Array"><rect codeLine="4" fill="#F1F1F1" height="43.6094" id="Array" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="40" x="216" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="219" y="26.5332">Array</text><line style="stroke:#181818;stroke-width:0.5;" x1="217" x2="255" y1="34.6094" y2="34.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="217" x2="255" y1="42.6094" y2="42.6094"/></g><!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User--><g id="elem_User"><rect codeLine="5" fill="#F1F1F1" height="43.6094" id="User" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="35" x="7" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="10" y="26.5332">User</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="41" y1="34.6094" y2="34.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="41" y1="42.6094" y2="42.6094"/></g><!--MD5=[703ff4b6aaf6491bf8535f86a8ba3b8e]
+entity IList--><g id="elem_IList"><ellipse cx="129" cy="29" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="25" x="116.5" y="60.5332">IList</text></g><!--MD5=[4d0cd31877825464ca1097ba6105853b]
+link User to IList--><g id="link_User_IList"><path codeLine="8" d="M42.43,29 C60.97,29 90.61,29 109.69,29 " fill="none" id="User-to-IList" style="stroke:#181818;stroke-width:1.0;"/><path d="M116.6918,20.5428 A9,9 0 0 0 116.6918 37.4572" fill="none" style="stroke:#181818;stroke-width:1.5;"/></g><!--MD5=[188a8cb719e45516b98e063f5b3a192e]
+link IList to Array--><g id="link_IList_Array"><path codeLine="9" d="M138.24,29 C154.87,29 192.83,29 215.95,29 " fill="none" id="IList-Array" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f90869d763eba677adfaad2b50360b49]
+@startuml
+left to right direction
+hide circle
+
+class Array
+class User
+circle IList
+
+User - -( IList
+IList - - Array
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

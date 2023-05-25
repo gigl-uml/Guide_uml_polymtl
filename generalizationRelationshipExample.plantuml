@@ -2,5 +2,5 @@
 rectangle A
 rectangle B
 
-A -r-|> B
+A <|-r- B
 @enduml

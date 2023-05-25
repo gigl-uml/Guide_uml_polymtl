@@ -1,0 +1,9 @@
+@startuml
+hide circle
+
+class Array
+
+ICollection ()- Array
+Array -() IList
+Array -() IEnumerable
+@enduml
