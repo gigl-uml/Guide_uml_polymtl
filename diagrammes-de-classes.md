@@ -23,6 +23,8 @@ Les diagrammes de classes sont utilisés pour :
 1. TOC
 {:toc}
 
+---
+
 ## Classes
 Une classe est le schéma de construction d'un objet. Elle décrit une collection d'objets qui
 partagent les mêmes attributs, les mêmes opérations, les mêmes relations et la même sémantique.  
@@ -33,6 +35,7 @@ Elles sont représentées par des rectangles séparés en trois parties:
 3. Les opérations
 
 ![](/out/classexample/classexample.svg)
+
 
 ## Attributs
 Il existe 2 notations permettant de représenter des attributs:  
@@ -67,7 +70,9 @@ Il est important de faire la distinction entre une **opération** et une **méth
 
 
 
-## Methodes
+## Méthodes
+Une **méthode** est une **implémentation** d'une **opération**. Cette implémentation peut être définie par la classe en elle même, ou héritée de sa superclasse. Si aucune implémentation n'est fournie, l'opération est dite **abstraite**.  
+Dans le diagramme de classes, on ne fait pas de distinctions entre méthodes et opérations.
 
 ## Classes abstraites
 
