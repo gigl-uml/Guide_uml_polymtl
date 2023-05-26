@@ -1,5 +1,7 @@
 @startuml
 hide circle
+skinparam classAttributeIconSize 0
+
 class Car {
   - engine: Engine
   - wheels: Wheel[4]

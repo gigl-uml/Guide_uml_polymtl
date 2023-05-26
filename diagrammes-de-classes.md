@@ -34,7 +34,7 @@ Elles sont représentées par des rectangles séparés en trois parties:
 2. Les attributs
 3. Les opérations
 
-![](/out/classexample/classexample.svg)
+![](/out/plant_uml/classexample/classexample.svg)
 
 
 ## Attributs
@@ -51,13 +51,13 @@ Il existe 2 notations permettant de représenter des attributs:
     | Multiplicité | Le nombre d'instances de l'attribut [min..max]            |
     | Défaut       | La valeur par défaut de l'attribut            |
 
-    ![](/out/attributesInlineExample/attributesInlineExample.svg)
+    ![](/out/plant_uml/attributesInlineExample/attributesInlineExample.svg)
 
 2. Par relation:
 
     Permet de montrer plus de détails des attributs sur le diagramme  
     
-    ![](/out/attributeRelationExample/attributeRelationExample.svg)  
+    ![](/out/plant_uml/attributeRelationExample/attributeRelationExample.svg)  
 
 ## Opérations
 
@@ -81,12 +81,12 @@ Dans le diagramme de classes, on ne fait pas de distinctions entre méthodes et 
 Les relations UML représentes différents types de connection entre les classes.  
 
 | ------------ | ----------- | ----------- |
-| Dépendance     | ![](/out/dependencyRelationshipExample/dependencyRelationshipExample.svg)         | Indique que A dépend de B. Des modifications dans l'élément cible (B) peuvent affecter l'élément source (A). |
-| Association    | ![](/out/associationRelationshipExample/associationRelationshipExample.svg)       | Relation plus forte que la dépendance. Indique qu'il existe un lien sémentique ou structurel entre A et B.  |
-| Agrégation    | ![](/out/aggregationRelationshipExample/aggregationRelationshipExample.svg)       | Relation plus forte que l'association. Indique que A possède B. |
-| Composition    | ![](/out/compositionRelationshipExample/compositionRelationshipExample.svg)       | Relation plus forte que l'agrégation. Indique que B est une partie de A. |
-| Généralisation | ![](/out/generalizationRelationshipExample/generalizationRelationshipExample.svg) | Indique que A est une version générale de B. Exprime une hiérarchie d'héritage. |
-| Réalisation | ![](/out/realizationRelationshipExample/realizationRelationshipExample.svg) | Indique que A fournit l'implémentation des méthodes de B. Représente la mise en œuvre concrète d'une interface par une classe.  |
+| Dépendance     | ![](/out/plant_uml/dependencyRelationshipExample/dependencyRelationshipExample.svg)         | Indique que A dépend de B. Des modifications dans l'élément cible (B) peuvent affecter l'élément source (A). |
+| Association    | ![](/out/plant_uml/associationRelationshipExample/associationRelationshipExample.svg)       | Relation plus forte que la dépendance. Indique qu'il existe un lien sémentique ou structurel entre A et B.  |
+| Agrégation    | ![](/out/plant_uml/aggregationRelationshipExample/aggregationRelationshipExample.svg)       | Relation plus forte que l'association. Indique que A possède B. |
+| Composition    | ![](/out/plant_uml/compositionRelationshipExample/compositionRelationshipExample.svg)       | Relation plus forte que l'agrégation. Indique que B est une partie de A. |
+| Généralisation | ![](/out/plant_uml/generalizationRelationshipExample/generalizationRelationshipExample.svg) | Indique que A est une version générale de B. Exprime une hiérarchie d'héritage. |
+| Réalisation | ![](/out/plant_uml/realizationRelationshipExample/realizationRelationshipExample.svg) | Indique que A fournit l'implémentation des méthodes de B. Représente la mise en œuvre concrète d'une interface par une classe.  |
 
 
 
@@ -100,20 +100,20 @@ Il existe 2 façons de représenter une interface:
 1. Notation Standard:
 
     Dans cette exemple, la classe *Array* implémente les interfaces *ICollection*, *IList* et *IEnumerable*.
-    ![](/out/interfaceStandardNotationExample/interfaceStandardNotationExample.svg)  
+    ![](/out/plant_uml/interfaceStandardNotationExample/interfaceStandardNotationExample.svg)  
 
     Si une classe *User* veut utiliser l’implémentation de IList de la classe Array:  
 
-    ![](/out/interfaceStandardNotationExample2/interfaceStandardNotationExample2.svg)  
+    ![](/out/plant_uml/interfaceStandardNotationExample2/interfaceStandardNotationExample2.svg)  
 
 2. Notation *ball-and-socket*:
 
     On représente la class *Array* comme ceci:  
 
-    ![](/out/interfaceBallAndSocketNotationExample/interfaceBallAndSocketNotationExample.svg)
+    ![](/out/plant_uml/interfaceBallAndSocketNotationExample/interfaceBallAndSocketNotationExample.svg)
 
     Si une classe *User* veut utiliser l'implémentation de IList de la classe *Array*:  
 
-    ![](/out/interfaceBallAndSocketNotationExample2/interfaceBallAndSocketNotationExample2.svg)
+    ![](/out/plant_uml/interfaceBallAndSocketNotationExample2/interfaceBallAndSocketNotationExample2.svg)
 
 ## Modèles
