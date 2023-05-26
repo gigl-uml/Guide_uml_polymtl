@@ -4,6 +4,7 @@ title: Diagrammes de classes
 permalink: /diagrammes-de-classes/
 nav_order: 2
 has_children: true
+has_toc: false
 ---
 
 
