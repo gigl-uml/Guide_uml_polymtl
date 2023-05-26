@@ -88,7 +88,7 @@ Les **relations UML** représentes différents types de connection entre les cla
 
 ## Interfaces
 
-Une interaface est un élément de modélisation qui représente un ensemble de spécifications pour les services fournis par une classe ou un composant. Elle possède les déclarations des attributs et des méthodes, mais pas d'implémentation. C'est l'équivalent d'une classe abstraite pure en C++.
+Une interface est un élément de modélisation qui représente un ensemble de spécifications pour les services fournis par une classe ou un composant. Elle possède les déclarations des attributs et des méthodes, mais pas d'implémentation. C'est l'équivalent d'une classe abstraite pure en C++.
 
 Il existe 2 façons de représenter une interface:  
 
@@ -103,7 +103,7 @@ Il existe 2 façons de représenter une interface:
 
 2. Notation *ball-and-socket*:
 
-    On représente la class *Array* comme ceci:  
+    On représente la classe *Array* comme ceci:  
 
     ![](/out/plant_uml/interfaceBallAndSocketNotationExample/interfaceBallAndSocketNotationExample.svg)
 
