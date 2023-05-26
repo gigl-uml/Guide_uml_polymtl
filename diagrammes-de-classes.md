@@ -11,7 +11,7 @@ has_children: true
 # Diagrammes de classes
 {: .no_toc }
 
-Les diagrammes de classes sont utilisés pour :
+Les **diagrammes de classes** sont utilisés pour :
 -   Explorer les concepts d'un domaine
 -   Analyser les besoins à l'aide d'un modèle conceptuel 
 -   Décrire de façon détaillée une conception orienté objet
@@ -26,11 +26,11 @@ Les diagrammes de classes sont utilisés pour :
 ---
 
 ## Classes
-Une classe est le schéma de construction d'un objet. Elle décrit une collection d'objets qui
+Une **classe** est le schéma de construction d'un objet. Elle décrit une collection d'objets qui
 partagent les mêmes attributs, les mêmes opérations, les mêmes relations et la même sémantique.  
 Elles sont représentées par des rectangles séparés en trois parties:  
 
-1. Le nom de la classe. Il doit être unique, constitué d'une chaine de caractères, centré et la première lettre doit être en majuscule
+1. Le nom de la classe. Il doit être unique, constitué d'une chaine de caractères, centré et la première lettre doit être en majuscule.
 2. Les attributs
 3. Les opérations
 
@@ -38,7 +38,7 @@ Elles sont représentées par des rectangles séparés en trois parties:
 
 
 ## Attributs
-Il existe 2 notations permettant de représenter des attributs:  
+Il existe 2 notations permettant de représenter des **attributs**:  
 
 1. En ligne (*inlined attributes*):  
     **visibilité / nom : type multiplicité = défaut**
@@ -60,7 +60,6 @@ Il existe 2 notations permettant de représenter des attributs:
     ![](/out/attributeRelationExample/attributeRelationExample.svg)  
 
 ## Opérations
-
 Il est important de faire la distinction entre une **opération** et une **méthode**. Une opération permet de représenter comment **déclencher** un comportement, tandis qu'une méthode montre l'implémentation de ce comportement. Voici quelques exemples d'opérations:
 - `- getFuelAmount(): Rectangle`
 - `+ setFuelAmount(quantity: int): void`
@@ -75,10 +74,15 @@ Une **méthode** est une **implémentation** d'une **opération**. Cette implém
 Dans le diagramme de classes, on ne fait pas de distinctions entre méthodes et opérations.
 
 ## Classes abstraites
+Une **classe abstraite** est une classe pouvant fournir des **opérations** avec **aucune implémentation**.  
+Les classes abstraites sont représentées par un nom en *italique*, ou sont identifiées par *<<abstract>>*.  
+Toutes les opérations ne possédant pas d'implémentations sont elles aussi représentées en *italique*. Contrairement à une interface, une classe abstraite **peut contenir des méthodes**.   
+
+  ![](/out/abstractClassExample/abstractClassExample.svg)  
 
 ## Relations
 
-Les relations UML représentes différents types de connection entre les classes.  
+Les **relations UML** représentes différents types de connection entre les classes.  
 
 | ------------ | ----------- | ----------- |
 | Dépendance     | ![](/out/dependencyRelationshipExample/dependencyRelationshipExample.svg)         | Indique que A dépend de B. Des modifications dans l'élément cible (B) peuvent affecter l'élément source (A). |

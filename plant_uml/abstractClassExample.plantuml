@@ -1,0 +1,18 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+abstract class ChessPiece <<abstract>> {
+    +isWhite: bool
+    +void {abstract} move(Square moveTo)
+    -void capture(ChessPiece captured)
+}
+class Knight {
+    +void move(Square moveTo)
+}
+class Queen {
+    +void move(Square moveTo)
+}
+
+ChessPiece <|-- Knight
+ChessPiece <|-- Queen
+@enduml
