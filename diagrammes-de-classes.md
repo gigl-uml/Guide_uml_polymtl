@@ -7,21 +7,12 @@ has_children: true
 ---
 
 
-
 # Diagrammes de classes
-{: .no_toc }
 
 Les **diagrammes de classes** sont utilisés pour :
 -   Explorer les concepts d'un domaine
 -   Analyser les besoins à l'aide d'un modèle conceptuel 
 -   Décrire de façon détaillée une conception orienté objet
-
-
-## Sommaire
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
 
 ---
 
