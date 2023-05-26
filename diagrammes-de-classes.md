@@ -78,7 +78,7 @@ Une **classe abstraite** est une classe pouvant fournir des **opérations** avec
 Les classes abstraites sont représentées par un nom en *italique*, ou sont identifiées par *<<abstract>>*.  
 Toutes les opérations ne possédant pas d'implémentations sont elles aussi représentées en *italique*. Contrairement à une interface, une classe abstraite **peut contenir des méthodes**.   
 
-  ![](/out/abstractClassExample/abstractClassExample.svg)  
+  ![](/out/plant_uml/abstractClassExample/abstractClassExample.svg)  
 
 ## Relations
 
@@ -120,4 +120,8 @@ Il existe 2 façons de représenter une interface:
 
     ![](/out/plant_uml/interfaceBallAndSocketNotationExample2/interfaceBallAndSocketNotationExample2.svg)
 
-## Modèles
+## Templates
+Une classe **template** - ou classe **générique** - fournit un moyen de créer des classes qui peuvent fonctionner avec différents types de données sans avoir à réécrire le code pour chaque type spécifique.  
+En UML, on peut les représenter de cette manière :  
+
+ ![](/out/plant_uml/templateExample/templateExample.svg)

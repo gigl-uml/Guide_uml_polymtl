@@ -1,0 +1,8 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+
+class "List< Type >" as List {
+    -elements: Type
+}
+@enduml
