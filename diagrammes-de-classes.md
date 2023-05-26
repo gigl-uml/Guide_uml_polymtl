@@ -91,7 +91,7 @@ Les **relations UML** représentes différents types de connection entre les cla
 | Composition    | ![](/out/plant_uml/compositionRelationshipExample/compositionRelationshipExample.svg)       | Relation plus forte que l'agrégation. Indique que B est une partie de A. |
 | Généralisation | ![](/out/plant_uml/generalizationRelationshipExample/generalizationRelationshipExample.svg) | Indique que A est une version générale de B. Exprime une hiérarchie d'héritage. |
 | Réalisation | ![](/out/plant_uml/realizationRelationshipExample/realizationRelationshipExample.svg) | Indique que A fournit l'implémentation des méthodes de B. Représente la mise en œuvre concrète d'une interface par une classe.  |
-
+| Ball and Socket | ![](/out/plant_uml/BallAndSocketRelationExample/BallAndSocketRelationExample.svg) | Indique que A utilise l'implémentation de l'interface C par B.  |
 
 
 
