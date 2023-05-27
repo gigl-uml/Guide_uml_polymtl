@@ -8,7 +8,9 @@ has_children: true
 
 
 # Diagrammes de paquetages
-
+Visualiser, spécifier, construire et documenter de grands systèmes implique la manipulation d’un grand nombre de classes, interfaces, composantes, noeuds, diagrammes et autres éléments.  
+Il est donc utile de regrouper les éléments communs en **paquetages** afin de pouvoir les comprendre et les
+manipuler plus facilement.
 
 ## Représentation  
 
