@@ -4,7 +4,7 @@ hide circle
 skinparam classAttributeIconSize 0
 Rectangle B
 Rectangle A
-circle C
+interface C
 
 B -- C
 C )-- A

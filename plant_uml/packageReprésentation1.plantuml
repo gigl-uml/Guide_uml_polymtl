@@ -1,0 +1,8 @@
+@startuml
+hide circle
+package Package {
+  rectangle ClassA
+  rectangle ClassB
+}
+
+@enduml

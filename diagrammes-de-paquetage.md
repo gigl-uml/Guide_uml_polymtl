@@ -14,6 +14,14 @@ Il est donc utile de regrouper les éléments communs en **paquetages** afin de 
 manipuler plus facilement.
 
 ## Représentation  
+Un simple paquet est représenté ainsi:  
+![](/out/plant_uml/singlePackagesRepresentation/singlePackagesRepresentation.svg)
+
+Il y'a 2 façons de représenter le contenu des paquetages.
+
+| ------------ | ----------- | ----------- |
+| À l'intérieur du paquet | ![](/out/plant_uml/packageReprésentation1/packageReprésentation1.svg) | TODO |
+| À l'aide de relation | ![](/out/plant_uml/packageReprésentation2/packageReprésentation2.svg) | TODO |
 
 ## Visibilité
 
