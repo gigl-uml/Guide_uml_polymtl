@@ -93,24 +93,11 @@ Une interface est un élément de modélisation qui représente un ensemble de s
 
 Il existe 2 façons de représenter une interface:  
 
-1. Notation Standard:
+|       | Notation Standard | Notation *ball-and-socket* |
+| :---        |    :----:   |          ---: |
+| Dans cette exemple, la classe *Array* implémente les interfaces *ICollection*, *IList* et *IEnumerable*. | ![](/out/plant_uml/interfaceStandardNotationExample/interfaceStandardNotationExample.svg)   | ![](/out/plant_uml/interfaceBallAndSocketNotationExample/interfaceBallAndSocketNotationExample.svg) |
+| Si une classe *User* veut utiliser l'implémentation de IList de la classe *Array*.| ![](/out/plant_uml/interfaceStandardNotationExample2/interfaceStandardNotationExample2.svg) | ![](/out/plant_uml/interfaceBallAndSocketNotationExample2/interfaceBallAndSocketNotationExample2.svg) |
 
-    Dans cette exemple, la classe *Array* implémente les interfaces *ICollection*, *IList* et *IEnumerable*.
-    ![](/out/plant_uml/interfaceStandardNotationExample/interfaceStandardNotationExample.svg)  
-
-    Si une classe *User* veut utiliser l’implémentation de IList de la classe Array:  
-
-    ![](/out/plant_uml/interfaceStandardNotationExample2/interfaceStandardNotationExample2.svg)  
-
-2. Notation *ball-and-socket*:
-
-    On représente la classe *Array* comme ceci:  
-
-    ![](/out/plant_uml/interfaceBallAndSocketNotationExample/interfaceBallAndSocketNotationExample.svg)
-
-    Si une classe *User* veut utiliser l'implémentation de IList de la classe *Array*:  
-
-    ![](/out/plant_uml/interfaceBallAndSocketNotationExample2/interfaceBallAndSocketNotationExample2.svg)
 
 ## Templates
 Une classe **template** - ou classe **générique** - fournit un moyen de créer des classes qui peuvent fonctionner avec différents types de données sans avoir à réécrire le code pour chaque type spécifique.  

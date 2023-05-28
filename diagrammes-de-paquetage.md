@@ -4,6 +4,7 @@ title: Diagrammes de paquetages
 permalink: /diagrammes-de-paquetages/
 nav_order: 3
 has_children: true
+has_toc: false
 ---
 
 
