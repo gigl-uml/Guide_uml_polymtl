@@ -53,11 +53,15 @@ Il existe 2 notations permettant de représenter des **attributs**:
 
 ## Opérations
 Il est important de faire la distinction entre une **opération** et une **méthode**. Une opération permet de représenter comment **déclencher** un comportement, tandis qu'une méthode montre l'implémentation de ce comportement. Voici quelques exemples d'opérations:
-- `- getFuelAmount(): Rectangle`
+- `- getFuelAmount(): float`
 - `+ setFuelAmount(quantity: int): void`
 - `# accelerate()`
 
 *Notez bien que depuis la sortie de la norme UML 2.0, il n'est plus obligatoire de spécifier le type de retour d'une opération. Lorsque le type de retour n'est pas spécifié, on ne peut rien supposer quant au type de retour*
+
+### Opérations statiques
+Il est possible de créer des opérations qui appartiennent à la classe plutôt qu'à ses instances. Ces opérations dites "statiques" sont appelées directement sur la classe, il n'est donc pas nécéssaire de créer une instance pour pouvoir engendrer un certain comportement. Les opérations statiques doivent être soulignées: 
+- <code style="text-decoration: underline;">+ kphToMph(kph: float): float</code>
 
 
 
