@@ -1,0 +1,7 @@
+@startuml
+hide circle
+package "Web Shopping" {
+  rectangle "+ Inventory"
+  rectangle "- Shopping Cart"
+}
+@enduml
