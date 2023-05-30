@@ -24,10 +24,10 @@ Il y'a 2 façons de représenter le contenu des paquetages.
 | À l'aide de relation | ![](/out/plant_uml/packageReprésentation2/packageReprésentation2.svg) | TODO |
 
 ## Visibilité
-Les éléments d'un paquet peuvent être **publiques** ou **privés**.  
+Les éléments d'un paquet peuvent être **publicss** ou **privés**.  
 La visibilité publique indique que cet élément est utilisable en dehors du paquet.  
 La visibilité privée indique le contraire : seulement les autres éléments du même paquet peuvent utiliser l'élément privé.  
-Un élément publique est indiqué par un signe plus. Un élément privé est indiqué par un signe moins.
+Un élément public est indiqué par un signe plus. Un élément privé est indiqué par un signe moins.
 
 ![](/out/plant_uml/packageVisibility/packageVisibility.svg)
 
