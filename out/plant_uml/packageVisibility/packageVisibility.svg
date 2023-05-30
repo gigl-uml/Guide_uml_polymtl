@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="100px" preserveAspectRatio="none" style="width:310px;height:100px;background:#FFFFFF;" version="1.1" viewBox="0 0 310 100" width="310px" zoomAndPan="magnify"><defs/><g><!--MD5=[6c6fd8caf838c4c5d9d81a5358319a21]
+cluster Web Shopping--><g id="cluster_Web Shopping"><path d="M8.5,6 L111.5,6 A3.75,3.75 0 0 1 114,8.5 L121,28.4883 L300.5,28.4883 A2.5,2.5 0 0 1 303,30.9883 L303,90.99 A2.5,2.5 0 0 1 300.5,93.49 L8.5,93.49 A2.5,2.5 0 0 1 6,90.99 L6,8.5 A2.5,2.5 0 0 1 8.5,6 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="121" y1="28.4883" y2="28.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="102" x="10" y="21.5352">Web Shopping</text></g><!--MD5=[131f339a8416a9137f45fb2a2fd6d6cc]
+entity + Inventory--><g id="elem_+ Inventory"><rect fill="#F1F1F1" height="36.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="99" x="187.5" y="41"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="197.5" y="64.5352">+ Inventory</text></g><!--MD5=[6ab254d7221385bef86bd34404f792c4]
+entity - Shopping Cart--><g id="elem_- Shopping Cart"><rect fill="#F1F1F1" height="36.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="131" x="21.5" y="41"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="31.5" y="64.5352">- Shopping Cart</text></g><!--MD5=[b2bde77fe51b46dc5229c7e84639b4fa]
+@startuml
+hide circle
+package "Web Shopping" {
+  rectangle "+ Inventory"
+  rectangle "- Shopping Cart"
+}
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: CA
+--></g></svg>
