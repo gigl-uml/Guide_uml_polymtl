@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="103px" preserveAspectRatio="none" style="width:208px;height:103px;background:#FFFFFF;" version="1.1" viewBox="0 0 208 103" width="208px" zoomAndPan="magnify"><defs/><g><!--MD5=[94aedccb8cc96a5518789508ee38c62c]
+cluster Package--><g id="cluster_Package"><path d="M8.5,6 L68.5,6 A3.75,3.75 0 0 1 71,8.5 L78,29.6094 L198.5,29.6094 A2.5,2.5 0 0 1 201,32.1094 L201,93.5 A2.5,2.5 0 0 1 198.5,96 L8.5,96 A2.5,2.5 0 0 1 6,93.5 L6,8.5 A2.5,2.5 0 0 1 8.5,6 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="78" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="59" x="10" y="22.5332">Package</text></g><!--MD5=[b0c75860eec0385fd16d50cbd63f3eb2]
+entity ClassA--><g id="elem_ClassA"><rect fill="#F1F1F1" height="37.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="64" x="121" y="42"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="131" y="66.5332">ClassA</text></g><!--MD5=[31716fce1adb17d697538ec72afcbf37]
+entity ClassB--><g id="elem_ClassB"><rect fill="#F1F1F1" height="37.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="64" x="22" y="42"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="32" y="66.5332">ClassB</text></g><!--MD5=[2953c2af5eea73d878c3a3cc10e21194]
+@startuml
+hide circle
+package Package {
+  rectangle ClassA
+  rectangle ClassB
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

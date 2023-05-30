@@ -2,11 +2,11 @@
 left to right direction
 hide circle
 skinparam classAttributeIconSize 0
-class Array
-class User
-circle IList
+Rectangle B
+Rectangle A
+interface C
 
-User --( IList
-IList -- Array
+B -- C
+C )-- A
 @enduml
 
