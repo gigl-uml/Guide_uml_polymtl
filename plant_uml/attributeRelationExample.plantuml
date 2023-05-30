@@ -31,8 +31,8 @@ class Passenger {
   + getAge()
 }
 
-Car --> "1" Engine
+Car -l-> "1" Engine : \t
 Car "4" --> "1" Wheel
-Car "1..5" --> "1" Passenger
+Car "1..5" -r-> "1" Passenger : \t\t\t\t
 
 @enduml

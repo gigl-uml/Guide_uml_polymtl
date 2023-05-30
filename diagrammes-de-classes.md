@@ -45,10 +45,7 @@ Il existe 2 notations permettant de représenter des **attributs**:
 
     ![](/out/plant_uml/attributesInlineExample/attributesInlineExample.svg)
 
-2. Par relation:
-
-    Permet de montrer plus de détails des attributs sur le diagramme  
-    
+2. Par relation:  
     ![](/out/plant_uml/attributeRelationExample/attributeRelationExample.svg)  
 
 ## Opérations
