@@ -24,13 +24,24 @@ Il y'a 2 façons de représenter le contenu des paquetages.
 | À l'aide de relation | ![](/out/plant_uml/packageReprésentation2/packageReprésentation2.svg) | TODO |
 
 ## Visibilité
-Les éléments d'un paquet peuvent être **publiques** ou **privés**.  
+Les éléments d'un paquet peuvent être **publics** ou **privés**.  
 La visibilité publique indique que cet élément est utilisable en dehors du paquet.  
 La visibilité privée indique le contraire : seulement les autres éléments du même paquet peuvent utiliser l'élément privé.  
-Un élément publique est indiqué par un signe plus. Un élément privé est indiqué par un signe moins.
+Un élément public est indiqué par un signe plus. Un élément privé est indiqué par un signe moins.
 
 ![](/out/plant_uml/packageVisibility/packageVisibility.svg)
 
-## Importer et Accéder aux paquets
+## Importer et accéder aux paquets
+Il est possible d'importer des éléments d'un paquet à l'autre. Pour ce faire, il faut qu'un paquet `<<import>>` un autre paquet, ce qui lui permettra d'accéder à toutes les classes de ce dernier. Par exemple:
+
+![](/out/plant_uml/importRelationPackage/importRelationPackage.svg)
+
+Dans ce cas-ci, le `PayrollSystem` pourra accéder aux classes présentes dans le paquet `EmployeeTimeSheet`.        
+
+Par défaut, les éléments importés sont **publics**, c'est-à-dire qu'ils peuvent être accédés par d'autres paquets qui importeraient, dans notre cas, `PayrollSystem`.
+Il est possible d'importer des éléments de manière **privée** avec l'annotation `<<access>>`, c'est-à-dire qu'ils ne seront accessibles que par le paquet qui les importe. Par exemple:  
+
+![](/out/plant_uml/accessRelationPackage/accessRelationPackage.svg)
+
 
 ## Fusionner les paquets
