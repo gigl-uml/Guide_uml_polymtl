@@ -23,6 +23,14 @@ Il y'a 2 façons de représenter le contenu des paquetages.
 | À l'intérieur du paquet | ![](/out/plant_uml/packageReprésentation1/packageReprésentation1.svg) |
 | À l'aide de relation | ![](/out/plant_uml/packageReprésentation2/packageReprésentation2.svg) |
 
+## Relations
+
+| ------------ | ----------- | ----------- |
+| *Containment* | ![](/out/plant_uml/containmentRelationshipExample/containmentRelationshipExample.svg) | Indique que le paquet A contient l'élément B. |
+| *Import* | ![](/out/plant_uml/importRelationshipExample/importRelationshipExample.svg) | Indique que le paquet A importe les éléments du paquet B. Donc, A aura accès au contenu de B. |
+| *Access* | ![](/out/plant_uml/accessRelationshipExample/accessRelationshipExample.svg) | Indique que le paquet A importe les éléments du paquet B avec une visibilité privée. |
+| *Merge* | ![](/out/plant_uml/mergeRelationshipExample/mergeRelationshipExample.svg) | Indique que le paquet A fusionne le paquet B. **TODO** |
+
 ## Visibilité
 Les éléments d'un paquet peuvent être **publics** ou **privés**.  
 La visibilité publique indique que cet élément est utilisable en dehors du paquet.  
