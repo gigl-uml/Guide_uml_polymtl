@@ -1,0 +1,10 @@
+@startuml
+hide circle
+allow_mixing
+skinparam classAttributeIconSize 0
+
+folder A
+rectangle B
+
+A +-r- B
+@enduml
