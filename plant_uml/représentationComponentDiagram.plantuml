@@ -1,0 +1,10 @@
+@startuml
+
+[ClientUI]
+[ProductAPI] as Comp2
+component OrderService
+component [PaymentService] as Comp4
+ClientUI .> Comp2
+Comp2 ..> OrderService
+Comp2 ..> Comp4
+@enduml
