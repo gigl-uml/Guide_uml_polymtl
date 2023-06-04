@@ -28,7 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-footer_content: "Site en construction. Par Achille Saint-Hillier, Justin Lachapelle et Michel Lominy"
+footer_content: "Site en construction. Par Achille Saint-Hillier, Justin Lachapelle et Michel Lominy. Sous la supervision de messieurs Éric Germain, François Guibault et Nikolay Radoev."
 
 # Build settings
 theme: just-the-docs
