@@ -1,0 +1,14 @@
+@startuml
+hide circle
+allow_mixing
+skinparam classAttributeIconSize 0
+
+folder PayrollSystem
+folder EmployeeTimeSheet
+folder EmployeeBankInfo
+
+PayrollSystem..>EmployeeBankInfo:<<access>>
+PayrollSystem..>EmployeeTimeSheet:<<import>>
+
+
+@enduml

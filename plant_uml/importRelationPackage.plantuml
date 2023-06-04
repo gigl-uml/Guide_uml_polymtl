@@ -1,0 +1,12 @@
+@startuml
+hide circle
+allow_mixing
+skinparam classAttributeIconSize 0
+
+folder PayrollSystem
+folder EmployeeTimeSheet
+
+PayrollSystem.>EmployeeTimeSheet:<<import>>
+
+
+@enduml

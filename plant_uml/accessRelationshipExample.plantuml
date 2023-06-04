@@ -1,0 +1,10 @@
+@startuml
+hide circle
+allow_mixing
+skinparam classAttributeIconSize 0
+
+folder A
+folder B
+
+A -r[dotted]-> B : <<access>>
+@enduml
