@@ -17,55 +17,12 @@ Une composante est **l'implémentation physique** de classes ou de paquetages.
 
 ![](/out/plant_uml/représentationComponentDiagram/représentationComponentDiagram.svg)
 
-Les noms de composantes sont des noms tirés de **l'implémentation** du système. Par exemple, pour le diagramme ci-haut, on aurait pu avoir le code suivant: 
-```
-// ClientUI.java
-public class ClientUI {
-    private ProductAPI productAPI;
-    
-    public void setProductAPI(ProductAPI productAPI) {
-        this.productAPI = productAPI;
-    }
-    
-    // Méthodes pour l'interface utilisateur de la boutique en ligne
-    // ...
-}
+Les noms de composantes sont des noms tirés de **l'implémentation** du système. Par exemple, pour le diagramme ci-haut, on aurait pu avoir les [stéréotypes](https://fr.wikipedia.org/wiki/St%C3%A9r%C3%A9otype_(UML)) suivants: 
+- ClientUI.dll (librairie)
+- ProductAPI.exe (exécutable)
+- OrderService.csv (document)
+- PaymentService.py (fichier)  
 
-// ProductAPI.java
-public class ProductAPI {
-    private OrderService orderService;
-    private PaymentService paymentService;
-    
-    public void setOrderService(OrderService orderService) {
-        this.orderService = orderService;
-    }
-    
-    public void setPaymentService(PaymentService paymentService) {
-        this.paymentService = paymentService;
-    }
-    
-    // Méthodes pour accéder aux informations sur les produits
-    // ...
-}
-
-// OrderService.java
-public class OrderService {
-    private ProductAPI productAPI;
-    
-    public void setProductAPI(ProductAPI productAPI) {
-        this.productAPI = productAPI;
-    }
-    
-    // Méthodes pour gérer les commandes
-    // ...
-}
-
-// PaymentService.java
-public class PaymentService {
-    // Méthodes pour gérer les paiements
-    // ...
-}
-```
 ## Relations
 
 ## Dépendances
