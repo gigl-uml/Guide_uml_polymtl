@@ -28,3 +28,16 @@ Les noms de composantes sont des noms tirés de **l'implémentation** du systèm
 ## Dépendances
 
 ## Vues
+
+Il existe 2 façons de représenter les interfaces requises et fournies d'un composant.  
+Dans cet exemple, le Composant1 **requiert** l'Interface et le Composant2 **fournie** l'Interface.
+
+| *Assembly Connectors* | *Interface dependencies* |
+|        :---:           |         :----:           |
+| ![](/out/plant_uml/assemblyConnectorsExample/assemblyConnectorsExample.svg) | ![](/out/plant_uml/interfaceDependenciesExample/interfaceDependenciesExample.svg) |
+
+Pour représenter les composants, il existe 2 vues
+
+| Boîte noire | Boîte blanche |
+|        :---           |         :----           |
+| Cette vue ne montre que les interfaces associées aux composants. Elle ne contient aucun détail sur l'implémentation interne du composant. | En plus de représenter les interfaces associées aux composants, cette vue fournit les détails de l'implémentation interne du composant. |

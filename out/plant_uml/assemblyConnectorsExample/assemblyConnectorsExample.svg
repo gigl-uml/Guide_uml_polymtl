@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="71px" preserveAspectRatio="none" style="width:341px;height:71px;background:#FFFFFF;" version="1.1" viewBox="0 0 341 71" width="341px" zoomAndPan="magnify"><defs/><g><!--MD5=[28c1548c618571e02ef29b1e4bb2a456]
+entity Composant1--><g id="elem_Composant1"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="120" x="7" y="7"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="107" y="12"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="105" y="14"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="105" y="18"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="22" y="41.5332">Composant1</text></g><!--MD5=[2c190d31c9ad151821b7c4093f88afb3]
+entity Composant2--><g id="elem_Composant2"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="120" x="215" y="7"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="315" y="12"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="313" y="14"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="313" y="18"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="230" y="41.5332">Composant2</text></g><!--MD5=[01662713e0c01d293b5fbfc799a74846]
+entity Interface--><g id="elem_Interface"><ellipse cx="171" cy="31" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="143.5" y="62.5332">Interface</text></g><!--MD5=[147988382dfb43591b70627bd755a912]
+link Composant1 to Interface--><g id="link_Composant1_Interface"><path d="M127.12,31 C135.33,31 143.53,31 151.74,31 " fill="none" id="Composant1-to-Interface" style="stroke:#181818;stroke-width:1.0;"/><path d="M158.6718,22.5428 A9,9 0 0 0 158.6718 39.4572" fill="none" style="stroke:#181818;stroke-width:1.5;"/></g><!--MD5=[7f50407c1aaaf48358b3675e4d289e45]
+link Interface to Composant2--><g id="link_Interface_Composant2"><path d="M180.34,31 C191.81,31 203.27,31 214.73,31 " fill="none" id="Interface-Composant2" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b151978e65fa3eb2e440e2b44d796873]
+@startuml
+
+component Composant1
+component Composant2
+circle Interface
+
+Composant1 -r-( Interface
+Interface -r- Composant2
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

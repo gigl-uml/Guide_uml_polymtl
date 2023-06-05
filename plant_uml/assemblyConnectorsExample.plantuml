@@ -1,0 +1,9 @@
+@startuml
+
+component Composant1
+component Composant2
+circle Interface
+
+Composant1 -r-( Interface
+Interface -r- Composant2
+@enduml

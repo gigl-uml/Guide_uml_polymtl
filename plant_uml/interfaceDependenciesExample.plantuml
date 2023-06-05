@@ -1,0 +1,10 @@
+@startuml
+hide circle
+
+component Composant1
+component Composant2
+rectangle Interface <<Interface>>
+
+Interface <-l[dotted]- Composant1
+Interface <|-[dotted]- Composant2
+@enduml
