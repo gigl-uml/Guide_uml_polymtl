@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+hide circle
+skinparam classAttributeIconSize 0
+Component B
+Component A
+interface C
+
+B -- C
+C )-- A
+@enduml
+

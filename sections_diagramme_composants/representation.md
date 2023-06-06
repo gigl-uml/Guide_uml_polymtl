@@ -2,5 +2,5 @@
 title: Représentation
 permalink: /diagrammes-de-composants/#représentation
 nav_order: 2
-parent: Diagrammes de composants
+parent: Diagrammes de composantes
 ---

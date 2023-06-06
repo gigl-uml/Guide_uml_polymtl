@@ -1,6 +1,6 @@
 ---
 title: Dépendances
-permalink: /diagrammes-de-composants/#dépendances
+permalink: /diagrammes-de-composantes/#dépendances
 nav_order: 4
-parent: Diagrammes de composants
+parent: Diagrammes de composantes
 ---

@@ -1,6 +1,6 @@
 ---
 title: Vues
-permalink: /diagrammes-de-composants/#vues
+permalink: /diagrammes-de-composantes/#vues
 nav_order: 5
-parent: Diagrammes de composants
+parent: Diagrammes de composantes
 ---
