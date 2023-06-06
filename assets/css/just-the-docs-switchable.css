@@ -16688,3 +16688,7 @@ html.dark-mode .highlight .fm {
 html.dark-mode .highlight .sb {
   color: #8aecec;
 }
+
+html.dark-mode img[src*='/plant_uml/'] {
+  filter: invert(86%) sepia(5%) saturate(811%) hue-rotate(212deg) brightness(95%) contrast(95%);
+}
