@@ -1,0 +1,11 @@
+@startuml
+
+rectangle "Executable 1" as ex1
+rectangle "Chemin.dll" as ex2
+
+interface "Driver" as iface1
+
+ex1 .> iface1
+ex2 -- iface1
+
+@enduml

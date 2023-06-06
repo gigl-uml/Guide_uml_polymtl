@@ -29,7 +29,7 @@ Il y a 2 façons de représenter le contenu des paquetages.
 | *Containment* | ![](/out/plant_uml/containmentRelationshipExample/containmentRelationshipExample.svg) | Indique que le paquet A contient l'élément B. |
 | *Import* | ![](/out/plant_uml/importRelationshipExample/importRelationshipExample.svg) | Indique que le paquet A importe les éléments du paquet B. Donc, A aura accès au contenu de B. |
 | *Access* | ![](/out/plant_uml/accessRelationshipExample/accessRelationshipExample.svg) | Indique que le paquet A importe les éléments du paquet B avec une visibilité privée. |
-| *Merge* | ![](/out/plant_uml/mergeRelationshipExample/mergeRelationshipExample.svg) | Indique que le paquet A fusionne le paquet B. **TODO** |
+| *Merge* | ![](/out/plant_uml/mergeRelationshipExample/mergeRelationshipExample.svg) | Indique que le paquet A fusionne le paquet B. Donc, le contenu du paquet B va étendre celui du paquet A. |
 
 ## Visibilité
 Les éléments d'un paquet peuvent être **publics** ou **privés**.  
@@ -53,3 +53,5 @@ Il est possible d'importer des éléments de manière **privée** avec l'annotat
 
 
 ## Fusionner les paquets
+L'UML offre la possibilité de fusionner des paquets. Ce mécanisme plutôt complexe est rarement utilisé en industrie.  
+Vous pouvez trouver plus de détails sur ce sujet dans la section **3.4. Merging Packages** du livre **UML 2.0 in a Nutshell** de Pilone et Pitman.
