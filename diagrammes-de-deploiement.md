@@ -9,13 +9,16 @@ has_toc: false
 
 
 # Diagrammes de déploiement
-
+Un **diagramme de déploiement** présente la **configuration physique** des ordinateurs et
+périphériques ainsi que les **composantes qui s‘y exécutent**.
 
 ## Artéfacts
 
 
-## Noeuds
+## Nœuds
+Un **nœud** est un élément physique qui existe au moment de l'exécution et qui représente une ressource ayant des possibilités d'exécution.
 
+// TODO
 
 ## Déploiement
 
