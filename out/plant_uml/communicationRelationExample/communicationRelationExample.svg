@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="70px" preserveAspectRatio="none" style="width:264px;height:70px;background:#FFFFFF;" version="1.1" viewBox="0 0 264 70" width="264px" zoomAndPan="magnify"><defs/><g><!--MD5=[7af20976c37562c739fe604ef7809326]
+entity Noeud1--><g id="elem_Noeud1"><polygon fill="#F1F1F1" points="16,16,26,6,105,6,105,43.6094,95,53.6094,16,53.6094,16,16" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="95" x2="105" y1="16" y2="6"/><line style="stroke:#181818;stroke-width:0.5;" x1="16" x2="95" y1="16" y2="16"/><line style="stroke:#181818;stroke-width:0.5;" x1="95" x2="95" y1="16" y2="53.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="31" y="40.5332">Noeud1</text></g><!--MD5=[54c79928f3e9102322ea507f8717947d]
+entity Noeud2--><g id="elem_Noeud2"><polygon fill="#F1F1F1" points="158,16,168,6,247,6,247,43.6094,237,53.6094,158,53.6094,158,16" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="237" x2="247" y1="16" y2="6"/><line style="stroke:#181818;stroke-width:0.5;" x1="158" x2="237" y1="16" y2="16"/><line style="stroke:#181818;stroke-width:0.5;" x1="237" x2="237" y1="16" y2="53.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="173" y="40.5332">Noeud2</text></g><!--MD5=[db6ee7feb8e767f7f285c46b67f2933d]
+link Noeud1 to Noeud2--><g id="link_Noeud1_Noeud2"><path d="M105.04,30 C121.8,30 140.84,30 157.63,30 " fill="none" id="Noeud1-Noeud2" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="16" x="123.5" y="23.4951">P1</text></g><!--MD5=[58031bad1e480bb39c8dd9bb54ed61f4]
+@startuml
+
+node Noeud1 
+node Noeud2
+
+Noeud1 -r- - Noeud2: P1
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

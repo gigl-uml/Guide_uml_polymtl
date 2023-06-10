@@ -37,7 +37,7 @@ Les **relations UML** suivantes représentes différents types de connection ent
 
 ## Vues
 
-Il existe 2 façons de représenter les interfaces requises et fournies d'un composante.  
+Il existe 2 façons de représenter les interfaces requises et fournies d'une composante.  
 Dans cet exemple, le Composant1 **requiert** l'Interface et le Composant2 **fournie** l'Interface.
 
 | *Assembly Connectors* | *Interface dependencies* |

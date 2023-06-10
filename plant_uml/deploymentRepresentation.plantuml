@@ -1,0 +1,15 @@
+@startuml
+
+skinparam linetype ortho
+
+node "Serveur de Base de Données" as DB {
+  artifact "Base de données MySQL"
+}
+
+node "Serveur Web" as webServer {
+  artifact "Application Web"
+}
+
+DB -r-- webServer
+
+@enduml

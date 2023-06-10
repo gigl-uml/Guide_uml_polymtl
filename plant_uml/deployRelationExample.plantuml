@@ -1,0 +1,8 @@
+@startuml
+
+node Noeud 
+artifact Artéfact
+
+Noeud <-[dotted]r- Artéfact: <<deploy>>
+
+@enduml

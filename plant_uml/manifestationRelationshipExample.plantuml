@@ -1,0 +1,8 @@
+@startuml
+
+artifact Artefact
+component Component
+
+Artefact -[dotted]r-> Component : <<manifest>>
+
+@enduml

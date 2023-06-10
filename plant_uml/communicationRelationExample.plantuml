@@ -1,0 +1,8 @@
+@startuml
+
+node Noeud1 
+node Noeud2
+
+Noeud1 -r-- Noeud2: P1
+
+@enduml
