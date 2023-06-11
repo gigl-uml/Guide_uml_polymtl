@@ -18,7 +18,16 @@ Un Artéfact représente un morceau de logiciel, de matériel ou de données qui
 
 ## Nœuds
 Un **nœud** est un élément physique qui existe au moment de l'exécution et qui représente une ressource ayant des possibilités d'exécution. La taille des nœud est variable : elle peut varier d'un simple dispositif embarqué à un ensemble de serveurs.  
+
 Les nœuds indiquent le **lieu d'exécution** du code et comment les différentes parties du système **communiquent lors de l'exécution**.  
+Chaque nœud doit avoir un nom qui le distingue des autres nœuds. En pratique les noms de nœuds sont des noms pris dans le vocabulaire de l'implémentation.  
+
+On peut distinguer deux types de nœuds particuliers :
+-   Les nœuds *appareils*
+-   Les nœuds *environnements d'exécution*
+
+Les nœuds d'appareils, dénotés par le stéréotype **<<device>>**, représentent une **ressource informatique physique** capable d'effectuer des calculs.  
+Les nœuds d'environnements d'exécution représentent **un environnement dans lequel le logiciel va s'exécuter**. Par exemple, les applications Java s'exécutent dans la machine virtuelle Java (JVM). La JVM est considérée comme un environnement d'exécution pour les applications Java, et le nœud correspondant serait dénoté par le stéréotype <<JVM>>. 
 
 
 
@@ -35,6 +44,10 @@ Voici un exemple illustrant un artéfact "Application Web" déployé dans le noe
 |---|---|---|
 | Manifestation | ![](/out/plant_uml/manifestationRelationshipExample/manifestationRelationshipExample.svg) | Indique que l'artéfacte est une manifestation (ou une implémentation) logiciel de la composante. |
 | Communication | ![](/out/plant_uml/communicationRelationExample/communicationRelationExample.svg) | Indique que le Noeud1 et le Noeud2 communiquent entre eux à l'aide du protocole de communication P1. |
+
+Les associations entre nœuds représentent les
+connections physiques tels une connexion Ethernet,
+un câble série, ou encore un bus commun.
 
 ## Déploiement
 
