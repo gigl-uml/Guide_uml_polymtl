@@ -19,9 +19,9 @@ Un simple paquetage est représenté ainsi:
 
 Il y a 2 façons de représenter le contenu des paquetages.
 
-| ------------ | ----------- | ----------- |
-| À l'intérieur du paquetage | ![](/out/plant_uml/packageReprésentation1/packageReprésentation1.svg) |
-| À l'aide de relation | ![](/out/plant_uml/packageReprésentation2/packageReprésentation2.svg) |
+| À l'intérieur du paquetage | À l'aide de relation |
+|        :---:           |         :----:           |
+| ![](/out/plant_uml/packageReprésentation1/packageReprésentation1.svg) | ![](/out/plant_uml/packageReprésentation2/packageReprésentation2.svg) |
 
 ## Relations
 

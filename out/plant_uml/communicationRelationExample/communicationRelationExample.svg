@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="70px" preserveAspectRatio="none" style="width:264px;height:70px;background:#FFFFFF;" version="1.1" viewBox="0 0 264 70" width="264px" zoomAndPan="magnify"><defs/><g><!--MD5=[7af20976c37562c739fe604ef7809326]
-entity Noeud1--><g id="elem_Noeud1"><polygon fill="#F1F1F1" points="16,16,26,6,105,6,105,43.6094,95,53.6094,16,53.6094,16,16" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="95" x2="105" y1="16" y2="6"/><line style="stroke:#181818;stroke-width:0.5;" x1="16" x2="95" y1="16" y2="16"/><line style="stroke:#181818;stroke-width:0.5;" x1="95" x2="95" y1="16" y2="53.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="31" y="40.5332">Noeud1</text></g><!--MD5=[54c79928f3e9102322ea507f8717947d]
-entity Noeud2--><g id="elem_Noeud2"><polygon fill="#F1F1F1" points="158,16,168,6,247,6,247,43.6094,237,53.6094,158,53.6094,158,16" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="237" x2="247" y1="16" y2="6"/><line style="stroke:#181818;stroke-width:0.5;" x1="158" x2="237" y1="16" y2="16"/><line style="stroke:#181818;stroke-width:0.5;" x1="237" x2="237" y1="16" y2="53.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="173" y="40.5332">Noeud2</text></g><!--MD5=[db6ee7feb8e767f7f285c46b67f2933d]
-link Noeud1 to Noeud2--><g id="link_Noeud1_Noeud2"><path d="M105.04,30 C121.8,30 140.84,30 157.63,30 " fill="none" id="Noeud1-Noeud2" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="16" x="123.5" y="23.4951">P1</text></g><!--MD5=[58031bad1e480bb39c8dd9bb54ed61f4]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="70px" preserveAspectRatio="none" style="width:248px;height:70px;background:#FFFFFF;" version="1.1" viewBox="0 0 248 70" width="248px" zoomAndPan="magnify"><defs/><g><!--MD5=[9e6a063a2df20cec5dd5e74d49c736a5]
+entity Node1--><g id="elem_Node1"><polygon fill="#F1F1F1" points="16,16,26,6,97,6,97,43.6094,87,53.6094,16,53.6094,16,16" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="87" x2="97" y1="16" y2="6"/><line style="stroke:#181818;stroke-width:0.5;" x1="16" x2="87" y1="16" y2="16"/><line style="stroke:#181818;stroke-width:0.5;" x1="87" x2="87" y1="16" y2="53.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="31" y="40.5332">Node1</text></g><!--MD5=[4323b26905eaf1f4dbff2078a78520e5]
+entity Node2--><g id="elem_Node2"><polygon fill="#F1F1F1" points="150,16,160,6,231,6,231,43.6094,221,53.6094,150,53.6094,150,16" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="221" x2="231" y1="16" y2="6"/><line style="stroke:#181818;stroke-width:0.5;" x1="150" x2="221" y1="16" y2="16"/><line style="stroke:#181818;stroke-width:0.5;" x1="221" x2="221" y1="16" y2="53.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="165" y="40.5332">Node2</text></g><!--MD5=[150de4d3201d1cce72c43415fcb4a137]
+link Node1 to Node2--><g id="link_Node1_Node2"><path d="M97.07,30 C113.71,30 132.94,30 149.61,30 " fill="none" id="Node1-Node2" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="16" x="115.5" y="23.4951">P1</text></g><!--MD5=[3dd0a1382f9e51af0023a53549329aea]
 @startuml
 
-node Noeud1 
-node Noeud2
+node Node1 
+node Node2
 
-Noeud1 -r- - Noeud2: P1
+Node1 -r- - Node2: P1
 
 @enduml
 

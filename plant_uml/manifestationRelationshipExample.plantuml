@@ -1,8 +1,8 @@
 @startuml
 
-artifact Artefact
+artifact Artifact
 component Component
 
-Artefact -[dotted]r-> Component : <<manifest>>
+Artifact -[dotted]r-> Component : <<manifest>>
 
 @enduml

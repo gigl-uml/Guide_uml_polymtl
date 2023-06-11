@@ -2,12 +2,12 @@
 
 skinparam linetype ortho
 
-node "Serveur de Base de Données" as DB {
-  artifact "Base de données MySQL"
+node "DataBase Server" as DB {
+  artifact "MySQL DB"
 }
 
-node "Serveur Web" as webServer {
-  artifact "Application Web"
+node "Web Server" as webServer {
+  artifact "Web Application"
 }
 
 DB -r-- webServer

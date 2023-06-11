@@ -31,8 +31,14 @@ Voici un exemple illustrant un artéfact "Application Web" déployé dans le noe
 |---|---|---|
 | Manifestation | ![](/out/plant_uml/manifestationRelationshipExample/manifestationRelationshipExample.svg) | Indique que l'artéfacte est une manifestation (ou une implémentation) logiciel de la composante. |
 | Communication | ![](/out/plant_uml/communicationRelationExample/communicationRelationExample.svg) | Indique que le Noeud1 et le Noeud2 communiquent entre eux à l'aide du protocole de communication P1. |
-| Déploiement | ![](/out/plant_uml/deployRelationExample/deployRelationExample.svg) | C'est une autre façon de représenter qu'un artéfact est contenu dans un noeud. Donc que l'artéfact est déployé dans le noeud. |
 
 ## Déploiement
+
+Il existe 2 façons de montrer le déploiement d'un artéfact dans un noeud.  
+
+
+| À l'intérieur du noeud | À l'aide d'une relation de dépendance |
+|        :---:           |         :----:           |
+| ![](/out/plant_uml/deployRelationExample2/deployRelationExample2.svg) | ![](/out/plant_uml/deployRelationExample/deployRelationExample.svg) |
 
 ## Variations
