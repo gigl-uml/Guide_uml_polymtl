@@ -1,6 +1,6 @@
 ---
 title: Déploiement
-permalink: /diagrammes-de-deploiement/#deploiement
-nav_order: 4
+permalink: /diagrammes-de-deploiement/#déploiement
+nav_order: 6
 parent: Diagrammes de déploiement
 ---

@@ -1,9 +1,9 @@
 @startuml
 
-component Composant1
-component Composant2
+component Component1
+component Component2
 circle Interface
 
-Composant1 -r-( Interface
-Interface -r- Composant2
+Component1 -r-( Interface
+Interface -r- Component2
 @enduml
