@@ -1,0 +1,10 @@
+@startuml
+
+skinparam linetype polyline
+
+database "Université.db" as mysql #grey
+database "MinistèreÉducation.db" as oracle #grey
+
+oracle <-right- mysql
+
+@enduml

@@ -63,3 +63,5 @@ Puisque les composantes représentent souvent des "morceaux" importants du syst�
 ![](/out/plant_uml/executableDiagram/executableDiagram.svg)
 
 ### Modélisation de base de données
+
+![](/out/plant_uml/databaseRepresentation/databaseRepresentation.svg)

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="69px" preserveAspectRatio="none" style="width:320px;height:69px;background:#FFFFFF;" version="1.1" viewBox="0 0 320 69" width="320px" zoomAndPan="magnify"><defs/><g><!--MD5=[95056b5cbad1279cc73d9cc5c17a1af7]
+entity mysql--><g id="elem_mysql"><path d="M201,16 C201,6 252,6 252,6 C252,6 303,6 303,16 L303,42.6094 C303,52.6094 252,52.6094 252,52.6094 C252,52.6094 201,52.6094 201,42.6094 L201,16 " fill="#808080" style="stroke:#181818;stroke-width:0.5;"/><path d="M201,16 C201,26 252,26 252,26 C252,26 303,26 303,16 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="211" y="44.5332">Université.db</text></g><!--MD5=[81ee410568382467cd79d3c8b4701a32]
+entity oracle--><g id="elem_oracle"><path d="M6,16 C6,6 86,6 86,6 C86,6 166,6 166,16 L166,42.6094 C166,52.6094 86,52.6094 86,52.6094 C86,52.6094 6,52.6094 6,42.6094 L6,16 " fill="#808080" style="stroke:#181818;stroke-width:0.5;"/><path d="M6,16 C6,26 86,26 86,26 C86,26 166,26 166,16 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="16" y="44.5332">MinistèreÉducation.db</text></g><!--MD5=[a9254a898ed9fd32747b3ca6dd86eb97]
+reverse link oracle to mysql--><g id="link_oracle_mysql"><path d="M171.28,29.5 C184.32,29.5 196.67,29.5 196.67,29.5 C196.67,29.5 198.16,29.5 200.65,29.5 " fill="none" id="oracle-backto-mysql" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="166.09,29.5,175.09,33.5,171.09,29.5,175.09,25.5,166.09,29.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e3513f7c5fa94e23821c7e9bb26cef98]
+@startuml
+
+skinparam linetype polyline
+
+database "Université.db" as mysql #grey
+database "MinistèreÉducation.db" as oracle #grey
+
+oracle <-right- mysql
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: CA
+--></g></svg>
