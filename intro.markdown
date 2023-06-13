@@ -2,7 +2,7 @@
 layout: page
 title: Introduction
 permalink: /intro/
-nav_order: 1
+nav_order: 0
 ---
 
 # Introduction à L'UML

@@ -1,0 +1,4 @@
+@startuml
+:Client: - (Use)
+"CU-1.0 Effectuer un retrait bancaire" as (Use)
+@enduml

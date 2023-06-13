@@ -1,0 +1,8 @@
+@startuml
+
+node Node
+artifact Artifact
+
+Node <-[dotted]r- Artifact: <<deploy>>
+
+@enduml

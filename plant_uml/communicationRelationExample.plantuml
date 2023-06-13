@@ -1,0 +1,8 @@
+@startuml
+
+node Node1 
+node Node2
+
+Node1 -r-- Node2: P1
+
+@enduml

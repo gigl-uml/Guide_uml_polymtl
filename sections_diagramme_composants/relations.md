@@ -1,6 +1,6 @@
 ---
 title: Relations
-permalink: /diagrammes-de-composants/#relations
+permalink: /diagrammes-de-composantes/#relations
 nav_order: 3
-parent: Diagrammes de composants
+parent: Diagrammes de composantes
 ---

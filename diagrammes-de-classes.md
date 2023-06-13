@@ -13,7 +13,7 @@ has_toc: false
 Les **diagrammes de classes** sont utilisés pour :
 -   Explorer les concepts d'un domaine
 -   Analyser les besoins à l'aide d'un modèle conceptuel 
--   Décrire de façon détaillée une conception orienté objet
+-   Décrire de façon détaillée une conception orientée objet
 
 ---
 
@@ -26,7 +26,12 @@ Elles sont représentées par des rectangles séparés en trois parties:
 2. Les attributs
 3. Les opérations
 
+
 ![](/out/plant_uml/classexample/classexample.svg)
+
+
+[</>](https://github.com/justinlachap/justinlachap.github.io/blob/main/plant_uml/classexample.plantuml)
+
 
 
 ## Attributs
@@ -67,15 +72,15 @@ Une **méthode** est une **implémentation** d'une **opération**. Cette implém
 Dans le diagramme de classes, on ne fait pas de distinctions entre méthodes et opérations.
 
 ## Classes abstraites
-Une **classe abstraite** est une classe pouvant fournir des **opérations** avec **aucune implémentation**.  
-Les classes abstraites sont représentées par un nom en *italique*, ou sont identifiées par *<<abstract>>*.  
-Toutes les opérations ne possédant pas d'implémentations sont elles aussi représentées en *italique*. Contrairement à une interface, une classe abstraite **peut contenir des méthodes**.   
+Une **classe abstraite** est une classe pouvant fournir des **opérations** comprenant **aucune implémentation**.  
+Les classes abstraites sont représentées par un nom en *italique* ou sont identifiées par *<<abstract>>*.  
+Toutes les opérations ne possédant pas d'implémentation sont elles aussi représentées en *italique*. Contrairement à une interface, une classe abstraite **peut contenir des méthodes**.   
 
   ![](/out/plant_uml/abstractClassExample/abstractClassExample.svg)  
 
 ## Relations
 
-Les **relations UML** représentes différents types de connection entre les classes.  
+Les **relations UML** représentent différents types de connexion entre les classes.  
 
 | ------------ | ----------- | ----------- |
 | Dépendance     | ![](/out/plant_uml/dependencyRelationshipExample/dependencyRelationshipExample.svg)         | Indique que A dépend de B. Des modifications dans l'élément cible (B) peuvent affecter l'élément source (A). |
@@ -84,7 +89,7 @@ Les **relations UML** représentes différents types de connection entre les cla
 | Composition    | ![](/out/plant_uml/compositionRelationshipExample/compositionRelationshipExample.svg)       | Relation plus forte que l'agrégation. Indique que B est une partie de A. |
 | Généralisation | ![](/out/plant_uml/generalizationRelationshipExample/generalizationRelationshipExample.svg) | Indique que A est une version générale de B. Exprime une hiérarchie d'héritage. |
 | Réalisation | ![](/out/plant_uml/realizationRelationshipExample/realizationRelationshipExample.svg) | Indique que A fournit l'implémentation des méthodes de B. Représente la mise en œuvre concrète d'une interface par une classe.  |
-| Ball and Socket | ![](/out/plant_uml/BallAndSocketRelationExample/BallAndSocketRelationExample.svg) | Indique que A utilise l'implémentation de l'interface C par B.  |
+| Ball and Socket | ![](/out/plant_uml/BallAndSocketRelationExample/BallAndSocketRelationExample.svg) | Indique que A utilise l'implémentation de l'interface C fournie par B.  |
 
 
 
