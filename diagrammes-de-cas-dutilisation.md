@@ -9,6 +9,23 @@ has_toc: false
 
 
 # Diagrammes de cas d'utilisation
+Le diagramme de **cas d'utilisation** permet de visualiser les cas
+d’utilisation primaires d’un système.
+- Ceci permet de voir rapidement les principales
+fonctions d’un système.
+- Plus particulièrement, le diagramme de contexte définit:
+    - Les limites du système modélisé.
+    - Les principaux acteurs du modèle.
+    - Les cas d’utilisation primaires.  
+
+## Cas d'utilisation
+Un **cas d'utilisation** décrit un ensemble de séquences dans
+lequel chacune des séquences représente l’interaction des acteurs
+avec le système lui-même. Il représente les fonctions du système
+visibles par les acteurs.  
+Dans un **diagramme de cas d'utilisation**, chaque cas est représenté par un oval contenant son nom et son numéro.
+
+![](/out/plant_uml/useCase/useCase.svg)
 
 
 ## Acteurs

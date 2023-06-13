@@ -1,0 +1,3 @@
+@startuml
+"CU-1.0 Payer un article" as (Use)
+@enduml
