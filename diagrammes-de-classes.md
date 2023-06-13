@@ -13,7 +13,7 @@ has_toc: false
 Les **diagrammes de classes** sont utilisés pour :
 -   Explorer les concepts d'un domaine
 -   Analyser les besoins à l'aide d'un modèle conceptuel 
--   Décrire de façon détaillée une conception orienté objet
+-   Décrire de façon détaillée une conception orientée objet
 
 ---
 
@@ -72,15 +72,15 @@ Une **méthode** est une **implémentation** d'une **opération**. Cette implém
 Dans le diagramme de classes, on ne fait pas de distinctions entre méthodes et opérations.
 
 ## Classes abstraites
-Une **classe abstraite** est une classe pouvant fournir des **opérations** avec **aucune implémentation**.  
-Les classes abstraites sont représentées par un nom en *italique*, ou sont identifiées par *<<abstract>>*.  
-Toutes les opérations ne possédant pas d'implémentations sont elles aussi représentées en *italique*. Contrairement à une interface, une classe abstraite **peut contenir des méthodes**.   
+Une **classe abstraite** est une classe pouvant fournir des **opérations** comprenant **aucune implémentation**.  
+Les classes abstraites sont représentées par un nom en *italique* ou sont identifiées par *<<abstract>>*.  
+Toutes les opérations ne possédant pas d'implémentation sont elles aussi représentées en *italique*. Contrairement à une interface, une classe abstraite **peut contenir des méthodes**.   
 
   ![](/out/plant_uml/abstractClassExample/abstractClassExample.svg)  
 
 ## Relations
 
-Les **relations UML** représentent différents types de connection entre les classes.  
+Les **relations UML** représentent différents types de connexion entre les classes.  
 
 | ------------ | ----------- | ----------- |
 | Dépendance     | ![](/out/plant_uml/dependencyRelationshipExample/dependencyRelationshipExample.svg)         | Indique que A dépend de B. Des modifications dans l'élément cible (B) peuvent affecter l'élément source (A). |

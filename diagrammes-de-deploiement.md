@@ -17,7 +17,7 @@ Un Artéfact représente un morceau de logiciel, de matériel ou de données qui
 
 
 ## Nœuds
-Un **nœud** est un élément physique qui existe au moment de l'exécution et qui représente une ressource ayant des possibilités d'exécution. La taille des nœud est variable : elle peut varier d'un simple dispositif embarqué à un ensemble de serveurs.  
+Un **nœud** est un élément physique qui existe au moment de l'exécution et qui représente une ressource ayant des possibilités d'exécution. La taille des nœuds est variable : elle peut varier d'un simple dispositif embarqué à un ensemble de serveurs.  
 
 Les nœuds indiquent le **lieu d'exécution** du code et comment les différentes parties du système **communiquent lors de l'exécution**.  
 Chaque nœud doit avoir un nom qui le distingue des autres nœuds. En pratique les noms de nœuds sont des noms pris dans le vocabulaire de l'implémentation.  
@@ -34,7 +34,7 @@ Les nœuds d'environnements d'exécution représentent **un environnement dans l
 
 ## Représentation
 
-Généralement, on représente les nœuds sous forme d'une boîte en trois dimensions. Cependant, il est courant d'utiliser des représentations d'icônes spécifiques pour les nœuds afin d'aider à transmettre le type de matériel utilisé
+Généralement, on représente les nœuds sous forme d'une boîte en trois dimensions. Cependant, il est courant d'utiliser des représentations d'icônes spécifiques pour les nœuds afin d'aider à transmettre le type de matériel utilisé.
 
 Voici un exemple illustrant un artéfact "Application Web" déployé dans le noeud "Serveur Web" et un artéfact "Base de données MySQL" déployé dans le noeud "Serveur de Base de Données".
 
@@ -46,7 +46,7 @@ Voici un exemple illustrant un artéfact "Application Web" déployé dans le noe
 | Communication | ![](/out/plant_uml/communicationRelationExample/communicationRelationExample.svg) | Indique que le Noeud1 et le Noeud2 communiquent entre eux à l'aide du protocole de communication P1. |
 
 Les associations entre nœuds représentent les
-connections physiques tels une connexion Ethernet,
+connexions physiques tels une connexion Ethernet,
 un câble série, ou encore un bus commun.
 
 ## Déploiement

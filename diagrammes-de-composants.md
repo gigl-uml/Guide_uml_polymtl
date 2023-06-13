@@ -28,7 +28,7 @@ Les noms de composantes sont des noms tirés de **l'implémentation** du systèm
 
 ## Relations
 
-Les **relations UML** suivantes représentes différents types de connection entre les composantes.  
+Les **relations UML** suivantes représentent différents types de connexion entre les composantes.  
 
 | ------------ | ----------- | ----------- |
 | Dépendance     | ![](/out/plant_uml/dependencyRelationshipComponent/dependencyRelationshipComponent.svg)         | Indique que A dépend de B. Des modifications dans l'élément cible (B) peuvent affecter l'élément source (A). |

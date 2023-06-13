@@ -33,14 +33,14 @@ Il y a 2 façons de représenter le contenu des paquetages.
 
 ## Visibilité
 Les éléments d'un paquetage peuvent être **publics** ou **privés**.  
-La visibilité publique indique que cet élément est utilisable en dehors du paquet.  
+La visibilité publique indique que cet élément est utilisable en dehors du paquetage.  
 La visibilité privée indique le contraire : seulement les autres éléments du même paquetage peuvent utiliser l'élément privé.  
 Un élément public est indiqué par un signe plus. Un élément privé est indiqué par un signe moins.
 
 ![](/out/plant_uml/packageVisibility/packageVisibility.svg)
 
 ## Importer et accéder aux paquetages
-Il est possible d'importer des éléments d'un paquetage à l'autre. Pour ce faire, il faut qu'un paquetage `<<import>>` un autre paquet, ce qui lui permettra d'accéder à toutes les classes de ce dernier. Par exemple:
+Il est possible d'importer des éléments d'un paquetage à l'autre. Pour ce faire, il faut qu'un paquetage `<<import>>` un autre paquetage, ce qui lui permettra d'accéder à toutes les classes de ce dernier. Par exemple:
 
 ![](/out/plant_uml/importRelationPackage/importRelationPackage.svg)
 
