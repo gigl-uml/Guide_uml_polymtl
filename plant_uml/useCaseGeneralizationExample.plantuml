@@ -1,0 +1,11 @@
+@startuml
+
+usecase GenericUseCase
+usecase UseCase1
+usecase UseCase2
+
+
+UseCase1 --|> GenericUseCase
+UseCase2 --|> GenericUseCase
+
+@enduml

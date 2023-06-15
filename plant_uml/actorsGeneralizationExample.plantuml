@@ -1,0 +1,18 @@
+@startuml
+actor GenericActor
+actor Actor1
+actor Actor2
+
+usecase GenericUseCase
+usecase UseCase1
+usecase UseCase2
+
+
+GenericActor -r-- GenericUseCase
+Actor1 -r-- UseCase1
+Actor2 -r-- UseCase2
+
+Actor1 --|> GenericActor
+Actor2 -u-|> GenericActor
+
+@enduml

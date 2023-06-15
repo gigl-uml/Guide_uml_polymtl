@@ -1,0 +1,9 @@
+@startuml
+
+usecase UseCase1
+usecase UseCase2
+
+
+UseCase1 -[dotted]r-> UseCase2 : <<include>>
+
+@enduml
