@@ -21,3 +21,17 @@ Une **activité** est représentée par un rectangle aux coins arrondis, avec so
 Une **action** est elle aussi représentée par un rectangle aux coins arrondis. Une flèche entre deux actions indique qu'elles sont successives.  
 
 ![](/out/plant_uml/custom/activityRepresentation.svg)
+
+Les **activités** possèdent généralement un **point de départ** ainsi qu'un ou plusieurs **points d'arrivés**. Lorsqu'un point d'arrivé est atteint, l'activité prend fin. On les représente de la sorte :  
+
+![](/out/plant_uml/custom/activityStartNode.svg)
+
+## Préconditions et postconditions
+Les activités et les actions peuvent être accompagnées de certaines **conditions**.  
+Les **activités** peuvent avoir des **pré**conditions et des **post**conditions **globales**. Elles sont indiquées dans le coins supérieur droit de l'activité et sont dénotées par les mots clés **<<precondition>>** et **<<postcondition>>**.  
+
+![](/out/plant_uml/custom/activityGlobalCondition.svg)
+
+Les **actions** peuvent avoir des **pré**conditions et des **post**conditions **locales**. Ces conditions sont indiquées à travers des notes avec les mots clés **<<localPrecondition>>** et **<<localPostcondition>>**.
+
+![](/out/plant_uml/custom/activityLocalCondition.svg)
