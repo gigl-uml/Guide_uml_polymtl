@@ -44,7 +44,7 @@ Il peut y avoir plusieurs acteurs pour un même cas d'utilisation. Par exemple, 
 
 ![](/out/plant_uml/restoExemple/restoExemple.svg)
 
-## Relation  
+## Relations
 
 | ------------ | ----------- | ----------- |
 | Généralisation d'acteurs | ![](/out/plant_uml/actorsGeneralizationExample/actorsGeneralizationExample.svg) | Indique que le le *GenericActor* est une versions générale des 2 autres acteurs. Donc, le *GenericUseCase* sera complété par *Actor1* et *Actor2*. |
