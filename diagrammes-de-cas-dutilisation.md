@@ -51,3 +51,5 @@ Il peut y avoir plusieurs acteurs pour un même cas d'utilisation. Par exemple, 
 | Généralisation de cas d'utilisation| ![](/out/plant_uml/useCaseGeneralizationExample/useCaseGeneralizationExample.svg) | Indique que les fonctionnalités complétées par le *useCase1* et le *useCase2* peuvent être généralisé dans un seul cas d'utilisation ; *GenericUseCase*. |
 | Inclusion de cas d'utilisation | ![](/out/plant_uml/useCaseInclusionExample/useCaseInclusionExample.svg) | Indique que le *useCase2* n'est pas complet, il a **besoin** de la fonctionnalité de *useCase1* pour fonctionner. Cette relation permet de pouvoir réutiliser certain cas d'utilisation. |
 | Extension de cas d'utilisation | ![](/out/plant_uml/useCaseExtensionExample/useCaseExtensionExample.svg) | Indique que le *useCase1* va ajouter des fonctionnalités (étendre) le *useCase2*. Contrairement à l'inclusion, le cas d'utilisation de base (*useCase2*) doit pouvoir fonctionner seul. |
+
+## Exemple

@@ -55,3 +55,5 @@ Il est possible d'importer des éléments de manière **privée** avec l'annotat
 ## Fusionner les paquetages
 L'UML offre la possibilité de fusionner des paquetages. Ce mécanisme plutôt complexe est rarement utilisé en industrie.  
 Vous pouvez trouver plus de détails sur ce sujet dans la section **3.4. Merging Packages** du livre **UML 2.0 in a Nutshell** de Pilone et Pitman.
+
+## Exemple

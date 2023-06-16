@@ -58,3 +58,5 @@ Il existe 2 façons de montrer le déploiement d'un artéfact dans un noeud.
 |        :---:           |         :----:           |
 | ![](/out/plant_uml/deployRelationExample2/deployRelationExample2.svg) | ![](/out/plant_uml/deployRelationExample/deployRelationExample.svg) |
 
+
+## Exemple

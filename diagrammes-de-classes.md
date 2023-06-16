@@ -27,10 +27,8 @@ Elles sont représentées par des rectangles séparés en trois parties:
 3. Les opérations
 
 
-![](/out/plant_uml/classexample/classexample.svg)
+[![](/out/plant_uml/classexample/classexample.svg)](https://github.com/justinlachap/justinlachap.github.io/blob/main/plant_uml/classexample.plantuml){:target="_blank"}
 
-
-[</>](https://github.com/justinlachap/justinlachap.github.io/blob/main/plant_uml/classexample.plantuml)
 
 
 
@@ -110,3 +108,5 @@ Une classe **template** - ou classe **générique** - fournit un moyen de créer
 En UML, on peut les représenter de cette manière :  
 
  ![](/out/plant_uml/templateExample/templateExample.svg)
+
+## Exemple

@@ -48,3 +48,4 @@ Les **nœuds de fusion** permettent à plusieurs flux de se **rejoindre en un se
 ![](/out/plant_uml/custom/activityChoice.svg)
 
 
+## Exemple
