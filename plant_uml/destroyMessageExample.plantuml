@@ -1,0 +1,5 @@
+@startuml
+hide footbox
+P1 -> P2 : destroy
+destroy P2
+@enduml

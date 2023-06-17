@@ -1,0 +1,13 @@
+@startuml
+hide footbox
+
+participant P1
+participant P2
+
+
+P1 -> P2: request
+activate P2
+P2 -->> P1: response
+deactivate P1
+
+@enduml

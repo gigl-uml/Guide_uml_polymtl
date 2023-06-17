@@ -7,7 +7,7 @@ participant ":System" as syst
 
 user -> syst: sendRequest()
 activate syst
-syst --> user: response
+syst -->> user: response
 deactivate syst
 
 @enduml

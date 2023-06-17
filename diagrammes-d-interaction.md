@@ -13,9 +13,7 @@ Un diagramme d'interaction permet de montrer **chronologiquement** les **message
 
 Un type spécifique de diagramme d'interaction est le **diagramme de séquence**. C'est celui que nous utiliserons dans ce chapitre.  
 
-## Représentation
-
-### Participants aux interactions
+## Participants aux interactions
 Les participants aux interactions d'un diagramme de séquence sont représenté à l'aide d'un rectangle et d'une ligne verticale pointillé, également appelées « lignes de vie ». Le nom du participant suit cette syntaxe:  
 
 **nom_de_l'objet [sélecteur] : nom_de_la_classe**
@@ -25,25 +23,37 @@ Les participants aux interactions d'un diagramme de séquence sont représenté 
 | sélecteur | Permet de selectionner une instance particulière dans un tableau d'élement |
 | nom_de_la_classe  | Le nom du type du participant |
 
-### Message
-Les messages sont des flèches représentant des communications entre participant.
+## Message et Occurrence d'exécution 
+Les messages sont des flèches représentant des communications entre participant. Le texte juste au-dessus de la flèche d'un message représente le nom ou la description du message échangé entre les objets.
 
-### Boîte d'activation
-Il est possible d'utilisé une boîte d'activation, représenté par une boîte sur la ligne de vie, pour montré que l'objet du participant attend un message réponse ou est occupé dans un processus.
+Il est possible de représenter le temps de traitement ou l'attente d'un message par un participant à l'aid d'une occurrence d'exécution. Celles-ci sont illustrées par un rectangle vertical sur la ligne de vie.
 
-Voici un exemple, montrant le participant **User** qui envoie une requête au **System**. Après un certain temps de calcul, illustré par la boîte d'activation, le **System** va renvoyer un message de réponse.
+
+## Invariants d'état
+TODO  
+
+## Conditions de garde et Opérateur d'intéraction
+TODO  
+
+## Représentation
+
+Voici un exemple, montrant le participant **User** qui envoie une requête au participant **System**. Après un certain temps de traitement, illustré par l'occurrence d'exécution, **System** va renvoyer un message de réponse.  
+
+
+TODO: NEED BIGGER EXAMPLE  
 
 ![](/out/plant_uml/interactionRepresentationExample/interactionRepresentationExample.svg)
 
 ## Relation  
 
-|---|---|---|
-| Message asynchrone | TODO |  |
-| Message synchrone | TODO |  |
-| Message de Réponse | TODO |  |
-| Message de Création | TODO |  |
-| Message perdu | TODO |  |
-| Message trouvé | TODO |  |
+|---|---|
+| Message asynchrone | ![](/out/plant_uml/asyncMessageExample/asyncMessageExample.svg) |
+| Message synchrone | ![](/out/plant_uml/syncMessageExample/syncMessageExample.svg) |
+| Message de Réponse | ![](/out/plant_uml/responseMessageExample/responseMessageExample.svg) |
+| Message de création | ![](/out/plant_uml/createMessageExample/createMessageExample.svg) |
+| Message de destruction | ![](/out/plant_uml/destroyMessageExample/destroyMessageExample.svg) |
+| Message perdu | ![](/out/plant_uml/custom/lostMessageExample.svg) |
+| Message trouvé | ![](/out/plant_uml/custom/foundMessageExample.svg) |
 
 
 
