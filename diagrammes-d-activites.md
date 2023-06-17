@@ -28,6 +28,8 @@ Les **activités** possèdent généralement un **point de départ** ainsi qu'un
 
 ![](/out/plant_uml/custom/activityStartNode.svg)
 
+Certaines actions se déroulent en parallèle. Pour qu'un point d'arrivé d'un flux ne mette pas fin à toute l'activité, UML 2.0 fournit des **points d'arrivés de flux**, représentés par un cercle contenant une croix.
+
 ## Préconditions et postconditions
 Les activités et les actions peuvent être accompagnées de certaines **conditions**.  
 Les **activités** peuvent avoir des **pré**conditions et des **post**conditions **globales**. Elles sont indiquées dans le coins supérieur droit de l'activité et sont dénotées par les mots clés **<<precondition>>** et **<<postcondition>>**.  
@@ -54,6 +56,42 @@ Un **nœud de bifurcation** divise le flux courant en **plusieurs flux concurren
 Les **nœud de bifurcation** et de **jonction** sont représentés par une barre. On distingue les deux en regardant les flux entrants et sortants.  
 
 ![](/out/plant_uml/custom/activityForkJoin.svg)
+
+## Connecteurs
+Dans les diagrammes plus complexe, il est possible d'utiliser des **connecteurs**. Ces derniers n'ajoutent pas d'actions ni d'étapes supplémentaires aux activités. Leur but est de **relier deux parties du diagramme** afin de le rendre plus lisible. Les connecteurs sont reliés par leur nom. 
+
+![](/out/plant_uml/custom/activityConnector.svg)
+
+## Objets
+Un **nœud d'objet** permet de représenter les données plus complexes. Il représente l'existence d'un objet généré par une action dans une activité, et est représenté par un rectangle.
+
+![](/out/plant_uml/custom/activityObject.svg)
+
+Il existe une notation alternative pour les **nœuds d'objets**. On peut les représenter sous forme de pins.
+
+![](/out/plant_uml/custom/activityPins.svg)
+
+Les **nœuds d'objets** peuvent aussi être utilisés pour indiquer les paramètres d'entrée et de sortie de l'activité. Pour se faire, on positionne les rectangles sur les bords du diagramme.
+
+![](/out/plant_uml/custom/activityObjectParameters.svg)
+
+Les **nœuds d'objets** peuvent bénéficier des **flux d'objets** pour faire de la **séléction**.  
+La **sélection** se fait à l'aide d'une note identifiée par le mot clé **<<selection>>**.
+
+![](/out/plant_uml/custom/activitySelection.svg)
+    
+## Stockage de données
+
+Un **nœud de stockage de données** effectue une copie de toutes les données qui le traversent. Si le même objet passe plusieurs fois par un **nœud de stockage de données**, la version précédente de l'objet sera remplacée.   
+On le représente comme un **nœud d'objet** avec le stéréotype **<<datastore>>**.  
+
+Dans l'exemple ci-dessous, les nouveaux utilisateurs sont ajoutés à la base de données :
+
+![](/out/plant_uml/custom/activityData.svg)
+
+
+
+
 
 
 ## Exemple
