@@ -47,5 +47,13 @@ Les **nœuds de fusion** permettent à plusieurs flux de se **rejoindre en un se
 
 ![](/out/plant_uml/custom/activityChoice.svg)
 
+## Bifurcation et jonction 
+Un **nœud de bifurcation** divise le flux courant en **plusieurs flux concurrents**. Les actions suivant un **nœud de bifurcation** s'exécutent de manière concurrente et se terminent indépendamment.  
+À l'inverse, un **nœud de jonction** synchronise plusieurs flux concurrents pour atteindre **un seul flux d'exécution**.  
+
+Les **nœud de bifurcation** et de **jonction** sont représentés par une barre. On distingue les deux en regardant les flux entrants et sortants.  
+
+![](/out/plant_uml/custom/activityForkJoin.svg)
+
 
 ## Exemple

@@ -1,0 +1,13 @@
+
+
+@startuml
+start
+:Se connecter;
+fork
+:Clavarder;
+fork again
+:Écouter le cours;
+end fork
+:Se déconnecter;
+stop
+@enduml
