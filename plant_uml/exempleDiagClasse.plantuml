@@ -16,9 +16,16 @@ class Vélo {
 class Trottinette {
     
 }
+class Usager {
+    
+}
+
+class Réserver{}
 
 Véhicule <|-- Voiture
 Véhicule <|-- Scooter
 Véhicule <|-- Vélo
 Véhicule <|-- Trottinette
+Véhicule "0..*" - "1..*" Usager 
+(Véhicule, Usager) .. Réserver
 @enduml
