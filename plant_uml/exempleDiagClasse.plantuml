@@ -1,0 +1,24 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+abstract class Véhicule <<abstract>> {
+    
+}
+class Voiture {
+    
+}
+class Scooter {
+    
+}
+class Vélo {
+    
+}
+class Trottinette {
+    
+}
+
+Véhicule <|-- Voiture
+Véhicule <|-- Scooter
+Véhicule <|-- Vélo
+Véhicule <|-- Trottinette
+@enduml

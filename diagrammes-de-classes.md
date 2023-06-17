@@ -110,3 +110,5 @@ En UML, on peut les représenter de cette manière :
  ![](/out/plant_uml/templateExample/templateExample.svg)
 
 ## Exemple
+
+![](/out/plant_uml/exempleDiagClasse/exempleDiagClasse.svg)
