@@ -57,3 +57,4 @@ L'UML offre la possibilité de fusionner des paquetages. Ce mécanisme plutôt c
 Vous pouvez trouver plus de détails sur ce sujet dans la section **3.4. Merging Packages** du livre **UML 2.0 in a Nutshell** de Pilone et Pitman.
 
 ## Exemple
+![](/out/plant_uml/exempleDiagPaquet/exempleDiagPaquet.svg)
