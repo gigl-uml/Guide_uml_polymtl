@@ -1,0 +1,15 @@
+@startuml
+|f| Serveur
+|c| Cuisinier
+|e| Client
+|f|
+start
+:Prendre la commande;
+|c|
+:Préparer un plat;
+|e|
+:Manger le plat;
+:Payer l'addition;
+
+stop
+@enduml
