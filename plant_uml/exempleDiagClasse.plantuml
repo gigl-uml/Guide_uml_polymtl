@@ -17,10 +17,26 @@ class Trottinette {
     
 }
 class Usager {
-    
+    - matricule : string
+    - permisConduire : PermisConduire
+    - assurance : Assurance
+    + fournirPreuvePermis() : void
+    + fournirPreuveAssurance() : void
+}
+class PermisConduire {
+    - numeroPermis : string
+    - paysEmetteur : string
+}
+class Assurance {
+    - numeroAssurance : string
 }
 
-class Réserver{}
+class Réserver {
+    - véhicule : Véhicule
+    - usager : Usager
+    - dateDebut : Date
+    - dateFin : Date
+}
 
 Véhicule <|-- Voiture
 Véhicule <|-- Scooter
@@ -28,4 +44,7 @@ Véhicule <|-- Vélo
 Véhicule <|-- Trottinette
 Véhicule "0..*" - "1..*" Usager 
 (Véhicule, Usager) .. Réserver
+Usager --> PermisConduire
+Usager --> Assurance
+
 @enduml
