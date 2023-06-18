@@ -106,3 +106,8 @@ On peut les représenter de manière horizontale ou verticale. Le nom de l'entit
 ![](/out/plant_uml/custom/activitySwimlane.svg)
 
 ## Exemple
+
+Voici un exemple complet d'un **diagramme d'activités** basé sur le cas d'étude [PolyAuto](../polyauto/).  
+Le processus choisi correspond à la validation d'une réservation d'un véhicule du point de vue de l'application.
+
+![](/out/plant_uml/custom/activityExemple.svg)
