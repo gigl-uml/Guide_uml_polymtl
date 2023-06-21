@@ -1,11 +1,11 @@
 @startuml
 left to right direction
 actor Client as g
-package Employé {
+Package Employé {
   actor Chef as c
   actor "Critique gastronomique" as fc
 }
-package Restaurant {
+Rectangle Restaurant {
   usecase "Manger un repas" as UC1
   usecase "Payer l'addition" as UC2
   usecase "Boire" as UC3
