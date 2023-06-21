@@ -1,5 +1,5 @@
 @startuml
-
+hide circle
 class "signal.h" as file1
 class "signal.c" as file2
 class "alert.h" as file3

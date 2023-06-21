@@ -1,6 +1,8 @@
 @startuml
 package "PolyAuto" {
+    skinparam classAttributeIconSize 0
     package "Utilisateurs" {
+        hide circle
         class Usager
     }
     package "Véhicules" {
@@ -12,6 +14,7 @@ package "PolyAuto" {
             + getNuméroSérie() : string
             + setNuméroSérie(numéroSérie : string) : void
         }
+        hide circle
         class Voiture {
             - nombrePlaces : int
             - couleur : string
@@ -30,12 +33,15 @@ package "PolyAuto" {
         }
     }
     package "Réservations" {
+        hide circle
         class Réserver
     }
     package "Géolocalisation" {
+        hide circle
         class GéolocalisationService
     }
     package "Facturation" {
+        hide circle
         class FacturationService
     }
     
