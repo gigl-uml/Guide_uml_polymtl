@@ -1,0 +1,16 @@
+@startuml
+hide footbox
+
+participant ":P1" as P1
+participant ":P2" as P2
+
+P1 -> P2 : message1()
+P1 <- P2 : message2()
+
+
+break P1.attr == True
+  P1 -> P2 : message3()
+end break
+
+P1 <-P2 : message4()
+@enduml

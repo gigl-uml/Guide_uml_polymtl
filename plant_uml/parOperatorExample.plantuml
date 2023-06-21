@@ -1,0 +1,18 @@
+@startuml
+hide footbox
+
+participant ":P1" as P1
+participant ":P2" as P2
+
+
+par 
+  P1 -> P2 : message1()
+  P1 -> P2 : message2()
+  P1 -> P2 : message3()
+else
+  P1 <- P2 : messageA()
+  P1 <- P2 : messageB()
+  P1 <- P2 : messageC()
+end par
+
+@enduml
