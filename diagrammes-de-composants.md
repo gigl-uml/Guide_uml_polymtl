@@ -67,3 +67,7 @@ Puisque les composantes représentent souvent des "morceaux" importants du syst�
 ![](/out/plant_uml/databaseRepresentation/databaseRepresentation.svg)
 
 ## Exemple
+
+Voici un exemple complet d'un **diagramme de composantes** basé sur le cas d'étude [PolyAuto](../polyauto/).
+
+![](/out/plant_uml/exempleDiagComponent/exempleDiagComponent.svg)
