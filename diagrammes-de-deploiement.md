@@ -60,3 +60,7 @@ Il existe 2 façons de montrer le déploiement d'un artéfact dans un noeud.
 
 
 ## Exemple
+
+Voici un exemple d'un **diagramme de déploiement** basé sur le cas d'étude [PolyAuto](../polyauto/).
+
+![](/out/plant_uml/exempleDiagDeployment/exempleDiagDeployment.svg)
