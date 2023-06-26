@@ -1,0 +1,18 @@
+@startuml
+
+node "Mobile App" as mobileapp
+node "Backend" as backend
+node "Base de données" as database
+node "Service d'authentification" as authservice
+node "Service de réservation" as bookingservice
+node "Service de localisation" as locationservice
+node "Service de facturation" as billingservice
+
+mobileapp -- backend
+backend -- database
+backend -- authservice
+backend -- bookingservice
+backend -- locationservice
+backend -- billingservice
+
+@enduml

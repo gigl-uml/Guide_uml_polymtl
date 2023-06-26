@@ -1,0 +1,11 @@
+@startuml
+hide footbox
+
+participant ":P1" as P1
+participant ":P2" as P2
+
+loop loop(1, 3)
+  P1 -> P2 : message()
+end loop
+
+@enduml

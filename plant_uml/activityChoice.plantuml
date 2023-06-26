@@ -1,0 +1,21 @@
+@startuml
+start
+
+if () then ([Code en Python])
+  :Interpréter le code;
+else ([Code en C++])
+  :Compiler le code;
+  if () then ([false])
+    :Indiquer une erreur de compilation;
+    stop
+  else ([true])
+  endif
+endif
+:Exécuter le code;
+
+stop
+    floating note
+    <b> <<decisionInput>> </b>
+    syntaxErrorCount == 0
+    end note
+@enduml

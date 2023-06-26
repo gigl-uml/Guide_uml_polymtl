@@ -1,0 +1,55 @@
+@startuml
+package "PolyAuto" {
+    skinparam classAttributeIconSize 0
+    package "Utilisateurs" {
+        hide circle
+        class Usager
+    }
+    package "Véhicules" {
+        abstract class Véhicule {
+            + getMarque() : string
+            + setMarque(marque : string) : void
+            + getModèle() : string
+            + setModèle(modèle : string) : void
+            + getNuméroSérie() : string
+            + setNuméroSérie(numéroSérie : string) : void
+        }
+        hide circle
+        class Voiture {
+            - nombrePlaces : int
+            - couleur : string
+        }
+        class Scooter {
+            - puissance : int
+            - typeBatterie : string
+        }
+        class Vélo {
+            - type : string
+            - tailleCadre : string
+        }
+        class Trottinette {
+            - autonomie : int
+            - poidsMaxSupporté : int
+        }
+    }
+    package "Réservations" {
+        hide circle
+        class Réserver
+    }
+    package "Géolocalisation" {
+        hide circle
+        class GéolocalisationService
+    }
+    package "Facturation" {
+        hide circle
+        class FacturationService
+    }
+    
+    Usager --> Véhicules
+    Réserver --> Usager
+    Réserver --> Véhicules
+    GéolocalisationService --> Véhicules
+    FacturationService --> Usager
+    FacturationService --> Réserver
+}
+@enduml

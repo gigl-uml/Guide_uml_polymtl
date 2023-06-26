@@ -1,6 +1,6 @@
 ---
 title: Vues
 permalink: /diagrammes-de-composantes/#vues
-nav_order: 5
+nav_order: 3
 parent: Diagrammes de composantes
 ---

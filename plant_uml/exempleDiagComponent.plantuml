@@ -1,0 +1,31 @@
+@startuml
+skinparam linetype ortho
+
+component "Système de Réservation des Véhicules" as car_unlocking{
+  component "Compte usager" as user <<Component>>
+  interface "ICompte" as account
+  component "Réservation" as reservation <<Component>>
+  component "Base de données des véhicules" as vehicleDB
+  component "Base de données des usagers" as userDB
+  component "Base de données des réservation" as reservationDB
+  component "Véhicule" as vehicle <<interface>>
+  component "Voitures" as cars <<Component>>
+  component "Scooters" as scooters <<Component>>
+  component "Vélos" as bikes <<Component>>
+  component "Trottinettes" as trotts <<Component>>
+}
+
+reservation --[dotted]r-> userDB
+reservation --[dotted]l-> vehicleDB
+reservation -u- reservationDB
+
+userDB -d-( account
+user -u- account
+
+vehicleDB -[dotted]d-> vehicle
+vehicle <|-d- cars
+vehicle <|-d- trotts
+vehicle <|-d- scooters
+vehicle <|-d- bikes
+
+@enduml
