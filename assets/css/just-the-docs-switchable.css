@@ -632,7 +632,7 @@ h6,
   margin-bottom: 1em;
   font-weight: 500;
   line-height: 1.25;
-  color: #27262b;
+  color: #231f20;
 }
 
 p {
@@ -641,7 +641,7 @@ p {
 }
 
 a {
-  color: #7253ed;
+  color: #5377ed;
   text-decoration: none;
 }
 
@@ -799,13 +799,13 @@ blockquote {
 
 .site-header {
   display: flex;
-  min-height: 60px;
+  min-height: 100px;
   align-items: center;
 }
 @media (min-width: 50rem) {
   .site-header {
-    height: 60px;
-    max-height: 60px;
+    height: 100px;
+    max-height: 100px;
     border-bottom: 1px solid #eeebee;
   }
 }
@@ -819,7 +819,7 @@ blockquote {
   align-items: center;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #27262b;
+  color: #231f20;
   font-size: 18px !important;
 }
 @media (min-width: 50rem) {
@@ -848,6 +848,12 @@ blockquote {
   background-repeat: no-repeat;
   background-position: left center;
   background-size: contain;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .site-button {
@@ -923,7 +929,7 @@ body {
 .icon {
   width: 1.5rem;
   height: 1.5rem;
-  color: #7253ed;
+  color: #5377ed;
 }
 
 .main-content {
@@ -1071,7 +1077,7 @@ body {
   display: inline-block;
   width: 100%;
   height: 100%;
-  color: #7253ed;
+  color: #5377ed;
   visibility: hidden;
 }
 .main-content .anchor-heading:hover svg,
@@ -1225,7 +1231,7 @@ body {
   width: 3rem;
   height: 3rem;
   padding: 0.75rem;
-  color: #7253ed;
+  color: #5377ed;
 }
 @media (min-width: 50rem) {
   .nav-list .nav-list-item .nav-list-expander {
@@ -1300,14 +1306,14 @@ body {
   > .nav-list
   > .nav-list-item
   > .nav-list-link {
-  color: #7253ed;
+  color: #5377ed;
 }
 .nav-list.nav-category-list
   > .nav-list-item
   > .nav-list
   > .nav-list-item
   > .nav-list-expander {
-  color: #7253ed;
+  color: #5377ed;
 }
 
 .aux-nav {
@@ -1523,7 +1529,7 @@ h6,
   font-size: inherit;
   font-weight: 500;
   line-height: 1.5;
-  color: #7253ed;
+  color: #5377ed;
   text-decoration: none;
   vertical-align: baseline;
   cursor: pointer;
@@ -1575,7 +1581,7 @@ h6,
 }
 
 .btn-outline {
-  color: #7253ed;
+  color: #5377ed;
   background: transparent;
   box-shadow: inset 0 0 0 2px #e6e1e8;
 }
@@ -1755,7 +1761,7 @@ h6,
   outline: 0;
 }
 .search-input:focus + .search-label .search-icon {
-  color: #7253ed;
+  color: #5377ed;
 }
 
 .search-label {
@@ -1875,7 +1881,7 @@ h6,
   width: 1rem;
   height: 1rem;
   margin-right: 0.5rem;
-  color: #7253ed;
+  color: #5377ed;
   flex-shrink: 0;
 }
 .search-result-doc .search-result-doc-title {
@@ -2265,7 +2271,7 @@ pre.highlight {
 }
 
 .text-grey-dk-300 {
-  color: #27262b !important;
+  color: #231f20 !important;
 }
 
 .text-grey-lt-000 {
@@ -2285,7 +2291,7 @@ pre.highlight {
 }
 
 .text-blue-000 {
-  color: #2c84fa !important;
+  color: #41aae6 !important;
 }
 
 .text-blue-100 {
@@ -2317,7 +2323,7 @@ pre.highlight {
 }
 
 .text-purple-000 {
-  color: #7253ed !important;
+  color: #5377ed !important;
 }
 
 .text-purple-100 {
@@ -2381,7 +2387,7 @@ pre.highlight {
 }
 
 .bg-grey-dk-300 {
-  background-color: #27262b !important;
+  background-color: #231f20 !important;
 }
 
 .bg-grey-lt-000 {
@@ -2401,7 +2407,7 @@ pre.highlight {
 }
 
 .bg-blue-000 {
-  background-color: #2c84fa !important;
+  background-color: #41aae6 !important;
 }
 
 .bg-blue-100 {
@@ -2433,7 +2439,7 @@ pre.highlight {
 }
 
 .bg-purple-000 {
-  background-color: #7253ed !important;
+  background-color: #5377ed !important;
 }
 
 .bg-purple-100 {
@@ -7320,7 +7326,7 @@ a.skip-to-main {
 
 a.skip-to-main:focus,
 a.skip-to-main:active {
-  color: #7253ed;
+  color: #5377ed;
   background-color: #fff;
   left: auto;
   top: auto;
@@ -7338,15 +7344,6 @@ a.skip-to-main:active {
 
 div.opaque {
   background-color: #fff;
-}
-
-.site-logo {
-  width: 50px;
-  height: 50px;
-  background-image: url("/assets/images/logo_poly.png");
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: contain;
 }
 
 .site-title {
@@ -8356,7 +8353,7 @@ html.dark-mode body {
   font-size: inherit;
   line-height: 1.4;
   color: #e6e1e8;
-  background-color: #27262b;
+  background-color: #231f20;
   overflow-wrap: break-word;
 }
 
@@ -8395,7 +8392,7 @@ html.dark-mode p {
 }
 
 html.dark-mode a {
-  color: #2c84fa;
+  color: #41aae6;
   text-decoration: none;
 }
 
@@ -8449,7 +8446,7 @@ html.dark-mode .side-bar {
   z-index: 0;
   display: flex;
   flex-wrap: wrap;
-  background-color: #27262b;
+  background-color: #231f20;
 }
 
 @media (min-width: 50rem) {
@@ -8514,7 +8511,7 @@ html.dark-mode .main-content-wrap {
 html.dark-mode .main-header {
   z-index: 0;
   display: none;
-  background-color: #27262b;
+  background-color: #231f20;
 }
 
 @media (min-width: 50rem) {
@@ -8522,7 +8519,7 @@ html.dark-mode .main-header {
     display: flex;
     justify-content: space-between;
     height: 60px;
-    background-color: #27262b;
+    background-color: #231f20;
     border-bottom: 1px solid #44434d;
   }
 }
@@ -8571,14 +8568,14 @@ html.dark-mode .site-nav.nav-open {
 
 html.dark-mode .site-header {
   display: flex;
-  min-height: 60px;
+  min-height: 100px;
   align-items: center;
 }
 
 @media (min-width: 50rem) {
   html.dark-mode .site-header {
-    height: 60px;
-    max-height: 60px;
+    height: 100px;
+    max-height: 100px;
     border-bottom: 1px solid #44434d;
   }
 }
@@ -8695,7 +8692,7 @@ html.dark-mode .site-footer {
 html.dark-mode .icon {
   width: 1.5rem;
   height: 1.5rem;
-  color: #2c84fa;
+  color: #41aae6;
 }
 
 html.dark-mode .main-content {
@@ -8870,7 +8867,7 @@ html.dark-mode .main-content .anchor-heading svg {
   display: inline-block;
   width: 100%;
   height: 100%;
-  color: #2c84fa;
+  color: #41aae6;
   visibility: hidden;
 }
 
@@ -9040,7 +9037,7 @@ html.dark-mode .nav-list .nav-list-item .nav-list-expander {
   width: 3rem;
   height: 3rem;
   padding: 0.75rem;
-  color: #2c84fa;
+  color: #41aae6;
 }
 
 @media (min-width: 50rem) {
@@ -9140,7 +9137,7 @@ html.dark-mode
   > .nav-list
   > .nav-list-item
   > .nav-list-link {
-  color: #2c84fa;
+  color: #41aae6;
 }
 
 html.dark-mode
@@ -9149,7 +9146,7 @@ html.dark-mode
   > .nav-list
   > .nav-list-item
   > .nav-list-expander {
-  color: #2c84fa;
+  color: #41aae6;
 }
 
 html.dark-mode .aux-nav {
@@ -9381,7 +9378,7 @@ html.dark-mode .btn {
   font-size: inherit;
   font-weight: 500;
   line-height: 1.5;
-  color: #2c84fa;
+  color: #41aae6;
   text-decoration: none;
   vertical-align: baseline;
   cursor: pointer;
@@ -9440,7 +9437,7 @@ html.dark-mode .btn.disabled:hover {
 }
 
 html.dark-mode .btn-outline {
-  color: #2c84fa;
+  color: #41aae6;
   background: transparent;
   box-shadow: inset 0 0 0 2px #e6e1e8;
 }
@@ -9630,7 +9627,7 @@ html.dark-mode .search-input {
   html.dark-mode .search-input {
     padding: 0.5rem 1rem 0.5rem 3.5rem;
     font-size: 14px;
-    background-color: #27262b;
+    background-color: #231f20;
     transition: padding-left linear 200ms;
   }
 }
@@ -9640,7 +9637,7 @@ html.dark-mode .search-input:focus {
 }
 
 html.dark-mode .search-input:focus + .search-label .search-icon {
-  color: #2c84fa;
+  color: #41aae6;
 }
 
 html.dark-mode .search-label {
@@ -9773,7 +9770,7 @@ html.dark-mode .search-result-doc .search-result-icon {
   width: 1rem;
   height: 1rem;
   margin-right: 0.5rem;
-  color: #2c84fa;
+  color: #41aae6;
   flex-shrink: 0;
 }
 
@@ -10194,7 +10191,7 @@ html.dark-mode .text-grey-dk-250 {
 }
 
 html.dark-mode .text-grey-dk-300 {
-  color: #27262b !important;
+  color: #231f20 !important;
 }
 
 html.dark-mode .text-grey-lt-000 {
@@ -10214,7 +10211,7 @@ html.dark-mode .text-grey-lt-300 {
 }
 
 html.dark-mode .text-blue-000 {
-  color: #2c84fa !important;
+  color: #41aae6 !important;
 }
 
 html.dark-mode .text-blue-100 {
@@ -10246,7 +10243,7 @@ html.dark-mode .text-green-300 {
 }
 
 html.dark-mode .text-purple-000 {
-  color: #7253ed !important;
+  color: #5377ed !important;
 }
 
 html.dark-mode .text-purple-100 {
@@ -10310,7 +10307,7 @@ html.dark-mode .bg-grey-dk-250 {
 }
 
 html.dark-mode .bg-grey-dk-300 {
-  background-color: #27262b !important;
+  background-color: #231f20 !important;
 }
 
 html.dark-mode .bg-grey-lt-000 {
@@ -10330,7 +10327,7 @@ html.dark-mode .bg-grey-lt-300 {
 }
 
 html.dark-mode .bg-blue-000 {
-  background-color: #2c84fa !important;
+  background-color: #41aae6 !important;
 }
 
 html.dark-mode .bg-blue-100 {
@@ -10362,7 +10359,7 @@ html.dark-mode .bg-green-300 {
 }
 
 html.dark-mode .bg-purple-000 {
-  background-color: #7253ed !important;
+  background-color: #5377ed !important;
 }
 
 html.dark-mode .bg-purple-100 {
@@ -16367,8 +16364,8 @@ html.dark-mode a.skip-to-main {
 
 html.dark-mode a.skip-to-main:focus,
 html.dark-mode a.skip-to-main:active {
-  color: #2c84fa;
-  background-color: #27262b;
+  color: #41aae6;
+  background-color: #231f20;
   left: auto;
   top: auto;
   width: 30%;
@@ -16384,7 +16381,7 @@ html.dark-mode a.skip-to-main:active {
 }
 
 html.dark-mode div.opaque {
-  background-color: #27262b;
+  background-color: #231f20;
 }
 
 html.dark-mode p.warning,
@@ -16698,7 +16695,7 @@ html.dark-mode blockquote.note-title > p:last-child {
 html.dark-mode p.tip,
 html.dark-mode blockquote.tip {
   background: rgba(24, 51, 133, 0.2);
-  border-left: 4px solid #2c84fa;
+  border-left: 4px solid #41aae6;
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
   padding: 0.8rem;
@@ -16706,7 +16703,7 @@ html.dark-mode blockquote.tip {
 
 html.dark-mode p.tip::before,
 html.dark-mode blockquote.tip::before {
-  color: #2c84fa;
+  color: #41aae6;
   content: "Tip";
   display: block;
   font-weight: bold;
@@ -16717,7 +16714,7 @@ html.dark-mode blockquote.tip::before {
 
 html.dark-mode p.tip > .tip-title,
 html.dark-mode blockquote.tip > .tip-title {
-  color: #2c84fa;
+  color: #41aae6;
   display: block;
   font-weight: bold;
   text-transform: uppercase;
@@ -16728,7 +16725,7 @@ html.dark-mode blockquote.tip > .tip-title {
 html.dark-mode p.tip-title,
 html.dark-mode blockquote.tip-title {
   background: rgba(24, 51, 133, 0.2);
-  border-left: 4px solid #2c84fa;
+  border-left: 4px solid #41aae6;
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
   padding: 0.8rem;
@@ -16738,7 +16735,7 @@ html.dark-mode p.tip-title > p:first-child,
 html.dark-mode blockquote.tip-title > p:first-child {
   margin-top: 0;
   margin-bottom: 0;
-  color: #2c84fa;
+  color: #41aae6;
   display: block;
   font-weight: bold;
   text-transform: uppercase;
@@ -16929,7 +16926,7 @@ html.dark-mode blockquote.error-title > p:last-child {
 html.dark-mode p.attention,
 html.dark-mode blockquote.attention {
   background: rgba(56, 24, 133, 0.2);
-  border-left: 4px solid #7253ed;
+  border-left: 4px solid #5377ed;
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
   padding: 0.8rem;
@@ -16937,7 +16934,7 @@ html.dark-mode blockquote.attention {
 
 html.dark-mode p.attention::before,
 html.dark-mode blockquote.attention::before {
-  color: #7253ed;
+  color: #5377ed;
   content: "Attention";
   display: block;
   font-weight: bold;
@@ -16948,7 +16945,7 @@ html.dark-mode blockquote.attention::before {
 
 html.dark-mode p.attention > .attention-title,
 html.dark-mode blockquote.attention > .attention-title {
-  color: #7253ed;
+  color: #5377ed;
   display: block;
   font-weight: bold;
   text-transform: uppercase;
@@ -16959,7 +16956,7 @@ html.dark-mode blockquote.attention > .attention-title {
 html.dark-mode p.attention-title,
 html.dark-mode blockquote.attention-title {
   background: rgba(56, 24, 133, 0.2);
-  border-left: 4px solid #7253ed;
+  border-left: 4px solid #5377ed;
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
   padding: 0.8rem;
@@ -16969,7 +16966,7 @@ html.dark-mode p.attention-title > p:first-child,
 html.dark-mode blockquote.attention-title > p:first-child {
   margin-top: 0;
   margin-bottom: 0;
-  color: #7253ed;
+  color: #5377ed;
   display: block;
   font-weight: bold;
   text-transform: uppercase;
@@ -17040,10 +17037,10 @@ html.dark-mode .highlight .sb {
 }
 
 html.dark-mode img[src*="/plant_uml/"] {
-  filter: invert(86%) sepia(5%) saturate(811%) hue-rotate(212deg)
-    brightness(95%) contrast(95%);
+  filter: invert(92%) sepia(4%) saturate(1273%) hue-rotate(294deg)
+    brightness(96%) contrast(89%);
 }
 
 html.dark-mode .site-logo {
-  filter: invert(100%);
+  background-image: url("/assets/images/logo_poly_dark.png");
 }
