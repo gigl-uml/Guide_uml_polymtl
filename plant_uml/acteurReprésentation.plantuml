@@ -1,4 +1,5 @@
 @startuml
+skinparam backgroundcolor transparent
 :Client: - (Use)
 "CU-1.0 Effectuer un retrait bancaire" as (Use)
 @enduml

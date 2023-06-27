@@ -2,6 +2,7 @@
 hide circle
 allow_mixing
 skinparam classAttributeIconSize 0
+skinparam backgroundcolor transparent
 
 folder A
 folder B

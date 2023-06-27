@@ -1,5 +1,6 @@
 @startuml
 start
+skinparam backgroundcolor transparent
 
 if () then ([Code en Python])
   :Interpréter le code;

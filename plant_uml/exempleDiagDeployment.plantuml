@@ -1,5 +1,5 @@
 @startuml
-
+skinparam backgroundcolor transparent
 node "Mobile App" as mobileapp
 node "Backend" as backend
 node "Base de données" as database

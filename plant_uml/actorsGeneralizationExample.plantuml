@@ -1,4 +1,5 @@
 @startuml
+skinparam backgroundcolor transparent
 actor GenericActor
 actor Actor1
 actor Actor2

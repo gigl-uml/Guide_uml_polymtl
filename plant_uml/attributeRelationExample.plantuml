@@ -1,4 +1,5 @@
 @startuml
+skinparam backgroundcolor transparent
 hide circle
 skinparam classAttributeIconSize 0
 
@@ -31,8 +32,8 @@ class Passenger {
   + getAge()
 }
 
-Car -l-> "1" Engine : \t
+Car --> "1" Engine 
 Car "4" --> "1" Wheel
-Car "1..5" -r-> "1" Passenger : \t\t\t\t
+Car "1..5" -r-> "1" Passenger 
 
 @enduml

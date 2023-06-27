@@ -1,4 +1,5 @@
 @startuml
+skinparam backgroundcolor transparent
 hide circle
 allow_mixing
 skinparam classAttributeIconSize 0

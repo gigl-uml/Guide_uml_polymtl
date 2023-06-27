@@ -1,5 +1,6 @@
 @startuml
 hide footbox
+skinparam backgroundcolor transparent
 P1 -> P2 : destroy
 destroy P2
 @enduml

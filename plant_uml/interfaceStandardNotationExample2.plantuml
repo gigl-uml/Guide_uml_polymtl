@@ -1,6 +1,6 @@
 @startuml
 hide circle
-
+skinparam backgroundcolor transparent
 class IList <<Interface>> 
 class Array
 class User 

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="70px" preserveAspectRatio="none" style="width:248px;height:70px;background:#FFFFFF;" version="1.1" viewBox="0 0 248 70" width="248px" zoomAndPan="magnify"><defs/><g><!--MD5=[9e6a063a2df20cec5dd5e74d49c736a5]
-entity Node1--><g id="elem_Node1"><polygon fill="#F1F1F1" points="16,16,26,6,97,6,97,43.6094,87,53.6094,16,53.6094,16,16" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="87" x2="97" y1="16" y2="6"/><line style="stroke:#181818;stroke-width:0.5;" x1="16" x2="87" y1="16" y2="16"/><line style="stroke:#181818;stroke-width:0.5;" x1="87" x2="87" y1="16" y2="53.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="31" y="40.5332">Node1</text></g><!--MD5=[4323b26905eaf1f4dbff2078a78520e5]
-entity Node2--><g id="elem_Node2"><polygon fill="#F1F1F1" points="150,16,160,6,231,6,231,43.6094,221,53.6094,150,53.6094,150,16" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="221" x2="231" y1="16" y2="6"/><line style="stroke:#181818;stroke-width:0.5;" x1="150" x2="221" y1="16" y2="16"/><line style="stroke:#181818;stroke-width:0.5;" x1="221" x2="221" y1="16" y2="53.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="165" y="40.5332">Node2</text></g><!--MD5=[150de4d3201d1cce72c43415fcb4a137]
-link Node1 to Node2--><g id="link_Node1_Node2"><path d="M97.07,30 C113.71,30 132.94,30 149.61,30 " fill="none" id="Node1-Node2" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="16" x="115.5" y="23.4951">P1</text></g><!--MD5=[3dd0a1382f9e51af0023a53549329aea]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="69px" preserveAspectRatio="none" style="width:255px;height:69px;background:#00000000;" version="1.1" viewBox="0 0 255 69" width="255px" zoomAndPan="magnify"><defs/><g><!--MD5=[9e6a063a2df20cec5dd5e74d49c736a5]
+entity Node1--><g id="elem_Node1"><polygon fill="#F1F1F1" points="16,16,26,6,101,6,101,42.4883,91,52.4883,16,52.4883,16,16" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="91" x2="101" y1="16" y2="6"/><line style="stroke:#181818;stroke-width:0.5;" x1="16" x2="91" y1="16" y2="16"/><line style="stroke:#181818;stroke-width:0.5;" x1="91" x2="91" y1="16" y2="52.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="31" y="39.5352">Node1</text></g><!--MD5=[4323b26905eaf1f4dbff2078a78520e5]
+entity Node2--><g id="elem_Node2"><polygon fill="#F1F1F1" points="153,16,163,6,238,6,238,42.4883,228,52.4883,153,52.4883,153,16" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="228" x2="238" y1="16" y2="6"/><line style="stroke:#181818;stroke-width:0.5;" x1="153" x2="228" y1="16" y2="16"/><line style="stroke:#181818;stroke-width:0.5;" x1="228" x2="228" y1="16" y2="52.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="168" y="39.5352">Node2</text></g><!--MD5=[150de4d3201d1cce72c43415fcb4a137]
+link Node1 to Node2--><g id="link_Node1_Node2"><path d="M101.47,29.25 C117.79,29.25 136.37,29.25 152.68,29.25 " fill="none" id="Node1-Node2" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="15" x="119.5" y="22.8184">P1</text></g><!--MD5=[22a5d18a7d66c14122bb9e6b91b6d2f5]
 @startuml
-
+skinparam backgroundcolor transparent
 node Node1 
 node Node2
 
@@ -13,9 +13,9 @@ Node1 -r- - Node2: P1
 
 PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
 (GPL source distribution)
-Java Runtime: Java(TM) SE Runtime Environment
-JVM: Java HotSpot(TM) 64-Bit Server VM
-Default Encoding: Cp1252
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
 Language: en
-Country: US
+Country: CA
 --></g></svg>

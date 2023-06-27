@@ -17037,8 +17037,7 @@ html.dark-mode .highlight .sb {
 }
 
 html.dark-mode img[src*="/plant_uml/"] {
-  filter: invert(92%) sepia(4%) saturate(1273%) hue-rotate(294deg)
-    brightness(96%) contrast(89%);
+  filter: invert(92%) hue-rotate(180deg);
 }
 
 html.dark-mode .site-logo {

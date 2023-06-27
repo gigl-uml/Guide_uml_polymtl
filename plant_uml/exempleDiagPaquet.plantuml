@@ -1,5 +1,6 @@
 @startuml
 package "PolyAuto" {
+    skinparam backgroundcolor transparent
     skinparam classAttributeIconSize 0
     package "Utilisateurs" {
         hide circle

@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="68px" preserveAspectRatio="none" style="width:146px;height:68px;background:#FFFFFF;" version="1.1" viewBox="0 0 146 68" width="146px" zoomAndPan="magnify"><defs/><g><!--MD5=[770389ab9df153645bc6ef28055eb2b5]
-entity A--><g id="elem_A"><path d="M8.5,6 L49.5,6 A3.75,3.75 0 0 1 52,8.5 L59,27 L73.5,27 A2.5,2.5 0 0 1 76,29.5 L76,59.1094 A2.5,2.5 0 0 1 73.5,61.6094 L8.5,61.6094 A2.5,2.5 0 0 1 6,59.1094 L6,8.5 A2.5,2.5 0 0 1 8.5,6 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="6" x2="59" y1="27" y2="27"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="9" x="16" y="48.5332">A</text></g><!--MD5=[b2d39259b6aeabc16b394deeb0238426]
-entity B--><g id="elem_B"><rect fill="#F1F1F1" height="37.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="29" x="111.5" y="15"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="9" x="121.5" y="39.5332">B</text></g><!--MD5=[81500ff05264bba268bb228b65a49ed8]
-reverse link A to B--><g id="link_A_B"><path codeLine="8" d="M91.24,34 C97.9,34 104.56,34 111.21,34 " fill="none" id="A-backto-B" style="stroke:#181818;stroke-width:1.0;"/><ellipse cx="84.2" cy="34" fill="#FFFFFF" rx="8" ry="8" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="92.2" x2="76.2" y1="34" y2="34"/><line style="stroke:#181818;stroke-width:1.0;" x1="84.2" x2="84.2" y1="42" y2="26"/></g><!--MD5=[b3b238aa91ddae25dc6467082186a75f]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="67px" preserveAspectRatio="none" style="width:145px;height:67px;background:#00000000;" version="1.1" viewBox="0 0 145 67" width="145px" zoomAndPan="magnify"><defs/><g><!--MD5=[770389ab9df153645bc6ef28055eb2b5]
+entity A--><g id="elem_A"><path d="M8.5,6 L49.5,6 A3.75,3.75 0 0 1 52,8.5 L59,27 L73.5,27 A2.5,2.5 0 0 1 76,29.5 L76,57.9883 A2.5,2.5 0 0 1 73.5,60.4883 L8.5,60.4883 A2.5,2.5 0 0 1 6,57.9883 L6,8.5 A2.5,2.5 0 0 1 8.5,6 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="6" x2="59" y1="27" y2="27"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="10" x="16" y="47.5352">A</text></g><!--MD5=[b2d39259b6aeabc16b394deeb0238426]
+entity B--><g id="elem_B"><rect fill="#F1F1F1" height="36.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="28" x="111" y="15"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="8" x="121" y="38.5352">B</text></g><!--MD5=[81500ff05264bba268bb228b65a49ed8]
+reverse link A to B--><g id="link_A_B"><path codeLine="9" d="M92.18,33.25 C98.31,33.25 104.45,33.25 110.58,33.25 " fill="none" id="A-backto-B" style="stroke:#181818;stroke-width:1.0;"/><ellipse cx="85.44" cy="33.25" fill="none" rx="8" ry="8" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="93.44" x2="77.44" y1="33.25" y2="33.25"/><line style="stroke:#181818;stroke-width:1.0;" x1="85.44" x2="85.44" y1="41.25" y2="25.25"/></g><!--MD5=[db20c47ab5a46e4454f06c5d992ea95a]
 @startuml
+skinparam backgroundcolor transparent
 hide circle
 allow_mixing
 skinparam classAttributeIconSize 0
@@ -15,9 +16,9 @@ A +-r- B
 
 PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
 (GPL source distribution)
-Java Runtime: Java(TM) SE Runtime Environment
-JVM: Java HotSpot(TM) 64-Bit Server VM
-Default Encoding: Cp1252
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
 Language: en
-Country: US
+Country: CA
 --></g></svg>

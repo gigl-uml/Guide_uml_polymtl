@@ -1,5 +1,5 @@
 @startuml
-
+skinparam backgroundcolor transparent
 usecase UseCase1
 usecase UseCase2
 

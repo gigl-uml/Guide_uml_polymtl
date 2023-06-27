@@ -1,5 +1,5 @@
 @startuml
-
+skinparam backgroundcolor transparent
 skinparam linetype ortho
 
 node "DataBase Server" as DB {
