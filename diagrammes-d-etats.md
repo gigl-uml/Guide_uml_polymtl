@@ -28,12 +28,10 @@ Par exemple, une machine à café peut être dans l'état *Moudre les grains*, *
 
 
 ## Représentation
+Voici un exemple de diagramme d'états qui illustre le comportement d'un lave-vaisselle. Il y a 3 états: **Lavage**, **Rinçage** et **Séchage**:  
 
+![](/out/plant_uml/stateDiagRepresentation/stateDiagRepresentation.svg)
 
 
 ## Exemple
 
-Voici un exemple complet d'un **diagramme de cas d'utilisation** basé sur le cas d'étude [PolyAuto](../polyauto/).  
-Le cas d'utilisation choisis représente la réservation d'un véhicule par l'utilisateur.
-
-![](/out/plant_uml/useCaseGlobalExample/useCaseGlobalExample.svg)

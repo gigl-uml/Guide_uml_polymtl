@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="143px" preserveAspectRatio="none" style="width:354px;height:143px;background:#00000000;" version="1.1" viewBox="0 0 354 143" width="354px" zoomAndPan="magnify"><defs/><g><ellipse cx="16" cy="32" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="Lavage"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="67" x="61.5" y="7"/><line style="stroke:#181818;stroke-width:0.5;" x1="61.5" x2="128.5" y1="34.6094" y2="34.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="71.5" y="26.5332">Lavage</text></g><g id="Rinçage"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="72" x="164" y="7"/><line style="stroke:#181818;stroke-width:0.5;" x1="164" x2="236" y1="34.6094" y2="34.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="174" y="26.5332">Rinçage</text></g><ellipse cx="254" cy="127" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="254.5" cy="127.5" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><g id="Séchage"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="76" x="271" y="7"/><line style="stroke:#181818;stroke-width:0.5;" x1="271" x2="347" y1="34.6094" y2="34.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="281" y="26.5332">Séchage</text></g><!--MD5=[1fada9fe6ce4de04154abe7a0279fea5]
+link *start to Lavage--><g id="link_*start_Lavage"><path d="M26.18,32 C36.18,32 46.18,32 56.17,32 " fill="none" id="*start-to-Lavage" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="61.4,32,52.4,28,56.4,32,52.4,36,61.4,32" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[996d2ec6046c5fcdcf51683fb3fcac45]
+link Lavage to Rinçage--><g id="link_Lavage_Rinçage"><path d="M128.63,32 C138.6,32 148.57,32 158.54,32 " fill="none" id="Lavage-to-Rinçage" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="163.76,32,154.76,28,158.76,32,154.76,36,163.76,32" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[840d690e5b057cb711b9dbbfe8adea26]
+link Rinçage to *end--><g id="link_Rinçage_*end"><path d="M214.19,57.43 C224.63,75.42 238.41,99.14 246.71,113.45 " fill="none" id="Rinçage-to-*end" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="249.31,117.91,248.2484,108.1185,246.7986,113.5865,241.3307,112.1367,249.31,117.91" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9cd93810505b80648c068dd9f28a3127]
+link Rinçage to Séchage--><g id="link_Rinçage_Séchage"><path d="M236.19,32 C246.04,32 255.89,32 265.74,32 " fill="none" id="Rinçage-to-Séchage" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="270.89,32,261.89,28,265.89,32,261.89,36,270.89,32" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a83c9acaab70e283fe5bae986cb45c2e]
+link Séchage to *end--><g id="link_Séchage_*end"><path d="M294.55,57.43 C283.91,75.42 269.88,99.14 261.42,113.45 " fill="none" id="Séchage-to-*end" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="258.78,117.91,266.8042,112.1993,261.3251,113.6062,259.9181,108.1271,258.78,117.91" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5159d5b187b7d9c1f7ca3a772f56416b]
+@startuml
+skinparam backgroundcolor transparent
+[*] -> Lavage
+Lavage -> Rinçage
+Rinçage - -> [*]
+Rinçage -> Séchage
+Séchage - -> [*]
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: CA
+--></g></svg>
