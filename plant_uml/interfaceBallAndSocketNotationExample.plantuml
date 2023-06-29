@@ -1,4 +1,5 @@
 @startuml
+skinparam backgroundcolor transparent
 hide circle
 skinparam classAttributeIconSize 0
 class Array

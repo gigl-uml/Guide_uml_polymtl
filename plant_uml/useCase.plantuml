@@ -1,3 +1,4 @@
 @startuml
 "CU-1.0 Payer un article" as (Use)
+skinparam backgroundcolor transparent
 @enduml

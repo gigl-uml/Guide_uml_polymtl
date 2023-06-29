@@ -1,5 +1,5 @@
 @startuml
-
+skinparam backgroundcolor transparent
 component Component1
 component Component2
 circle Interface

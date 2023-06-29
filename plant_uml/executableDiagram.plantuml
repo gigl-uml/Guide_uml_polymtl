@@ -1,5 +1,5 @@
 @startuml
-
+skinparam backgroundcolor transparent
 rectangle "Executable 1" as ex1
 rectangle "Chemin.dll" as ex2
 

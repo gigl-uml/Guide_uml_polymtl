@@ -1,5 +1,6 @@
 @startuml
 left to right direction
+skinparam backgroundcolor transparent
 actor Client as g
 Package Employé {
   actor Chef as c

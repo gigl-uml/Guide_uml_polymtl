@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="135px" preserveAspectRatio="none" style="width:98px;height:135px;background:#FFFFFF;" version="1.1" viewBox="0 0 98 135" width="98px" zoomAndPan="magnify"><defs/><g><!--MD5=[41e1c6cf192918703501b24b2053926c]
-class Class--><g id="elem_Class"><rect codeLine="4" fill="#F1F1F1" height="114.0469" id="Class" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="77" x="7" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="28" y="26.5332">Class</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="83" y1="34.6094" y2="34.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="13" y="53.1426">attribute1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="13" y="70.752">attribute2</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="83" y1="77.8281" y2="77.8281"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="13" y="96.3613">method1()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="13" y="113.9707">method2()</text></g><!--MD5=[bc10d4a22486112fb95754d67b7b1581]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="129px" preserveAspectRatio="none" style="width:105px;height:129px;background:#00000000;" version="1.1" viewBox="0 0 105 129" width="105px" zoomAndPan="magnify"><defs/><g><!--MD5=[41e1c6cf192918703501b24b2053926c]
+class Class--><g id="elem_Class"><rect codeLine="5" fill="#F1F1F1" height="108.4414" id="Class" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="84" x="7" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="31" y="25.5352">Class</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="90" y1="33.4883" y2="33.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="13" y="51.0234">attribute1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="13" y="67.5117">attribute2</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="90" y1="74.4648" y2="74.4648"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="13" y="92">method1()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="13" y="108.4883">method2()</text></g><!--MD5=[749cbbef3d9e02c9273fdc09817427b9]
 @startuml
 hide circle
 skinparam classAttributeIconSize 0
+skinparam backgroundcolor transparent
 
 class Class {
     attribute1
@@ -14,9 +15,9 @@ class Class {
 
 PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
 (GPL source distribution)
-Java Runtime: Java(TM) SE Runtime Environment
-JVM: Java HotSpot(TM) 64-Bit Server VM
-Default Encoding: Cp1252
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
 Language: en
-Country: US
+Country: CA
 --></g></svg>

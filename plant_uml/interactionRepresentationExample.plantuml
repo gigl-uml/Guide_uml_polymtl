@@ -1,4 +1,5 @@
 @startuml
+skinparam backgroundcolor transparent
 hide footbox
 
 participant ":User" as user

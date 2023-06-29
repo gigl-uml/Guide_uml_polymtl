@@ -1,5 +1,5 @@
 @startuml
-
+skinparam backgroundcolor transparent
 [ClientUI]
 [ProductAPI] as Comp2
 component OrderService

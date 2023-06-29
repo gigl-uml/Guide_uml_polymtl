@@ -1,5 +1,6 @@
 @startuml
 hide circle
+skinparam backgroundcolor transparent
 skinparam classAttributeIconSize 0
 abstract class Véhicule <<abstract>> {
     

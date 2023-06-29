@@ -1,4 +1,5 @@
 @startuml
+skinparam backgroundcolor transparent
 rectangle A
 rectangle B
 

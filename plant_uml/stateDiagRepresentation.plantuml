@@ -1,0 +1,8 @@
+@startuml
+skinparam backgroundcolor transparent
+[*] -> Lavage
+Lavage -> Rinçage
+Rinçage --> [*]
+Rinçage -> Séchage
+Séchage --> [*]
+@enduml

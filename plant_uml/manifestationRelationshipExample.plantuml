@@ -1,5 +1,5 @@
 @startuml
-
+skinparam backgroundcolor transparent
 artifact Artifact
 component Component
 

@@ -1,3 +1,4 @@
 @startuml
+skinparam backgroundcolor transparent
 folder Name
 @enduml

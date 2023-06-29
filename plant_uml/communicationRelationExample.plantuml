@@ -1,5 +1,5 @@
 @startuml
-
+skinparam backgroundcolor transparent
 node Node1 
 node Node2
 
