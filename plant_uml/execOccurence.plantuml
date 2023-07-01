@@ -1,0 +1,17 @@
+@startuml
+skinparam backgroundcolor transparent
+hide footbox
+
+participant P1
+participant P2
+participant P3
+
+activate P1
+  activate P2
+    P1 --> P2: messageA
+    P1 <-- P2: messageB
+  deactivate P2
+  P1 --> P3: messageC
+deactivate P1
+
+@enduml
