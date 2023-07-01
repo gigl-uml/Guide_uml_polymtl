@@ -91,7 +91,7 @@ La **sélection** se fait à l'aide d'une note identifiée par le mot clé **<<s
 ## Stockage de données
 
 Un **nœud de stockage de données** effectue une copie de toutes les données qui le traversent. Si le même objet passe plusieurs fois par un **nœud de stockage de données**, la version précédente de l'objet sera remplacée.  
-On le représente comme un **nœud d'objet** avec le stéréotype **<<datastore>>**.
+On le représente comme un **nœud d'objet** avec le [stéréotypes](../ocl-stereotypes) **<<datastore>>**.
 
 Dans l'exemple ci-dessous, les nouveaux utilisateurs sont ajoutés à la base de données :
 
