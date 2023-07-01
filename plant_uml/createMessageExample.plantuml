@@ -5,7 +5,7 @@ hide footbox
 participant P1
 participant P2
 
-P1 -> P2: <<create>>
+P1 -[dotted]->> P2: <<create>>
 
 
 @enduml
