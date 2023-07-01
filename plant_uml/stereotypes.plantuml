@@ -1,0 +1,22 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+skinparam backgroundcolor transparent
+allowmixing
+class Color <<enum>> {
+    - red
+    - green
+    - blue
+}
+class Button <<UI element>> {
+    - width
+    - color
+    - click()
+}
+actor Supervisor <<admin>>
+Node Tablet <<device>>
+
+Color -[hidden]r- Button
+Button -[hidden]r- Supervisor
+Supervisor -[hidden]r- Tablet
+@enduml
