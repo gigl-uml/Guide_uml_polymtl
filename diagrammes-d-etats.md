@@ -39,3 +39,5 @@ Les diagrammes d'états sont en quelque sorte une représentation visuelle du [P
 Durant l'exécution, l'état de l'objet va varier et son comportement suivra les instructions d'un switch-case, par exemple.  
 
 ## Exemple
+
+![](/out/plant_uml/statePolyAuto/statePolyAuto.svg)
