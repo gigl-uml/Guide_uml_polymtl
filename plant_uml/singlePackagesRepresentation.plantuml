@@ -1,4 +1,4 @@
 @startuml
 skinparam backgroundcolor transparent
-folder Name
+folder Nom
 @enduml
