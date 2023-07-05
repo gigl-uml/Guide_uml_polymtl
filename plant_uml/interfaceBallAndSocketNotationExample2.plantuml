@@ -4,10 +4,10 @@ left to right direction
 hide circle
 skinparam classAttributeIconSize 0
 class Array
-class User
+class Utilisateur
 circle IList
 
-User --( IList
+Utilisateur --( IList
 IList -- Array
 @enduml
 

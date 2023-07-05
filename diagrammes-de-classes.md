@@ -53,9 +53,9 @@ Il existe 2 notations permettant de représenter des **attributs**:
 
 Il est important de faire la distinction entre une **opération** et une **méthode**. Une opération permet de représenter comment **déclencher** un comportement, tandis qu'une méthode montre l'implémentation de ce comportement. Voici quelques exemples d'opérations:
 
-- `- getFuelAmount(): float`
-- `+ setFuelAmount(quantity: int): void`
-- `# accelerate()`
+- `- getNiveauEssence(): float`
+- `+ setNiveauEssence(quantite: int): void`
+- `# accélérer()`
 
 _Notez bien que depuis la sortie de la norme UML 2.0, il n'est plus obligatoire de spécifier le type de retour d'une opération. Lorsque le type de retour n'est pas spécifié, on ne peut rien supposer quant au type de retour_
 
@@ -63,7 +63,7 @@ _Notez bien que depuis la sortie de la norme UML 2.0, il n'est plus obligatoire 
 
 Il est possible de créer des opérations qui appartiennent à la classe plutôt qu'à ses instances. Ces opérations dites "statiques" sont appelées directement sur la classe, il n'est donc pas nécéssaire de créer une instance pour pouvoir engendrer un certain comportement. Les opérations statiques doivent être soulignées:
 
-- <code style="text-decoration: underline;">+ kphToMph(kph: float): float</code>
+- <code style="text-decoration: underline;">+ kphVersMph(kph: float): float</code>
 
 ## Méthodes
 
@@ -73,7 +73,7 @@ Dans le diagramme de classes, on ne fait pas de distinctions entre méthodes et 
 ## Classes abstraites
 
 Une **classe abstraite** est une classe pouvant fournir des **opérations** comprenant **aucune implémentation**.  
-Les classes abstraites sont représentées par un nom en _italique_ ou sont identifiées par _<<abstract>>_.  
+Les classes abstraites sont représentées par un nom en _italique_ ou sont identifiées par le [stéréotype](../ocl-stereotypes/#stereotypes) _<<abstract>>_.  
 Toutes les opérations ne possédant pas d'implémentation sont elles aussi représentées en _italique_. Contrairement à une interface, une classe abstraite **peut contenir des méthodes**.
 
 ![](/out/plant_uml/abstractClassExample/abstractClassExample.svg)
@@ -100,11 +100,11 @@ Il existe 2 façons de représenter une interface:
 |                                                                                                          |                                      Notation Standard                                      |                                                                            Notation _ball-and-socket_ |
 | :------------------------------------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------: |
 | Dans cette exemple, la classe _Array_ implémente les interfaces _ICollection_, _IList_ et _IEnumerable_. |  ![](/out/plant_uml/interfaceStandardNotationExample/interfaceStandardNotationExample.svg)  |   ![](/out/plant_uml/interfaceBallAndSocketNotationExample/interfaceBallAndSocketNotationExample.svg) |
-| Si une classe _User_ veut utiliser l'implémentation de IList de la classe _Array_.                       | ![](/out/plant_uml/interfaceStandardNotationExample2/interfaceStandardNotationExample2.svg) | ![](/out/plant_uml/interfaceBallAndSocketNotationExample2/interfaceBallAndSocketNotationExample2.svg) |
+| Si une classe _Utilisateur_ veut utiliser l'implémentation de IList de la classe _Array_.                | ![](/out/plant_uml/interfaceStandardNotationExample2/interfaceStandardNotationExample2.svg) | ![](/out/plant_uml/interfaceBallAndSocketNotationExample2/interfaceBallAndSocketNotationExample2.svg) |
 
-## Templates
+## Modèles
 
-Une classe **template** - ou classe **générique** - fournit un moyen de créer des classes qui peuvent fonctionner avec différents types de données sans avoir à réécrire le code pour chaque type spécifique.  
+Un **modèle** de classe - ou classe **générique** - fournit un moyen de créer des classes qui peuvent fonctionner avec différents types de données sans avoir à réécrire le code pour chaque type spécifique.  
 En UML, on peut les représenter de cette manière :
 
 ![](/out/plant_uml/templateExample/templateExample.svg)

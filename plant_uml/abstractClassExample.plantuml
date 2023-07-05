@@ -2,18 +2,18 @@
 hide circle
 skinparam classAttributeIconSize 0
 skinparam backgroundcolor transparent
-abstract class ChessPiece <<abstract>> {
-    +isWhite: bool
-    +void {abstract} move(Square moveTo)
-    -void capture(ChessPiece captured)
+abstract class Pièce <<abstract>> {
+    +estBlanche: bool
+    +void {abstract} déplacer(Vector destination)
+    -void capturer(Pièce capturée)
 }
-class Knight {
-    +void move(Square moveTo)
+class Cavalier {
+    +void déplacer(Vector destination)
 }
-class Queen {
-    +void move(Square moveTo)
+class Dame {
+    +void déplacer(Vector destination)
 }
 
-ChessPiece <|-- Knight
-ChessPiece <|-- Queen
+Pièce <|-- Cavalier
+Pièce <|-- Dame
 @enduml

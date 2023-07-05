@@ -1,27 +1,27 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="239px" preserveAspectRatio="none" style="width:469px;height:239px;background:#00000000;" version="1.1" viewBox="0 0 469 239" width="469px" zoomAndPan="magnify"><defs/><g><!--MD5=[86f1693443f5bec12afcd9aa3eb277d9]
-class ChessPiece--><g id="elem_ChessPiece"><rect codeLine="4" fill="#F1F1F1" height="106.0859" id="ChessPiece" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="256" x="106" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="59" x="204.5" y="23.6016">«abstract»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="76" x="196" y="39.668">ChessPiece</text><line style="stroke:#181818;stroke-width:0.5;" x1="107" x2="361" y1="47.6211" y2="47.6211"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="112" y="65.1563">+isWhite: bool</text><line style="stroke:#181818;stroke-width:0.5;" x1="107" x2="361" y1="72.1094" y2="72.1094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="198" x="112" y="89.6445">+void move(Square moveTo)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="244" x="112" y="106.1328">-void capture(ChessPiece captured)</text></g><!--MD5=[f12c1f668f765232aff110b8f6a6681d]
-class Knight--><g id="elem_Knight"><rect codeLine="9" fill="#F1F1F1" height="58.9766" id="Knight" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="210" x="7" y="173.08"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="89.5" y="191.6152">Knight</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="216" y1="199.5683" y2="199.5683"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="216" y1="207.5683" y2="207.5683"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="198" x="13" y="225.1034">+void move(Square moveTo)</text></g><!--MD5=[b5524c1f1cf4f7aeecdc9b5af5b05d87]
-class Queen--><g id="elem_Queen"><rect codeLine="12" fill="#F1F1F1" height="58.9766" id="Queen" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="210" x="252" y="173.08"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="334.5" y="191.6152">Queen</text><line style="stroke:#181818;stroke-width:0.5;" x1="253" x2="461" y1="199.5683" y2="199.5683"/><line style="stroke:#181818;stroke-width:0.5;" x1="253" x2="461" y1="207.5683" y2="207.5683"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="198" x="258" y="225.1034">+void move(Square moveTo)</text></g><!--MD5=[5d4b1102a62472437697011858acdefa]
-reverse link ChessPiece to Knight--><g id="link_ChessPiece_Knight"><path codeLine="16" d="M175.22,128.75 C161.72,144.3 148.07,160.02 136.93,172.85 " fill="none" id="ChessPiece-backto-Knight" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="170.17,124.88,188.57,114.37,180.75,134.06,170.17,124.88" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2a92b4d4c022e41d3eb8c4daa7dc3c49]
-reverse link ChessPiece to Queen--><g id="link_ChessPiece_Queen"><path codeLine="17" d="M293.26,128.75 C306.87,144.3 320.63,160.02 331.86,172.85 " fill="none" id="ChessPiece-backto-Queen" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="287.71,134.03,279.8,114.37,298.24,124.81,287.71,134.03" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3d95f6981a04dc868e6c92ec4c5046fa]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="239px" preserveAspectRatio="none" style="width:549px;height:239px;background:#00000000;" version="1.1" viewBox="0 0 549 239" width="549px" zoomAndPan="magnify"><defs/><g><!--MD5=[f7e5c3fabfec098ddbb61e2b2a6d50ff]
+class Pièce--><g id="elem_Pièce"><rect codeLine="4" fill="#F1F1F1" height="106.0859" id="Pièce" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="250" x="149" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="59" x="244.5" y="23.6016">«abstract»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="35" x="256.5" y="39.668">Pièce</text><line style="stroke:#181818;stroke-width:0.5;" x1="150" x2="398" y1="47.6211" y2="47.6211"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="155" y="65.1563">+estBlanche: bool</text><line style="stroke:#181818;stroke-width:0.5;" x1="150" x2="398" y1="72.1094" y2="72.1094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="238" x="155" y="89.6445">+void déplacer(Vector destination)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="155" y="106.1328">-void capturer(Pièce capturée)</text></g><!--MD5=[329a05770519449590357406b06106bb]
+class Cavalier--><g id="elem_Cavalier"><rect codeLine="9" fill="#F1F1F1" height="58.9766" id="Cavalier" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="250" x="7" y="173.08"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="104.5" y="191.6152">Cavalier</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="256" y1="199.5683" y2="199.5683"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="256" y1="207.5683" y2="207.5683"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="238" x="13" y="225.1034">+void déplacer(Vector destination)</text></g><!--MD5=[82ffe367b556fb92ea56c305083e3145]
+class Dame--><g id="elem_Dame"><rect codeLine="12" fill="#F1F1F1" height="58.9766" id="Dame" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="250" x="292" y="173.08"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="397.5" y="191.6152">Dame</text><line style="stroke:#181818;stroke-width:0.5;" x1="293" x2="541" y1="199.5683" y2="199.5683"/><line style="stroke:#181818;stroke-width:0.5;" x1="293" x2="541" y1="207.5683" y2="207.5683"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="238" x="298" y="225.1034">+void déplacer(Vector destination)</text></g><!--MD5=[22d5e62bb0587d2543bb7ee90001895d]
+reverse link Pièce to Cavalier--><g id="link_Pièce_Cavalier"><path codeLine="16" d="M206.56,127.78 C190.53,143.65 174.26,159.75 161.02,172.85 " fill="none" id="Pièce-backto-Cavalier" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="200.98,123.46,220.12,114.37,210.83,133.41,200.98,123.46" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3b1b2dc684c2670aea1b96443ad06a6a]
+reverse link Pièce to Dame--><g id="link_Pièce_Dame"><path codeLine="17" d="M341.91,127.78 C358.06,143.65 374.45,159.75 387.78,172.85 " fill="none" id="Pièce-backto-Dame" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="337.61,133.38,328.25,114.37,347.42,123.39,337.61,133.38" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cb444e9ae977e0842cb754bfbb66558b]
 @startuml
 hide circle
 skinparam classAttributeIconSize 0
 skinparam backgroundcolor transparent
-abstract class ChessPiece <<abstract>> {
-    +isWhite: bool
-    +void {abstract} move(Square moveTo)
-    -void capture(ChessPiece captured)
+abstract class Pièce <<abstract>> {
+    +estBlanche: bool
+    +void {abstract} déplacer(Vector destination)
+    -void capturer(Pièce capturée)
 }
-class Knight {
-    +void move(Square moveTo)
+class Cavalier {
+    +void déplacer(Vector destination)
 }
-class Queen {
-    +void move(Square moveTo)
+class Dame {
+    +void déplacer(Vector destination)
 }
 
-ChessPiece <|- - Knight
-ChessPiece <|- - Queen
+Pièce <|- - Cavalier
+Pièce <|- - Dame
 @enduml
 
 PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
