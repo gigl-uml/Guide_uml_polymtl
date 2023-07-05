@@ -1,6 +1,6 @@
 @startuml
 skinparam backgroundcolor transparent
-rectangle "Executable 1" as ex1
+rectangle "Exécutable 1" as ex1
 rectangle "Chemin.dll" as ex2
 
 interface "Driver" as iface1

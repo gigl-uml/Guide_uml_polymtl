@@ -25,9 +25,9 @@ Une composante est **l'implémentation physique** de classes ou de paquetages.
 Les noms de composantes sont des noms tirés de **l'implémentation** du système. Par exemple, pour le diagramme ci-haut, on aurait pu avoir les [stéréotypes](../ocl-stereotypes/#stereotypes) suivants:
 
 - ClientUI.dll (librairie)
-- ProductAPI.exe (exécutable)
-- OrderService.csv (document)
-- PaymentService.py (fichier)
+- ProduitsAPI.exe (exécutable)
+- CommandeService.csv (document)
+- PaiementService.py (fichier)
 
 ## Relations
 
@@ -57,17 +57,9 @@ Pour représenter les composantes, il existe 2 vues
 
 Puisque les composantes représentent souvent des "morceaux" importants du système, il faut aussi savoir comment modéliser ces morceaux. Voici 3 exemples de modélisation architecturale:
 
-### Modélisation de code source
-
-![](/out/plant_uml/codeSourceModel/codeSourceModel.svg)
-
-### Modélisation d'exécutable
-
-![](/out/plant_uml/executableDiagram/executableDiagram.svg)
-
-### Modélisation de base de données
-
-![](/out/plant_uml/databaseRepresentation/databaseRepresentation.svg)
+|                       Code source                       |                         Exécutable                          |                            Base de données                            |
+| :-----------------------------------------------------: | :---------------------------------------------------------: | :-------------------------------------------------------------------: |
+| ![](/out/plant_uml/codeSourceModel/codeSourceModel.svg) | ![](/out/plant_uml/executableDiagram/executableDiagram.svg) | ![](/out/plant_uml/databaseRepresentation/databaseRepresentation.svg) |
 
 ## Exemple
 

@@ -1,10 +1,10 @@
 @startuml
 skinparam backgroundcolor transparent
 [ClientUI]
-[ProductAPI] as Comp2
-component OrderService
-component [PaymentService] as Comp4
+[ProduitsService] as Comp2
+component CommandeService
+component [PaiementService] as Comp4
 ClientUI .> Comp2
-Comp2 ..> OrderService
+Comp2 ..> CommandeService
 Comp2 ..> Comp4
 @enduml

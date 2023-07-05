@@ -2,10 +2,10 @@
 hide circle
 skinparam backgroundcolor transparent
 
-component Component1
-component Component2
+component Composant1
+component Composant2
 rectangle Interface <<Interface>>
 
-Interface <-[dotted]l- Component1
-Interface <|-[dotted]- Component2
+Interface <-[dotted]l- Composant1
+Interface <|-[dotted]- Composant2
 @enduml
