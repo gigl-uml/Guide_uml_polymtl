@@ -66,6 +66,6 @@ Un opérateur d'interaction est un élément utilisé dans les diagrammes de sé
 
 ## Exemple
 
-Voici un exemple complet d'un **diagramme de cas d'interaction** basé sur le cas d'étude [PolyAuto](../polyauto/).  
+Voici un exemple d'un **diagramme d'interaction** basé sur le cas d'étude [PolyAuto](../polyauto/).  
 
 ![](/out/plant_uml/custom/interactionGlobalExample.svg)
