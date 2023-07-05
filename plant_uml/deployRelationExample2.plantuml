@@ -1,7 +1,7 @@
 @startuml
 skinparam backgroundcolor transparent
-node Node {
-    artifact Artifact
+node Nœud {
+    artifact Artéfact
 }
 
 @enduml
