@@ -8614,11 +8614,18 @@ html.dark-mode .site-title {
   }
 }
 
+.site-button {
+  border: none;
+  background-color: transparent;
+}
+
 html.dark-mode .site-button {
   display: flex;
   height: 100%;
   padding: 1rem;
   align-items: center;
+  border: none;
+  background-color: transparent;
 }
 
 @media (min-width: 50rem) {
@@ -8630,19 +8637,15 @@ html.dark-mode .site-button {
 html.dark-mode .site-title:hover {
   background-image: linear-gradient(
     -90deg,
-    #a8a8a80d 0%,
+    #b7b7b70d 0%,
     rgb(255 255 255 / 2%) 80%,
     rgba(32, 31, 35, 0) 100%
   );
 }
 
 html.dark-mode .site-button:hover {
-  background-image: linear-gradient(
-    -90deg,
-    #a8a8a80d 0%,
-    rgb(255 255 255 / 2%) 80%,
-    rgba(32, 31, 35, 0) 100%
-  );
+  background-color: #a8a8a80d;
+  background-image: none;
 }
 
 html.dark-mode body {
@@ -9050,11 +9053,8 @@ html.dark-mode .nav-list .nav-list-item .nav-list-expander {
 }
 
 html.dark-mode .nav-list .nav-list-item .nav-list-expander:hover {
-  background-image: linear-gradient(
-    -90deg,
-    #a8a8a80d 0%,
-    rgba(255 255 255 / 2%, 0.8) 100%
-  );
+  background-color: #a8a8a80d;
+  background-image: none;
 }
 
 html.dark-mode .nav-list .nav-list-item .nav-list-expander svg {
