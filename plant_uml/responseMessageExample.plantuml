@@ -6,9 +6,9 @@ participant P1
 participant P2
 
 
-P1 -> P2: request
+P1 -> P2: requête
 activate P2
-P2 -->> P1: response
+P2 -->> P1: réponse
 deactivate P1
 
 @enduml
