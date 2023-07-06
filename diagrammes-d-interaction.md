@@ -41,8 +41,8 @@ Les messages sont des flèches représentant des communications entre participan
 | Message de Réponse | ![](/out/plant_uml/responseMessageExample/responseMessageExample.svg) | Représenté à l'aide d'une flèche pointillée et d'une pointe ouverte.|
 | Message de création | ![](/out/plant_uml/createMessageExample/createMessageExample.svg) | Représenté à l'aide d'une flèche pointillée et d'une pointe ouverte et d'une fonction de création ou de l'étiquette <<create>>. |
 | Message de destruction | ![](/out/plant_uml/destroyMessageExample/destroyMessageExample.svg) | Représenté à l'aide d'une pointe pleine et d'une fonction de destruction ou de l'étiquette <<destroy>>. On utilise une croix pour montré le moment où l'objet sera détruit. |
-| Message perdu | ![](/out/plant_uml/custom/lostMessageExample.svg) | Représenté à l'aide d'une flèche partant d'un cercle plein. Montre que le participant P1 a reçu un message dont la provenance est inconnue ou pas importante dans la séquence. |
-| Message trouvé | ![](/out/plant_uml/custom/foundMessageExample.svg) | Représenté à l'aide d'une flèche pointant vers un cercle plein. Montre que le participant P1 envoie un message dont la destination est inconnue ou pas importante dans la séquence. |
+| Message perdu | ![](/out/plant_uml/custom/lostMessageExample.svg) | Représenté à l'aide d'une flèche pointant vers un cercle plein. Montre que le participant P1 envoie un message dont la destination est inconnue ou pas importante dans la séquence. |
+| Message trouvé | ![](/out/plant_uml/custom/foundMessageExample.svg) | Représenté à l'aide d'une flèche partant d'un cercle plein. Montre que le participant P1 a reçu un message dont la provenance est inconnue ou pas importante dans la séquence. |
 
 ## Occurrence d'exécution
 
@@ -71,6 +71,6 @@ Un opérateur d'interaction est un élément utilisé dans les diagrammes de sé
 
 ## Exemple
 
-Voici un exemple complet d'un **diagramme de cas d'interaction** basé sur le cas d'étude [PolyAuto](../polyauto/).
+Voici un exemple d'un **diagramme d'interaction** basé sur le cas d'étude [PolyAuto](../polyauto/).
 
 ![](/out/plant_uml/custom/interactionGlobalExample.svg)
