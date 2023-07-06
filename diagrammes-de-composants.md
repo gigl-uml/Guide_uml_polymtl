@@ -22,7 +22,7 @@ Une composante est **l'implémentation physique** de classes ou de paquetages.
 
 ![](/out/plant_uml/représentationComponentDiagram/représentationComponentDiagram.svg)
 
-Les noms de composantes sont des noms tirés de **l'implémentation** du système. Par exemple, pour le diagramme ci-haut, on aurait pu avoir les [stéréotypes](../ocl-stereotypes/#stereotypes) suivants:
+Les noms de composantes sont des noms tirés de **l'implémentation** du système. Par exemple, pour le diagramme ci-haut, on aurait pu avoir :
 
 - ClientUI.dll (librairie)
 - ProduitsAPI.exe (exécutable)

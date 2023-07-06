@@ -73,7 +73,7 @@ Dans le diagramme de classes, on ne fait pas de distinctions entre méthodes et 
 ## Classes abstraites
 
 Une **classe abstraite** est une classe pouvant fournir des **opérations** comprenant **aucune implémentation**.  
-Les classes abstraites sont représentées par un nom en _italique_ ou sont identifiées par le [stéréotype](../ocl-stereotypes/#stereotypes) _<<abstract>>_.  
+Les classes abstraites sont représentées par un nom en _italique_ ou sont identifiées par le classificateur _<<abstract>>_.  
 Toutes les opérations ne possédant pas d'implémentation sont elles aussi représentées en _italique_. Contrairement à une interface, une classe abstraite **peut contenir des méthodes**.
 
 ![](/out/plant_uml/abstractClassExample/abstractClassExample.svg)
