@@ -15,7 +15,7 @@ Un type spécifique de diagramme d'interaction est le **diagramme de séquence**
 ## Représentation
 
 Un diagramme de séquence doit montrer des messages échangés par des participants lors de la réalisation d'un scénario.
-L'exemple suivant représente les **messages échangés**, lors d'une **requête HTTP** (scénario), entre le **participant *Browser*** et le **participant *Server***.
+L'exemple suivant représente les **messages échangés**, lors d'une **requête HTTP** (scénario), entre le **participant navigateur** et le **participant Serveur**.
 
 ![](/out/plant_uml/custom/interactionRepresentationExample.svg)
 
@@ -38,8 +38,8 @@ Les messages sont des flèches représentant des communications entre participan
 | Message de Réponse | ![](/out/plant_uml/responseMessageExample/responseMessageExample.svg) | Représenté à l'aide d'une flèche pointillée et d'une pointe ouverte.|
 | Message de création | ![](/out/plant_uml/createMessageExample/createMessageExample.svg) | Représenté à l'aide d'une flèche pointillée et d'une pointe ouverte et d'une fonction de création ou de l'étiquette <<create>>. |
 | Message de destruction | ![](/out/plant_uml/destroyMessageExample/destroyMessageExample.svg) | Représenté à l'aide d'une pointe pleine et d'une fonction de destruction ou de l'étiquette <<destroy>>. On utilise une croix pour montré le moment où l'objet sera détruit. |
-| Message perdu | ![](/out/plant_uml/custom/lostMessageExample.svg) | Représenté à l'aide d'une flèche partant d'un cercle plein. Montre que le participant P1 a reçu un message dont la provenance est inconnue ou pas importante dans la séquence. |
-| Message trouvé | ![](/out/plant_uml/custom/foundMessageExample.svg) | Représenté à l'aide d'une flèche pointant vers un cercle plein. Montre que le participant P1 envoie un message dont la destination est inconnue ou pas importante dans la séquence. |
+| Message perdu | ![](/out/plant_uml/custom/lostMessageExample.svg) | Représenté à l'aide d'une flèche pointant vers un cercle plein. Montre que le participant P1 envoie un message dont la destination est inconnue ou pas importante dans la séquence. |
+| Message trouvé | ![](/out/plant_uml/custom/foundMessageExample.svg) | Représenté à l'aide d'une flèche partant d'un cercle plein. Montre que le participant P1 a reçu un message dont la provenance est inconnue ou pas importante dans la séquence. |
 
 ## Occurrence d'exécution 
 Il est possible de représenter le temps de traitement ou l'attente d'un message par un participant à l'aide d'une occurrence d'exécution. Celles-ci sont illustrées par un rectangle vertical sur la ligne de vie.
