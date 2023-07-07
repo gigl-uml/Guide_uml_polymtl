@@ -1,19 +1,19 @@
 @startuml
 skinparam backgroundcolor transparent
-actor GenericActor
-actor Actor1
-actor Actor2
+actor ActeurGénérique
+actor Acteur1
+actor Acteur2
 
-usecase GenericUseCase
-usecase UseCase1
-usecase UseCase2
+usecase CasGénérique
+usecase CasUtilisation1
+usecase CasUtilisation2
 
 
-GenericActor -r-- GenericUseCase
-Actor1 -r-- UseCase1
-Actor2 -r-- UseCase2
+ActeurGénérique -r-- CasGénérique
+Acteur1 -r-- CasUtilisation1
+Acteur2 -r-- CasUtilisation2
 
-Actor1 --|> GenericActor
-Actor2 -u-|> GenericActor
+Acteur1 --|> ActeurGénérique
+Acteur2 -u-|> ActeurGénérique
 
 @enduml

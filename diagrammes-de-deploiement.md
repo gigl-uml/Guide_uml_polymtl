@@ -28,7 +28,7 @@ On peut distinguer deux types de nœuds particuliers :
 - Les nœuds _appareils_
 - Les nœuds _environnements d'exécution_
 
-Les nœuds d'appareils, dénotés par le [stéréotypes](../ocl-stereotypes/#stereotypes) **<<device>>**, représentent une **ressource informatique physique** capable d'effectuer des calculs.  
+Les nœuds d'appareils, dénotés par le classificateur **<<device>>**, représentent une **ressource informatique physique** capable d'effectuer des calculs.  
 Les nœuds d'environnements d'exécution représentent **un environnement dans lequel le logiciel va s'exécuter**. Par exemple, les applications Java s'exécutent dans la machine virtuelle Java (JVM). La JVM est considérée comme un environnement d'exécution pour les applications Java, et le nœud correspondant serait dénoté par le [stéréotypes](../ocl-stereotypes) <<JVM>>.
 
 ## Représentation

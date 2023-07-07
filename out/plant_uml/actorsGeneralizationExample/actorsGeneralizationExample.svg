@@ -1,29 +1,29 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="360px" preserveAspectRatio="none" style="width:289px;height:360px;background:#00000000;" version="1.1" viewBox="0 0 289 360" width="289px" zoomAndPan="magnify"><defs/><g><!--MD5=[738138b80a6efb4ef6b9c97305d9abca]
-entity GenericActor--><g id="elem_GenericActor"><ellipse cx="50.5" cy="150.48" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M50.5,158.48 L50.5,185.48 M37.5,166.48 L63.5,166.48 M50.5,185.48 L37.5,200.48 M50.5,185.48 L63.5,200.48 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="6" y="215.5152">GenericActor</text></g><!--MD5=[0e3d34a6fad928887da125984832494a]
-entity Actor1--><g id="elem_Actor1"><ellipse cx="50.5" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M50.5,22 L50.5,49 M37.5,30 L63.5,30 M50.5,49 L37.5,64 M50.5,49 L63.5,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="27.5" y="79.0352">Actor1</text></g><!--MD5=[fae669f50678bcf5ef333b5d18fedf4b]
-entity Actor2--><g id="elem_Actor2"><ellipse cx="50.5" cy="286.97" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M50.5,294.97 L50.5,321.97 M37.5,302.97 L63.5,302.97 M50.5,321.97 L37.5,336.97 M50.5,321.97 L63.5,336.97 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="27.5" y="352.0052">Actor2</text></g><g id="elem_GenericUseCase"><ellipse cx="206.5016" cy="180.2343" fill="#F1F1F1" rx="76.6216" ry="17.7243" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="151.5016" y="183.5253">GenericUseCase</text></g><g id="elem_UseCase1"><ellipse cx="167.4982" cy="43.7389" fill="#F1F1F1" rx="59.3882" ry="14.7689" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="130.9982" y="47.7565">UseCase1</text></g><g id="elem_UseCase2"><ellipse cx="167.4982" cy="316.7189" fill="#F1F1F1" rx="59.3882" ry="14.7689" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="130.9982" y="320.7365">UseCase2</text></g><!--MD5=[746e72dafecfef9bb4946ca20719b414]
-link GenericActor to GenericUseCase--><g id="link_GenericActor_GenericUseCase"><path d="M95.29,180.23 C106.73,180.23 118.17,180.23 129.61,180.23 " fill="none" id="GenericActor-GenericUseCase" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[27b44a8930ee89d85ce8978f4643c391]
-link Actor1 to UseCase1--><g id="link_Actor1_UseCase1"><path d="M73.81,43.74 C85.15,43.74 96.5,43.74 107.84,43.74 " fill="none" id="Actor1-UseCase1" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d787e25009ff7523741431f4b41589f4]
-link Actor2 to UseCase2--><g id="link_Actor2_UseCase2"><path d="M73.81,316.72 C85.15,316.72 96.5,316.72 107.84,316.72 " fill="none" id="Actor2-UseCase2" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7c0afed5bd30818ec4909bdddaf0ee1b]
-link Actor1 to GenericActor--><g id="link_Actor1_GenericActor"><path d="M50.5,82.2 C50.5,94.2 50.5,107.78 50.5,120.89 " fill="none" id="Actor1-to-GenericActor" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="57.5,120.5,50.5,140.5,43.5,120.5,57.5,120.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6bb13528889c231bf529ad1871e3c896]
-reverse link GenericActor to Actor2--><g id="link_GenericActor_Actor2"><path d="M50.5,239.27 C50.5,252.38 50.5,265.97 50.5,277.99 " fill="none" id="GenericActor-backto-Actor2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="43.5,239.69,50.5,219.69,57.5,239.69,43.5,239.69" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8b7a3217998d6d5467316dbf0fa8e3e7]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="360px" preserveAspectRatio="none" style="width:304px;height:360px;background:#00000000;" version="1.1" viewBox="0 0 304 360" width="304px" zoomAndPan="magnify"><defs/><g><!--MD5=[64d2dc688f50b02596c89fda81488a6e]
+entity ActeurGénérique--><g id="elem_ActeurGénérique"><ellipse cx="64" cy="150.48" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M64,158.48 L64,185.48 M51,166.48 L77,166.48 M64,185.48 L51,200.48 M64,185.48 L77,200.48 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="6" y="215.5152">ActeurGénérique</text></g><!--MD5=[8141fecd1b985a8d4069be4a450d8868]
+entity Acteur1--><g id="elem_Acteur1"><ellipse cx="64" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M64,22 L64,49 M51,30 L77,30 M64,49 L51,64 M64,49 L77,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="37" y="79.0352">Acteur1</text></g><!--MD5=[d2551ac50f1145c60ea4405d0c0b3310]
+entity Acteur2--><g id="elem_Acteur2"><ellipse cx="64" cy="286.97" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M64,294.97 L64,321.97 M51,302.97 L77,302.97 M64,321.97 L51,336.97 M64,321.97 L77,336.97 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="37" y="352.0052">Acteur2</text></g><g id="elem_CasGénérique"><ellipse cx="227.9977" cy="180.2335" fill="#F1F1F1" rx="70.9677" ry="16.5935" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="178.716" y="183.8604">CasGénérique</text></g><g id="elem_CasUtilisation1"><ellipse cx="199.9988" cy="43.7398" fill="#F1F1F1" rx="73.7488" ry="17.1498" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="148.4988" y="47.0308">CasUtilisation1</text></g><g id="elem_CasUtilisation2"><ellipse cx="199.9988" cy="316.7198" fill="#F1F1F1" rx="73.7488" ry="17.1498" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="148.4988" y="320.0108">CasUtilisation2</text></g><!--MD5=[33afeafa493c8ea6ea9ef12b097d0d6e]
+link ActeurGénérique to CasGénérique--><g id="link_ActeurGénérique_CasGénérique"><path d="M122.3,180.23 C133.72,180.23 145.14,180.23 156.57,180.23 " fill="none" id="ActeurGénérique-CasGénérique" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[efa7149ec84ef92bf63e219ddcfa80a0]
+link Acteur1 to CasUtilisation1--><g id="link_Acteur1_CasUtilisation1"><path d="M91.36,43.74 C102.96,43.74 114.56,43.74 126.16,43.74 " fill="none" id="Acteur1-CasUtilisation1" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c06181f1415a7c0f54788f82071bc67a]
+link Acteur2 to CasUtilisation2--><g id="link_Acteur2_CasUtilisation2"><path d="M91.36,316.72 C102.96,316.72 114.56,316.72 126.16,316.72 " fill="none" id="Acteur2-CasUtilisation2" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[00d9d36e08015ea1ec50dafc86dce038]
+link Acteur1 to ActeurGénérique--><g id="link_Acteur1_ActeurGénérique"><path d="M64,82.2 C64,94.2 64,107.78 64,120.89 " fill="none" id="Acteur1-to-ActeurGénérique" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="71,120.5,64,140.5,57,120.5,71,120.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e1d4895f027efaa85ad9b7f4443ca501]
+reverse link ActeurGénérique to Acteur2--><g id="link_ActeurGénérique_Acteur2"><path d="M64,239.27 C64,252.38 64,265.97 64,277.99 " fill="none" id="ActeurGénérique-backto-Acteur2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="57,239.69,64,219.69,71,239.69,57,239.69" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8e55ab1f4a376dbfea9175d7b5f67ccf]
 @startuml
 skinparam backgroundcolor transparent
-actor GenericActor
-actor Actor1
-actor Actor2
+actor ActeurGénérique
+actor Acteur1
+actor Acteur2
 
-usecase GenericUseCase
-usecase UseCase1
-usecase UseCase2
+usecase CasGénérique
+usecase CasUtilisation1
+usecase CasUtilisation2
 
 
-GenericActor -r- - GenericUseCase
-Actor1 -r- - UseCase1
-Actor2 -r- - UseCase2
+ActeurGénérique -r- - CasGénérique
+Acteur1 -r- - CasUtilisation1
+Acteur2 -r- - CasUtilisation2
 
-Actor1 - -|> GenericActor
-Actor2 -u-|> GenericActor
+Acteur1 - -|> ActeurGénérique
+Acteur2 -u-|> ActeurGénérique
 
 @enduml
 

@@ -1,0 +1,16 @@
+@startuml
+
+skinparam backgroundcolor transparent
+
+[*] --> NonEnregistré
+
+NonEnregistré -> Enregistré : Inscription
+Enregistré -> Disponible : Connexion
+
+Disponible --> Réservé : Réserver
+Réservé --> EnCours : Déverrouiller
+EnCours --> Disponible : Retourner
+Réservé --> Disponible : Annuler
+EnCours --> Disponible : Terminer
+
+@enduml

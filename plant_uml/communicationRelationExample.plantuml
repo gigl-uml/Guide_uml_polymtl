@@ -1,8 +1,8 @@
 @startuml
 skinparam backgroundcolor transparent
-node Node1 
-node Node2
+node Nœud1 
+node Nœud2
 
-Node1 -r-- Node2: P1
+Nœud1 -r-- Nœud2: P1
 
 @enduml

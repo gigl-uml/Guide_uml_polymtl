@@ -1,8 +1,8 @@
 @startuml
 hide circle
 skinparam backgroundcolor transparent
-package "Web Shopping" {
-  rectangle "+ Inventory"
-  rectangle "- Shopping Cart"
+package "Magasinage en ligne" {
+  rectangle "+ Inventaire"
+  rectangle "- Panier "
 }
 @enduml

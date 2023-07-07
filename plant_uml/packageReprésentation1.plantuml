@@ -1,9 +1,9 @@
 @startuml
 hide circle
 skinparam backgroundcolor transparent
-package Package {
-  rectangle ClassA
-  rectangle ClassB
+package Paquetage {
+  rectangle ClasseA
+  rectangle ClasseB
 }
 
 @enduml

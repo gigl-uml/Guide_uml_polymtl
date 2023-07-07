@@ -3,10 +3,10 @@ hide circle
 skinparam backgroundcolor transparent
 class IList <<Interface>> 
 class Array
-class User 
+class Utilisateur 
 
 
 Array -u[dotted]-|> IList
-IList <-r[dotted]- User
+IList <-r[dotted]- Utilisateur
 
 @enduml

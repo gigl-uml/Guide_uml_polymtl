@@ -1,8 +1,8 @@
 @startuml
 skinparam backgroundcolor transparent
-artifact Artifact
-component Component
+artifact Artéfact
+component Composant
 
-Artifact -[dotted]r-> Component : <<manifest>>
+Artéfact -[dotted]r-> Composant : <<manifest>>
 
 @enduml

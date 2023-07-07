@@ -3,13 +3,13 @@ skinparam backgroundcolor transparent
 hide circle
 skinparam classAttributeIconSize 0
 
-class Car {
-  - engine: Engine
-  - wheels: Wheel[4]
-  - passengers: Passenger[1..5]
-  + start()
-  + stop()
-  + accelerate(speed: double)
-  + brake()
+class Voiture {
+  - moteur: Moteur
+  - roues: roue[4]
+  - passagers: Passager[1..5]
+  + démarrer()
+  + arreter()
+  + accélérer(float vitesse)
+  + freiner()
 }
 @enduml

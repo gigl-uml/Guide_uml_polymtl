@@ -4,10 +4,10 @@ skinparam backgroundcolor transparent
 allow_mixing
 skinparam classAttributeIconSize 0
 
-folder PayrollSystem
-folder EmployeeTimeSheet
+folder SystèmeDePaie
+folder HoraireEmployé
 
-PayrollSystem.>EmployeeTimeSheet:<<import>>
+SystèmeDePaie.>HoraireEmployé:<<import>>
 
 
 @enduml

@@ -25,17 +25,17 @@ class Usager {
     + fournirPreuveAssurance() : void
 }
 class PermisConduire {
-    - numeroPermis : string
+    - numéroPermis : string
     - paysEmetteur : string
 }
 class Assurance {
-    - numeroAssurance : string
+    - numéroAssurance : string
 }
 
 class Réserver {
     - véhicule : Véhicule
     - usager : Usager
-    - dateDebut : Date
+    - dateDébut : Date
     - dateFin : Date
 }
 
