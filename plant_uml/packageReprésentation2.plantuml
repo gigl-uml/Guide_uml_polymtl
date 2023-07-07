@@ -4,16 +4,16 @@ skinparam backgroundcolor transparent
 allow_mixing
 skinparam classAttributeIconSize 0
 
-folder Package
+folder Paquetage
 
-class ClassA{
-    ~attribute1
+class ClasseA{
+    ~attribut
 }
 
-class ClassB{
-    method1()
+class ClasseB{
+    méthode()
 }
 
-ClassA -u-+ Package
-ClassB -u-+ Package
+ClasseA -u-+ Paquetage
+ClasseB -u-+ Paquetage
 @enduml

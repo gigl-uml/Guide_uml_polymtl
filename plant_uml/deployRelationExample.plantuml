@@ -1,8 +1,8 @@
 @startuml
 skinparam backgroundcolor transparent
-node Node
-artifact Artifact
+node Nœud
+artifact Artéfact
 
-Node <-[dotted]r- Artifact: <<deploy>>
+Nœud <-[dotted]r- Artéfact: <<deploy>>
 
 @enduml

@@ -3,37 +3,37 @@ skinparam backgroundcolor transparent
 hide circle
 skinparam classAttributeIconSize 0
 
-class Car {
-  + start()
-  + stop()
-  + accelerate(speed: double)
-  + brake()
+class Voiture {
+  + démarrer()
+  + arreter()
+  + accélérer(float vitesse)
+  + freiner()
 }
 
-class Engine {
-  - cylinders: int
-  - horsepower: int
-  + start()
-  + stop()
+class Moteur {
+  - cylindres: int
+  - puissance: int
+  + démarrer()
+  + arreter()
 }
 
-class Wheel {
-  - size: int
-  - material: String
-  + rotate()
+class Roue {
+  - taille: int
+  - matière: string
+  + tourner()
 }
 
-class Passenger {
-  - firstName: String
-  - lastName: String
-  - /name: String
+class Passager {
+  - prénom: string
+  - nomDeFamille: string
+  - /nom: String
   - age: int
-  + getName()
+  + getNom()
   + getAge()
 }
 
-Car --> "1" Engine 
-Car "4" --> "1" Wheel
-Car "1..5" -r-> "1" Passenger 
+Voiture --> "1" Moteur 
+Voiture "4" --> "1" Roue
+Voiture "1..5" -r-> "1" Passager 
 
 @enduml

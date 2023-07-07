@@ -3,7 +3,7 @@ hide circle
 skinparam backgroundcolor transparent
 skinparam classAttributeIconSize 0
 
-class "List< Type >" as List {
+class "Liste< Type >" as Liste {
     -elements: Type
 }
 @enduml

@@ -1,9 +1,9 @@
 @startuml
 skinparam backgroundcolor transparent
-usecase UseCase1
-usecase UseCase2
+usecase CasUtilisation1
+usecase CasUtilisation2
 
 
-UseCase1 -[dotted]r-> UseCase2 : <<extend>>
+CasUtilisation1 -[dotted]r-> CasUtilisation2 : <<extend>>
 
 @enduml

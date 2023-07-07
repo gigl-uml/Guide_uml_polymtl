@@ -2,12 +2,12 @@
 skinparam backgroundcolor transparent
 skinparam linetype ortho
 
-node "DataBase Server" as DB {
-  artifact "MySQL DB"
+node "Serveur Base de données" as DB {
+  artifact "BD MySQL"
 }
 
-node "Web Server" as webServer {
-  artifact "Web Application"
+node "Serveur Web" as webServer {
+  artifact "Application Web"
 }
 
 DB -r-- webServer

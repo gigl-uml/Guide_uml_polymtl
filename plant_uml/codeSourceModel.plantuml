@@ -3,9 +3,9 @@ skinparam backgroundcolor transparent
 hide circle
 class "signal.h" as file1
 class "signal.c" as file2
-class "alert.h" as file3
-class "alarm.h {v=3.0}" as file4
-class "alarm.h {v=3.1}" as file5
+class "alerte.h" as file3
+class "alarme.h {v=3.0}" as file4
+class "alarme.h {v=3.1}" as file5
 
 file2 ..> file1
 file1 ..> file3

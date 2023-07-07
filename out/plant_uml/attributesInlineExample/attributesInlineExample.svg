@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="178px" preserveAspectRatio="none" style="width:233px;height:178px;background:#00000000;" version="1.1" viewBox="0 0 233 178" width="233px" zoomAndPan="magnify"><defs/><g><!--MD5=[3f0ef310aaa84a542276992c5216544d]
-class Car--><g id="elem_Car"><rect codeLine="5" fill="#F1F1F1" height="157.9063" id="Car" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="212" x="7" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="24" x="101" y="25.5352">Car</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="218" y1="33.4883" y2="33.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="13" y="51.0234">-engine: Engine</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="13" y="67.5117">-wheels: Wheel[4]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="200" x="13" y="84">-passengers: Passenger[1..5]</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="218" y1="90.9531" y2="90.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="13" y="108.4883">+start()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="13" y="124.9766">+stop()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="13" y="141.4648">+accelerate(speed: double)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="13" y="157.9531">+brake()</text></g><!--MD5=[a4101feff49c5a67cd8c9ea9151d3c19]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="178px" preserveAspectRatio="none" style="width:215px;height:178px;background:#00000000;" version="1.1" viewBox="0 0 215 178" width="215px" zoomAndPan="magnify"><defs/><g><!--MD5=[1d3308a050e4b472ad871965582028ae]
+class Voiture--><g id="elem_Voiture"><rect codeLine="5" fill="#F1F1F1" height="157.9063" id="Voiture" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="194" x="7" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="79" y="25.5352">Voiture</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="200" y1="33.4883" y2="33.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="13" y="51.0234">-moteur: Moteur</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="13" y="67.5117">-roues: roue[4]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="13" y="84">-passagers: Passager[1..5]</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="200" y1="90.9531" y2="90.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="13" y="108.4883">+démarrer()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="13" y="124.9766">+arreter()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="13" y="141.4648">+accélérer(float vitesse)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="13" y="157.9531">+freiner()</text></g><!--MD5=[6739c3eaee973a5b0de419c25d9005d5]
 @startuml
 skinparam backgroundcolor transparent
 hide circle
 skinparam classAttributeIconSize 0
 
-class Car {
-  - engine: Engine
-  - wheels: Wheel[4]
-  - passengers: Passenger[1..5]
-  + start()
-  + stop()
-  + accelerate(speed: double)
-  + brake()
+class Voiture {
+  - moteur: Moteur
+  - roues: roue[4]
+  - passagers: Passager[1..5]
+  + démarrer()
+  + arreter()
+  + accélérer(float vitesse)
+  + freiner()
 }
 @enduml
 

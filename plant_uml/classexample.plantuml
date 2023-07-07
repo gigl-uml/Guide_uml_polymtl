@@ -3,10 +3,10 @@ hide circle
 skinparam classAttributeIconSize 0
 skinparam backgroundcolor transparent
 
-class Class {
-    attribute1
-    attribute2
-    method1()
-    method2()
+class Classe {
+    attribut1
+    attribut2
+    méthode1()
+    méthode2()
 }
 @enduml

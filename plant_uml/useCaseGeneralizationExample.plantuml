@@ -1,11 +1,11 @@
 @startuml
 skinparam backgroundcolor transparent
-usecase GenericUseCase
-usecase UseCase1
-usecase UseCase2
+usecase CasGénérique
+usecase CasUtilisation1
+usecase CasUtilisation2
 
 
-UseCase1 --|> GenericUseCase
-UseCase2 --|> GenericUseCase
+CasUtilisation1 --|> CasGénérique
+CasUtilisation2 --|> CasGénérique
 
 @enduml
