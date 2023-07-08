@@ -35,7 +35,7 @@ Pour faciliter l'utilisation de **PolyAuto**, la facturation est effectuée auto
 
 ## Exemples
 
-Tout au long de ce guide vous sont fournis des exemples basés sur le cas **PolyAuto**. Il est toutefois important de noter que certains de ces exemples ne présentent **qu'une sous partie** du système.
+Tout au long de ce guide vous sont fournis des exemples basés sur le cas **PolyAuto**. Il est toutefois important de noter que certains de ces exemples ne présentent **qu'une sous-partie** du système.
 
 - [Diagramme de classes](../diagrammes-de-classes/#exemple) (Réservation de véhicules)
 - [Diagramme de paquetages](../diagrammes-de-paquetages/#exemple) (Système complet)
