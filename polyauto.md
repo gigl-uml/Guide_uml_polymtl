@@ -32,3 +32,16 @@ Pour faciliter l'utilisation de **PolyAuto**, la facturation est effectuée auto
 - **Gestion des réservations** : Le système permettra aux utilisateurs de gérer leurs réservations, d'effectuer des modifications ou des annulations si nécessaire.
 - **Localisation des véhicules** : Les utilisateurs pourront localiser les véhicules disponibles à proximité grâce à une fonction de géolocalisation intégrée à l'application.
 - **Facturation et paiement** : Le système prendra en charge la facturation automatique des utilisateurs en fonction de la durée d'utilisation des véhicules.
+
+## Exemples
+
+Tout au long de ce guide vous sont fournis des exemples basés sur le cas **PolyAuto**. Il est toutefois important de noter que certains de ces exemples ne présentent **qu'une sous partie** du système.
+
+- [Diagramme de classes](../diagrammes-de-classes/#exemple) (Réservation de véhicules)
+- [Diagramme de paquetages](../diagrammes-de-paquetages/#exemple) (Système complet)
+- [Diagramme de composantes](../diagrammes-de-composantes/#exemple) (Réservation de véhicules)
+- [Diagramme de déploiement](../diagrammes-de-deploiement/#exemple) (Système complet)
+- [Diagramme de cas d'utilisation](../diagrammes-de-cas-dutilisation/#exemple) (Système complet, vue générale)
+- [Diagramme d'activités](../diagrammes-d-activites/#exemple) (Validation d'une réservation)
+- [Diagramme d'interaction](../diagrammes-d-interaction/#exemple) (Réservation d'un véhicule)
+- [Diagramme d'états](../diagrammes-etats/#exemple) (Disponibilité des véhicules)
