@@ -11,9 +11,15 @@ has_toc: false
 
 # Diagrammes d'interaction
 
-Un diagramme d'interaction permet de montrer **chronologiquement** les **messages échangés** entre les différents acteurs, objets ou composants d'un système pendant un **scénario spécifique**. Il met l'accent sur la **séquence des actions** et des **messages** échangés entre les différentes entités pour accomplir une tâche particulière.
+Un diagramme d'interaction permet de représenter les **messages échangés** entre les différents acteurs, objets ou composants d'un système pendant un **scénario spécifique**. Il met l'accent sur la **séquence des actions** et des **messages** échangés entre les différentes entités pour accomplir une tâche particulière.
 
-Un type spécifique de diagramme d'interaction est le **diagramme de séquence**. C'est celui que nous utiliserons dans ce chapitre.
+Deux types principaux de diagrammes d'interactions sont couramment utilisés : les diagrammes de séquence et les diagrammes de communication.
+
+Le diagramme de séquence permet de décrire l'ordre chronologique des messages échangés entre les différents objets d'un système. Il met en évidence l'ordre chronologique des interactions et fournit une représentation visuelle claire des échanges entre les objets.
+
+Le diagramme de communication met davantage l'accent sur la structure des objets et les connexions entre eux. Il met en évidence les objets qui interagissent entre eux, ainsi que les messages échangés, mais il ne représente pas explicitement l'ordre chronologique des interactions. 
+
+La section suivante comporte une comparaison des 2 types de diagramme, nous nous concentrerons sur les diagrammes de séquence.
 
 ## Représentation
 
@@ -21,6 +27,10 @@ Un diagramme de séquence doit montrer des messages échangés par des participa
 L'exemple suivant représente les **messages échangés**, lors d'une **requête HTTP** (scénario), entre le **participant Navigateur** et le **participant Serveur**.
 
 ![](/out/plant_uml/custom/interactionRepresentationExample.svg)
+
+Voici  le même scénario sous forme de diagramme de communication.
+
+![](/out/plant_uml/custom/communicationRepresentationExample.svg)
 
 ## Participants aux interactions
 
