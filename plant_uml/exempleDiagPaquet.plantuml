@@ -25,9 +25,9 @@ package "PolyAuto" {
         class GéolocalisationService
     }
     
-    Usager --> Véhicules
-    Réserver --> Usager
-    Réserver -> Véhicules
-    GéolocalisationService -> Véhicules
+    Usager -[dotted]-> Véhicules : <<access>>
+    Réserver -[dotted]-> Usager : <<access>>
+    Réserver -[dotted]> Véhicules : <<access>>
+    GéolocalisationService -[dotted]> Véhicules : <<access>>
 }
 @enduml
