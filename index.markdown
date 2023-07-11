@@ -21,6 +21,13 @@ Le contenu de ce guide prend pour acquis que les personnes qui le liront seront 
 - Les rudiments de la programmation fonctionelle
 - La syntaxe des langages C++ et Python
 
+
+# Langue 
+
+---
+
+Ce site, affilié à Polytechnique Montréal, a été rédigé en français. Cependant, pour quelques termes propres à l'UML ou à des normes de programmation, l'emploi de l'anglais sera de mise pour faciliter la lecture.
+
 # Open-source
 
 ---
