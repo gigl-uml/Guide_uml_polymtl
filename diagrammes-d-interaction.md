@@ -7,6 +7,8 @@ has_children: true
 has_toc: false
 ---
 
+[⇧](./#top){: .btn .btn-outline .back-to-top }
+
 # Diagrammes d'interaction
 
 Un diagramme d'interaction permet de montrer **chronologiquement** les **messages échangés** entre les différents acteurs, objets ou composants d'un système pendant un **scénario spécifique**. Il met l'accent sur la **séquence des actions** et des **messages** échangés entre les différentes entités pour accomplir une tâche particulière.

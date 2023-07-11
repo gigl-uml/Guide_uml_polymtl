@@ -7,6 +7,8 @@ has_children: false
 has_toc: false
 ---
 
+[⇧](./#top){: .btn .btn-outline .back-to-top }
+
 # PolyAuto
 
 Ce guide UML vous fournit des exemples récapitulatifs pour chaque diagramme.  

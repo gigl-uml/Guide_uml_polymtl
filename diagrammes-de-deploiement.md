@@ -7,6 +7,8 @@ has_children: true
 has_toc: false
 ---
 
+[⇧](./#top){: .btn .btn-outline .back-to-top }
+
 # Diagrammes de déploiement
 
 Un **diagramme de déploiement** présente la **configuration physique** des ordinateurs et

@@ -7,6 +7,8 @@ has_children: true
 has_toc: false
 ---
 
+[⇧](./#top){: .btn .btn-outline .back-to-top }
+
 # OCL et Stéréotypes
 
 Les **stéréotypes** et **l'OCL** (_Object Constraint Language_) sont deux concepts importants de l'UML.  

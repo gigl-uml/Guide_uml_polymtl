@@ -7,6 +7,8 @@ has_children: true
 has_toc: false
 ---
 
+[⇧](./#top){: .btn .btn-outline .back-to-top }
+
 # Diagrammes d'états
 
 Les diagrammes d'états illustrent les comportements d'un logiciel. Les machines à états peuvent être utilisées pour modéliser le comportement d'une classe, d'un sous-système ou d'une application entière. Elles offrent également un excellent moyen de modéliser les communications qui se produisent avec des entités externes via un protocole ou un système basé sur des événements.
@@ -32,11 +34,10 @@ Voici un exemple de diagramme d'états qui illustre le comportement d'un lave-va
 
 ![](/out/plant_uml/stateDiagRepresentation/stateDiagRepresentation.svg)
 
-
 ### Lien avec le Patron État
 
 Les diagrammes d'états sont en quelque sorte une représentation visuelle du [Patron État](https://refactoring.guru/design-patterns/state){:target="\_blank"}. Ce patron de conception permet à un objet de changer de comportement en fonction de son état. L'objet se comportera comme s'il avait changé de classe.  
-Durant l'exécution, l'état de l'objet va varier et son comportement suivra les instructions d'un switch-case, par exemple.  
+Durant l'exécution, l'état de l'objet va varier et son comportement suivra les instructions d'un switch-case, par exemple.
 
 ## Exemple
 

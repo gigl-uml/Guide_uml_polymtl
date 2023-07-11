@@ -7,6 +7,8 @@ has_children: true
 has_toc: false
 ---
 
+[⇧](./#top){: .btn .btn-outline .back-to-top }
+
 # Diagrammes d'activités
 
 Un **diagramme d'activités** est utilisé pour modéliser et représenter visuellement le **déroulement d'un processus**. Il permet de visualiser les étapes, les actions, les décisions et les boucles d'un processus, ce qui facilite la compréhension, l'analyse et l'amélioration des activités.  
