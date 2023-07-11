@@ -1,6 +1,7 @@
 @startuml
 skinparam linetype polyline
  skinparam linetype ortho
+ skinparam backgroundcolor transparent
 
 package "PolyAuto" {
     skinparam backgroundcolor transparent
