@@ -16,7 +16,28 @@ Ruby devrait maintenant être bien installé. Pour vous en assurer, vous pouvez 
 1. Dans votre terminal, entrez la commande `gem install jekyll bundler`. Ceci devrait avoir bien installé Jekyll, vous pouvez vous en assurer avec la commande `jekyll -v` qui est sensée afficher votre version.
 
 
-## Lancer le projet pour la première fois
+### Lancer le projet pour la première fois
 1. Lors du premier lancement de l'application, sur la racine du projet, lancez la commande `bundle exec jekyll serve`. Ceci devrait lancer votre site à l'adresse localhost:4000 (127.0.0.1/4000).
+
+Pour les prochaines fois, la simple commande `jekyll serve --open-url` suffira pour lancer le site.
+
+## Installation sur Linux (Ubuntu)
+
+### Installation de Ruby
+`sudo apt-get install ruby-full build-essential zlib1g-dev`
+
+### Installation de Jekyll
+    echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+    echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+    echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+    source ~/.bashrc
+
+Puis
+
+`gem install jekyll bundler`
+
+### Lancer le projet pour la première fois
+1. `bundle install`
+2. `bundle exec jekyll serve`
 
 Pour les prochaines fois, la simple commande `jekyll serve --open-url` suffira pour lancer le site.
