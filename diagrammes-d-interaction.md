@@ -11,15 +11,15 @@ has_toc: false
 
 # Diagrammes d'interaction
 
-Un diagramme d'interaction permet de représenter les **messages échangés** entre les différents acteurs, objets ou composants d'un système pendant un **scénario spécifique**. Il met l'accent sur la **séquence des actions** et des **messages** échangés entre les différentes entités pour accomplir une tâche particulière.
+Un diagramme d'interaction fournissent une représentation visuelle claire des **messages échangés** entre les différents acteurs, objets ou composants d'un système pendant un **scénario spécifique**.
 
 Deux types principaux de diagrammes d'interactions sont couramment utilisés : les diagrammes de séquence et les diagrammes de communication.
 
-Le diagramme de séquence permet de décrire l'ordre chronologique des messages échangés entre les différents objets d'un système. Il met en évidence l'ordre chronologique des interactions et fournit une représentation visuelle claire des échanges entre les objets.
+Le diagramme de séquence met en évidence **l'ordre chronologique** des messages échangés entre les différents objets d'un système.
 
-Le diagramme de communication met davantage l'accent sur la structure des objets et les connexions entre eux. Il met en évidence les objets qui interagissent entre eux, ainsi que les messages échangés, mais il ne représente pas explicitement l'ordre chronologique des interactions. 
+Le diagramme de communication met davantage l'accent sur le **flux des messages échangés** entre les objets que sur leur ordre chronologique.
 
-La section suivante comporte une comparaison des 2 types de diagramme, nous nous concentrerons sur les diagrammes de séquence.
+La section suivante comporte une comparaison des 2 types de diagramme, mais nous nous concentrerons sur les diagrammes de séquence dans le reste du chapitre.
 
 ## Représentation
 
