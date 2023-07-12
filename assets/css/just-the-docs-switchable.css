@@ -1787,7 +1787,6 @@ h6,
 .search-results {
   position: absolute;
   left: 0;
-  display: none;
   width: 100%;
   max-height: calc(100% - 4rem);
   overflow-y: auto;
@@ -9666,7 +9665,6 @@ html.dark-mode .search-label .search-icon {
 html.dark-mode .search-results {
   position: absolute;
   left: 0;
-  display: none;
   width: 100%;
   max-height: calc(100% - 4rem);
   overflow-y: auto;
