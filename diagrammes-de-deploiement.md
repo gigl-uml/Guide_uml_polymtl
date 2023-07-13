@@ -41,6 +41,15 @@ Voici un exemple illustrant un artéfact "Application Web" déployé dans le noe
 
 ![](/out/plant_uml/deploymentRepresentation/deploymentRepresentation.svg)
 
+## Stéréotypes
+
+Voici des stéréotypes couramment utilisé pour spécialiser un noeud:  
+
+|---|---|
+| <<device>> | Pour représenter une machine physique capable d'effectuer des calculs |
+| <<database>> | Pour représenter une base de données |
+| <<executionEnvironment>> | Pour représenter un environnement d'exécution |
+
 ## Relation
 
 |---|---|---|

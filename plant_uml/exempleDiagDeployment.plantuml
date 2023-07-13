@@ -1,18 +1,25 @@
 @startuml
 skinparam backgroundcolor transparent
-node "Mobile App" as mobileapp
-node "Backend" as backend
-node "Base de données" as database
-node "Service d'authentification" as authservice
-node "Service de réservation" as bookingservice
-node "Service de localisation" as locationservice
-node "Service de facturation" as billingservice
+skinparam NodeBackgroundColor whitesmoke
+skinparam linetype ortho
+ 
+node "Appareil mobile Android" as androidDevice <<device>>{
+  node "Android 14" <<executionEnvironment>> {
+      artifact "Application Android"
+  }
+}
+node "Serveur d'application" as backend <<device>>
+node Véhicules <<database>>
+node Services <<database>> {
+    artifact "Service d'authentification" as authservice
+    artifact "Service de réservation" as bookingservice
+    artifact "Service de localisation" as locationservice
+    artifact "Service de facturation" as billingservice
+}
 
-mobileapp -- backend
-backend -- database
-backend -- authservice
-backend -- bookingservice
-backend -- locationservice
-backend -- billingservice
+
+androidDevice -- backend
+backend -- Véhicules
+backend -- Services
 
 @enduml
