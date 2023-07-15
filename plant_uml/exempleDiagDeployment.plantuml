@@ -5,21 +5,39 @@ skinparam linetype ortho
  
 node "Appareil mobile Android" as androidDevice <<device>>{
   node "Android 14" <<executionEnvironment>> {
-      artifact "Application Android"
+      artifact "applicationAndroid.apk"
   }
 }
-node "Serveur d'application" as backend <<device>>
-node Véhicules <<database>>
-node Services <<database>> {
-    artifact "Service d'authentification" as authservice
-    artifact "Service de réservation" as bookingservice
-    artifact "Service de localisation" as locationservice
-    artifact "Service de facturation" as billingservice
+
+node "Serveur d'application" as backend <<device>> {
+  node " " <<executionEnvironment>> {
+    artifact serveur.ts {
+      component "Service d'authentification" as authservice
+      component "Service de réservation" as bookingservice
+      component "Service de localisation" as locationservice
+      component "Service de facturation" as billingservice
+    }
+  }
 }
 
+node Google <<device>> {
+  component "Google Maps" as gmaps
+}
+
+node Bank <<device>> {
+  component "Facturation" as facturation
+}
+
+node "Véhicules" as vehic <<database>>
+
+interface "API" as api_1
+interface "API" as api_2
 
 androidDevice -- backend
-backend -- Véhicules
-backend -- Services
+locationservice --( api_1
+api_1 -- gmaps
+billingservice --( api_2
+api_2 -- facturation
+backend -- vehic
 
 @enduml
