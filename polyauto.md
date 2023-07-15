@@ -34,6 +34,7 @@ Pour faciliter l'utilisation de **PolyAuto**, la facturation est effectuée auto
 - **Gestion des réservations** : Le système permettra aux utilisateurs de gérer leurs réservations, d'effectuer des modifications ou des annulations si nécessaire.
 - **Localisation des véhicules** : Les utilisateurs pourront localiser les véhicules disponibles à proximité grâce à une fonction de géolocalisation intégrée à l'application.
 - **Facturation et paiement** : Le système prendra en charge la facturation automatique des utilisateurs en fonction de la durée d'utilisation des véhicules.
+- **Maintenance** : Le système permet aux utilisateurs d'indiquer tout problème concernant l'état des véhicule afin d'entamer une routine de maintenance. Cette routine est aussi déclanchée si aucune maintenance a été effectuée sur le véhicule depuis plus de 100 jours.
 
 ## Exemples
 

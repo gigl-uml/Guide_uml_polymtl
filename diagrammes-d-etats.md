@@ -22,7 +22,7 @@ Une machine à états comportementale représente une **implémentation** spéci
 
 Elles montrent le **comportement d'un protocole**. Les machines à états de protocole montrent comment les participants peuvent déclencher des changements dans l'état d'un protocole et les changements correspondants dans le système (c'est-à-dire le nouvel état du protocole).
 
-# États
+## États
 
 Les états modélisent un moment spécifique dans le comportement d'un système. Ce moment est défini par une condition qui est vraie dans le système. Plus simplement, un état est une "condition d'être" pour la machine à états.
 

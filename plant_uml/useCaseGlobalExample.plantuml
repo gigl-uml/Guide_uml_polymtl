@@ -7,13 +7,17 @@ actor Utilisateur as u
 actor "Système Financier" as d
 
 Rectangle PolyAutoApp {
-  skinparam defaultTextAlignment left
+  skinparam defaultTextAlignment center
   usecase "CU-1: Vérifier une disponibilité" as UC1
   together {
-    usecase "CU-2: Réserver un véhicule" as UC2
-    usecase "CU-2.1: Choisir un véhicule" as UC3
     usecase "CU-2.2: Choisir une durée" as UC4
+    usecase "CU-2.1: Choisir un véhicule" as UC3
+    usecase "CU-2.3: Signaler \r un véhicule défectueux" as UC7
+    usecase "CU-2: Réserver un véhicule" as UC2
+
+
   }
+
 
   usecase "CU-3: Payer un trajet" as UC5
   usecase "CU-4: Annuler une réservation" as UC6
@@ -27,6 +31,8 @@ u --> UC1
 u --> UC2
 UC2 -[dotted]r-> UC3 : <<include>>
 UC2 -[dotted]r-> UC4 : <<include>>
+UC7 -[dotted]r-> UC2 : <<extend>>
+
 u --> UC5
 d --> UC5
 u --> UC6
