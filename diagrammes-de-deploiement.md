@@ -7,6 +7,8 @@ has_children: true
 has_toc: false
 ---
 
+[⇧](./#top){: .btn .btn-outline .back-to-top }
+
 # Diagrammes de déploiement
 
 Un **diagramme de déploiement** présente la **configuration physique** des ordinateurs et
@@ -29,7 +31,7 @@ On peut distinguer deux types de nœuds particuliers :
 - Les nœuds _environnements d'exécution_
 
 Les nœuds d'appareils, dénotés par le classificateur **<<device>>**, représentent une **ressource informatique physique** capable d'effectuer des calculs.  
-Les nœuds d'environnements d'exécution représentent **un environnement dans lequel le logiciel va s'exécuter**. Par exemple, les applications Java s'exécutent dans la machine virtuelle Java (JVM). La JVM est considérée comme un environnement d'exécution pour les applications Java, et le nœud correspondant serait dénoté par le [stéréotypes](../ocl-stereotypes) <<JVM>>.
+Les nœuds d'environnements d'exécution représentent **un environnement dans lequel le logiciel va s'exécuter**.
 
 ## Représentation
 
@@ -38,6 +40,15 @@ Généralement, on représente les nœuds sous forme d'une boîte en trois dimen
 Voici un exemple illustrant un artéfact "Application Web" déployé dans le noeud "Serveur Web" et un artéfact "Base de données MySQL" déployé dans le noeud "Serveur de Base de Données".
 
 ![](/out/plant_uml/deploymentRepresentation/deploymentRepresentation.svg)
+
+## Stéréotypes
+
+Voici des stéréotypes couramment utilisé pour spécialiser un noeud:
+
+|---|---|
+| <<device>> | Pour représenter une machine physique capable d'effectuer des calculs |
+| <<database>> | Pour représenter une base de données |
+| <<executionEnvironment>> | Pour représenter un environnement d'exécution |
 
 ## Relation
 
@@ -61,4 +72,4 @@ Il existe 2 façons de montrer le déploiement d'un artéfact dans un noeud.
 
 Voici un exemple d'un **diagramme de déploiement** basé sur le cas d'étude [PolyAuto](../polyauto/).
 
-![](/out/plant_uml/exempleDiagDeployment/exempleDiagDeployment.svg)
+![](/out/plant_uml/custom/deploymentExemple.svg)

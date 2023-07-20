@@ -1,18 +1,42 @@
 @startuml
 skinparam backgroundcolor transparent
-node "Mobile App" as mobileapp
-node "Backend" as backend
-node "Base de données" as database
-node "Service d'authentification" as authservice
-node "Service de réservation" as bookingservice
-node "Service de localisation" as locationservice
-node "Service de facturation" as billingservice
+skinparam NodeBackgroundColor whitesmoke
+skinparam linetype ortho
+ 
+node "Appareil mobile Android" as androidDevice <<device>>{
+  node "Android 14" <<executionEnvironment>> {
+      artifact "polyAuto.apk"
+  }
+}
 
-mobileapp -- backend
-backend -- database
-backend -- authservice
-backend -- bookingservice
-backend -- locationservice
-backend -- billingservice
+
+
+node "Serveur d'application (VM AWS EC2)" as backend <<device>> {
+  node "Debian (Linux)" <<executionEnvironment>> {
+    artifact serveur.ts
+  }
+}
+
+
+
+
+node "Serveurs de Google" <<device>> {
+  component "GoogleMapsAPI" as gmaps
+}
+
+
+
+
+
+
+node "Serveurs AWS" as vehic <<device>> {
+    node "MongoDB - M0" <<database>> {
+      component "PolyAutoCluster"
+  }
+}
+
+backend --- vehic
+androidDevice --d- backend
+gmaps - backend
 
 @enduml

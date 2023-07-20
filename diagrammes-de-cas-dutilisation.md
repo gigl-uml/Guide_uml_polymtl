@@ -7,6 +7,8 @@ has_children: true
 has_toc: false
 ---
 
+[⇧](./#top){: .btn .btn-outline .back-to-top }
+
 # Diagrammes de cas d'utilisation
 
 Le diagramme de **cas d'utilisation** permet de visualiser les cas

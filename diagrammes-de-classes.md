@@ -7,6 +7,8 @@ has_children: true
 has_toc: false
 ---
 
+[↑](./#top){: .btn .btn-outline .back-to-top }
+
 # Diagrammes de classes
 
 Les **diagrammes de classes** sont utilisés pour :

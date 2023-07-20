@@ -7,6 +7,8 @@ has_children: true
 has_toc: false
 ---
 
+[⇧](./#top){: .btn .btn-outline .back-to-top }
+
 # Diagrammes de composantes
 
 Un **diagramme de composantes** présente une vue **statique** de **l'implémentation d'un système**. Les composantes sont les parties d'un système qui réalisent un ensemble d'interfaces (celles des autres composantes). Il existe trois catégories de composantes:
