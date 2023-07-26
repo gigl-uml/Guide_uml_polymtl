@@ -7,7 +7,7 @@ has_children: true
 has_toc: false
 ---
 
-[⇧](./#top){: .btn .btn-outline .back-to-top }
+[↑](./#top){: .btn .btn-outline .back-to-top }
 
 # Diagrammes d'interaction
 
@@ -28,7 +28,7 @@ L'exemple suivant représente les **messages échangés**, lors d'une **requête
 
 ![](/out/plant_uml/custom/interactionRepresentationExample.svg)
 
-Voici  le même scénario sous forme de diagramme de communication.
+Voici le même scénario sous forme de diagramme de communication.
 
 ![](/out/plant_uml/custom/communicationRepresentationExample.svg)
 
