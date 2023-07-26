@@ -30,8 +30,8 @@ Il y a 2 façons de représenter le contenu des paquetages.
 
 | ------------ | ----------- | ----------- |
 | _Containment_ | ![](/out/plant_uml/containmentRelationshipExample/containmentRelationshipExample.svg) | Indique que le paquetage A contient l'élément B. |
-| _Import_ | ![](/out/plant_uml/importRelationshipExample/importRelationshipExample.svg) | Indique que le paquetage A importe les éléments du paquetage B. Donc, A aura accès au contenu de B. |
-| _Access_ | ![](/out/plant_uml/accessRelationshipExample/accessRelationshipExample.svg) | Indique que le paquetage A importe les éléments du paquetage B avec une visibilité privée. |
+| _Import_ | ![](/out/plant_uml/importRelationshipExample/importRelationshipExample.svg) | Indique que le paquetage A importe les éléments du paquetage B. Donc, A aura accès au contenu de B. Cette relation est transitive, donc si A *<<import>>* B, alors tous paquetage qui importe A aura aussi accès aux éléments de B. |
+| _Access_ | ![](/out/plant_uml/accessRelationshipExample/accessRelationshipExample.svg) | Indique que le paquetage A importe les éléments du paquetage B avec une visibilité privée. Ainsi, cette relation n'est pas transitive; si A *<<access>>* B, alors un paquetage qui importe A n'aura pas accès aux éléments de B. |
 | _Merge_ | ![](/out/plant_uml/mergeRelationshipExample/mergeRelationshipExample.svg) | Indique que le paquetage A fusionne le paquetage B. Donc, le contenu du paquetage B va étendre celui du paquetage A. |
 
 ## Visibilité
