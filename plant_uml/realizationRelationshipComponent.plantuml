@@ -1,7 +1,7 @@
 @startuml
 skinparam backgroundcolor transparent
 component A
-component B
+rectangle B
 
 A -[dotted]r-|> B
 @enduml
