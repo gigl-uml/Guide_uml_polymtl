@@ -30,8 +30,9 @@ On peut distinguer deux types de nœuds particuliers :
 - Les nœuds _appareils_
 - Les nœuds _environnements d'exécution_
 
-Les nœuds d'appareils, dénotés par le classificateur **<<device>>**, représentent une **ressource informatique physique** capable d'effectuer des calculs.  
-Les nœuds d'environnements d'exécution représentent **un environnement dans lequel le logiciel va s'exécuter**.
+Les nœuds d'appareils, dénotés par le classificateur **<<device>>**, représentent une **ressource informatique physique** capable d'effectuer des calculs. Voici quelques exemples de stéréotypes pour spécialiser un _appareil_: <<application server>>, <<client workstation>>, <<mobile device>> et <<embedded device>>. 
+
+Les nœuds d'environnements d'exécution représentent **un environnement dans lequel le logiciel va s'exécuter**. Voici quelques exemples de stéréotypes pour spécialiser un _environnements d'exécution_: <<OS>>, <<workflow engine>>, <<database system>> et <<J2EE container»>>.  
 
 ## Représentation
 
@@ -41,14 +42,6 @@ Voici un exemple illustrant un artéfact "Application Web" déployé dans le noe
 
 ![](/out/plant_uml/deploymentRepresentation/deploymentRepresentation.svg)
 
-## Stéréotypes
-
-Voici des stéréotypes couramment utilisé pour spécialiser un noeud:
-
-|---|---|
-| <<device>> | Pour représenter une machine physique capable d'effectuer des calculs |
-| <<database>> | Pour représenter une base de données |
-| <<executionEnvironment>> | Pour représenter un environnement d'exécution |
 
 ## Relation
 
