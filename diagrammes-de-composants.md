@@ -7,7 +7,7 @@ has_children: true
 has_toc: false
 ---
 
-[⇧](./#top){: .btn .btn-outline .back-to-top }
+[↑](./#top){: .btn .btn-outline .back-to-top }
 
 # Diagrammes de composantes
 
@@ -36,8 +36,8 @@ Les noms de composantes sont des noms tirés de **l'implémentation** du systèm
 Les **relations UML** suivantes représentent différents types de connexion entre les composantes.
 
 | ------------ | ----------- | ----------- |
-| Dépendance | ![](/out/plant_uml/dependencyRelationshipComponent/dependencyRelationshipComponent.svg) | Indique que A dépend de B. Des modifications dans l'élément cible (B) peuvent affecter l'élément source (A). |
-| Réalisation | ![](/out/plant_uml/realizationRelationshipComponent/realizationRelationshipComponent.svg) | Indique que A fournit l'implémentation des méthodes de B. Représente la mise en œuvre concrète d'une interface par une classe. |
+| Dépendance | ![](/out/plant_uml/dependencyRelationshipComponent/dependencyRelationshipComponent.svg) | Indique que A dépend de B. Cette relation est souvent utilisé dans un contexte où un composant A nécessite une interface B.  |
+| Réalisation | ![](/out/plant_uml/realizationRelationshipComponent/realizationRelationshipComponent.svg) | Indique que A fournit l'implémentation d'une interface B. |
 | Ball and Socket | ![](/out/plant_uml/BallAndSocketRelationComponent/BallAndSocketRelationComponent.svg) | Indique que A utilise l'implémentation de l'interface C fournie par B. |
 
 ## Vues

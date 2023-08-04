@@ -7,7 +7,7 @@ has_children: false
 has_toc: false
 ---
 
-[⇧](./#top){: .btn .btn-outline .back-to-top }
+[↑](./#top){: .btn .btn-outline .back-to-top }
 
 # PolyAuto
 

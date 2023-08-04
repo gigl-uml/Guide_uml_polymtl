@@ -7,7 +7,7 @@ has_children: true
 has_toc: false
 ---
 
-[⇧](./#top){: .btn .btn-outline .back-to-top }
+[↑](./#top){: .btn .btn-outline .back-to-top }
 
 # OCL et Stéréotypes
 
