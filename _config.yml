@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Guide UML
-email: your-email@example.com
-baseurl: "/uml" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username: jekyll
+title: Guide UML Polytechnique Montréal
+# email: your-email@example.com
+baseurl: "/Guide_uml_polymtl" # the subpath of your site, e.g. /blog
+url: "https://gigl-uml.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: jekyllrb
+#github_username: jekyll
 
 # Build settings
 theme: just-the-docs
@@ -50,5 +50,8 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-logo: "/assets/images/logo_poly.png"
-favicon_ico: "/assets/images/favicon.ico"
+# include: ["assets"]
+
+logo: "/Guide_uml_polymtl/assets/images/logo_poly.png"
+favicon_ico: "/Guide_uml_polymtl/assets/images/favicon.ico"
+
