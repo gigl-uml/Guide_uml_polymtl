@@ -53,5 +53,5 @@ plugins:
 # include: ["assets"]
 
 logo: "/Guide_uml_polymtl/assets/images/logo_poly.png"
-favicon_ico: "/Guide_uml_polymtl/assets/images/favicon.ico"
+favicon_ico: "assets/images/favicon.ico"
 
