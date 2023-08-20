@@ -11,7 +11,7 @@ has_toc: false
 
 # Diagrammes de composantes
 
-Un **diagramme de composantes** présente une vue **statique** de **l'implémentation d'un système**. Les composantes sont les parties d'un système qui réalisent un ensemble d'interfaces (celles des autres composantes). Il existe trois catégories de composantes:
+Un **diagramme de composantes** permet de décomposer la représentation d’un logiciel en sous-système, représenté par des composantes. Celles-ci réalisent un ensemble d'interfaces (celles des autres composantes). Il existe trois catégories de composantes:
 
 - Composante de déploiement: Nécéssaire pour construire un système exécutable
 - Composante de réalisation: Résultats physiques du travail de développement (ex: code source)
