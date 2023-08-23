@@ -4,13 +4,13 @@ skinparam backgroundcolor transparent
 actor Client as g
 Package Employé {
   actor Chef as c
-  actor "Critique gastronomique" as fc
+  actor "Serveur" as fc
 }
 Rectangle Restaurant {
   usecase "Manger un repas" as UC1
   usecase "Payer l'addition" as UC2
   usecase "Boire" as UC3
-  usecase "Émettre une critique" as UC4
+  usecase "Prendre une commande" as UC4
 }
 fc --> UC4
 g --> UC1
