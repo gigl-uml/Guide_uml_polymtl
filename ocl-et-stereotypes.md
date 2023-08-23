@@ -72,7 +72,7 @@ Il est important de ne pas confondre les **stéréotypes** les **classificateurs
 En **UML**, les **classificateurs** sont des entités abstraites qui regroupent des objets similaires, quel que soit leur type (classe, interface, composant, etc.), pour faciliter la modélisation et la compréhension du système.  
 Nous avons par exemple vu les classificateurs **<<device>>** et **<<interface>>**.
 
-L'UML fournit un set standard de stéréotypes :
+L'UML fournit un ensemble standard de stéréotypes :
 
 | Stereotype            | Élément du modèle | Description                                                                                                                                                                |
 | --------------------- | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
