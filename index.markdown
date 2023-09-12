@@ -5,6 +5,8 @@
 layout: home
 nav_exclude: true
 ---
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 
 # Guide UML
 
@@ -43,3 +45,7 @@ Ce projet a été financé dans le cadre du concours 2023 du Fonds d'actions pé
 # Historique des révisions
 
 2023/08/24: Version 1.0
+
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/gigl-uml/Guide_uml_polymtl" data-icon="octicon-star" aria-label="Star Guide_uml on GitHub">Star</a>
