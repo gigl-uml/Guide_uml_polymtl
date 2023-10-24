@@ -26,7 +26,6 @@ url: "https://gigl-uml.github.io" # the base hostname & protocol for your site, 
 #github_username: jekyll
 
 # Build settings
-remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-feed
 
