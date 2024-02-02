@@ -58,8 +58,8 @@ Il peut y avoir plusieurs acteurs pour un même cas d'utilisation. Par exemple, 
 | ------------ | ----------- | ----------- |
 | Généralisation d'acteurs | ![](/out/plant_uml/actorsGeneralizationExample/actorsGeneralizationExample.svg) | Indique que l' _ActeurGénérique_ est une version générale des 2 autres acteurs. Donc, le _CasGénérique_ sera complété par _Acteur1_ et _Acteur2_. |
 | Généralisation de cas d'utilisation| ![](/out/plant_uml/useCaseGeneralizationExample/useCaseGeneralizationExample.svg) | Indique que les fonctionnalités complétées par le _casUtilisation1_ et le _casUtilisation2_ peuvent être généralisés dans un seul cas d'utilisation ; _CasGénérique_. |
-| Inclusion de cas d'utilisation | ![](/out/plant_uml/useCaseInclusionExample/useCaseInclusionExample.svg) | Indique que le _casUtilisation2_ n'est pas complet, il a **besoin** de la fonctionnalité de _CasUtilisation1_ pour fonctionner. Cette relation permet de pouvoir réutiliser certains cas d'utilisation. |
-| Extension de cas d'utilisation | ![](/out/plant_uml/useCaseExtensionExample/useCaseExtensionExample.svg) | Indique que le _casUtilisation1_ va ajouter des fonctionnalités (étendre) le _casUtilisation2_. Contrairement à l'inclusion, le cas d'utilisation de base (_casUtilisation2_) doit pouvoir fonctionner seul. |
+| Inclusion de cas d'utilisation | ![](/out/plant_uml/useCaseInclusionExample/useCaseInclusionExample.svg) | Indique que le _casUtilisation1_ n'est pas complet, il a **besoin** de la fonctionnalité de _CasUtilisation2_ pour fonctionner. Cette relation permet de pouvoir réutiliser certains cas d'utilisation. |
+| Extension de cas d'utilisation | ![](/out/plant_uml/useCaseExtensionExample/useCaseExtensionExample.svg) | Indique que le casUtilisation1 va ajouter des fonctionnalités (étendre) au casUtilisation2, lequel doit pouvoir fonctionner seul. |
 
 ## Exemple
 
