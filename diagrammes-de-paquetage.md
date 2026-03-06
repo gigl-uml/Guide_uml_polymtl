@@ -22,24 +22,16 @@ Un simple paquetage est représenté ainsi:
 
 Il y a 2 façons de représenter le contenu des paquetages.
 
-|                      À l'intérieur du paquetage                       |                         À l'aide de relation                          |
+|                      À l'intérieur du paquetage                       |                         À l'aide d'un connecteur d'imbrication                         |
 | :-------------------------------------------------------------------: | :-------------------------------------------------------------------: |
 | ![](/out/plant_uml/packageReprésentation1/packageReprésentation1.svg) | ![](/out/plant_uml/packageReprésentation2/packageReprésentation2.svg) |
 
 ## Relations
 
 | ------------ | ----------- | ----------- |
-| _Import_ | ![](/out/plant_uml/importRelationshipExample/importRelationshipExample.svg) | Indique que le paquetage A importe les éléments du paquetage B. Donc, A aura accès au contenu de B. Cette relation est transitive, donc si A *<<import>>* B, alors tous paquetage qui importe A aura aussi accès aux éléments de B. |
-| _Access_ | ![](/out/plant_uml/accessRelationshipExample/accessRelationshipExample.svg) | Indique que le paquetage A importe les éléments du paquetage B avec une visibilité privée. Ainsi, cette relation n'est pas transitive; si A *<<access>>* B, alors un paquetage qui importe A n'aura pas accès aux éléments de B. |
-
-## Visibilité
-
-Les éléments d'un paquetage peuvent être **publics** ou **privés**.  
-La visibilité publique indique que cet élément est utilisable en dehors du paquetage.  
-La visibilité privée indique le contraire : seulement les autres éléments du même paquetage peuvent utiliser l'élément privé.  
-Un élément public est indiqué par un signe plus. Un élément privé est indiqué par un signe moins.
-
-![](/out/plant_uml/packageVisibility/packageVisibility.svg)
+| _Imbrication (Nesting)_ | ![](/out/plant_uml/containmentRelationshipExample/containmentRelationshipExample.svg) | Indique que le paquetage A contient l'élément B (qui est généralement une classe). |
+| _Import_ | ![](/out/plant_uml/importRelationshipExample/importRelationshipExample.svg) | Indique que le paquetage A importe les éléments du paquetage B. Donc, A aura accès au contenu de B. Cette relation est transitive, donc si A *<<import>>* B, alors tout paquetage qui importe A aura aussi accès aux éléments de B. |
+| _Access_ | ![](/out/plant_uml/accessRelationshipExample/accessRelationshipExample.svg) | Indique que le paquetage A importe les éléments du paquetage B avec une visibilité privée. Ainsi, cette relation n'est pas transitive; si A *<<access>>* B, alors un paquetage qui importe A n'aura pas accès aux éléments de B. |  
 
 ## Importer et accéder aux paquetages
 
@@ -52,17 +44,33 @@ Dans ce cas-ci, le `PayrollSystem` pourra accéder aux classes présentes dans l
 Par défaut, les éléments importés sont **publics**, c'est-à-dire qu'ils peuvent être accédés par d'autres paquetages qui importeraient, dans notre cas, `PayrollSystem`.
 Il est possible d'importer des éléments de manière **privée** avec l'annotation `<<access>>`, c'est-à-dire qu'ils ne seront accessibles que par le paquetage qui les importe. Par exemple:
 
-![](/out/plant_uml/accessRelationPackage/accessRelationPackage.svg)
+![](/out/plant_uml/accessRelationPackage/accessRelationPackage.svg)  
 
-## Fusionner les paquetages
+## Visibilité
+
+Les éléments d'un paquetage peuvent être **publics** ou **privés**.  
+
+![](/out/plant_uml/packageVisibility/packageVisibility.svg)
+**Creer un nouvel exemple avec import**
+
+Visibilité **publique (+)**: indique que cet élément est utilisable en dehors du paquetage. Dans l'exemple, le paquetage **xx** peut accéder à l'élément **yyy** du paquetage **zz**.  
+
+Visibilité **privée (-)**: indique que seulement les autres éléments du même paquetage peuvent utiliser l'élément privé. Dans l'exemple, le paquetage **xx** n'a pas accées à l'élément **yyy** du paquetage **zz**.
+
+<!-- ## Fusionner les paquetages
 
 L'UML offre la possibilité de fusionner des paquetages. Ce mécanisme plutôt complexe est rarement utilisé en industrie.  
-Vous pouvez trouver plus de détails sur ce sujet dans la section **3.4. Merging Packages** du livre **UML 2.0 in a Nutshell** de Pilone et Pitman.
+Vous pouvez trouver plus de détails sur ce sujet dans la section **3.4. Merging Packages** du livre **UML 2.0 in a Nutshell** de Pilone et Pitman. -->
+
+## Architecture Multi-Niveaux MAJ TABLE DES MATIERES
+## Architecture MVC MAJ TABLE DES MATIERES
 
 ## Exemple
 
+Voici un exemple complet d'un **diagramme de paquetages** basé sur le cas d'étude [PolyCal](../polyauto/). **mettre a jour lien pour PolyCal**
+
 ![Diagramme de paquetages](/assets/images/paquetages.png)
 
-Voici un exemple complet d'un **diagramme de paquetages** basé sur le cas d'étude [PolyAuto](../polyauto/).
+<!-- Voici un exemple complet d'un **diagramme de paquetages** basé sur le cas d'étude [PolyAuto](../polyauto/).
 
-![](/out/plant_uml/exempleDiagPaquet/exempleDiagPaquet.svg)
+![](/out/plant_uml/exempleDiagPaquet/exempleDiagPaquet.svg) -->
