@@ -2,7 +2,7 @@
 layout: page
 title: Diagrammes d'interaction
 permalink: /diagrammes-d-interaction/
-nav_order: 8
+nav_order: 6
 has_children: true
 has_toc: false
 ---
@@ -82,6 +82,8 @@ Un opérateur d'interaction est un élément utilisé dans les diagrammes de sé
 | _ref_ | ![](/out/plant_uml/refOperatorExample/refOperatorExample.svg) | Réfère à une interaction définie dans un autre diagram |
 
 ## Exemple
+
+![Diagramme d'interaction](/assets/images/interaction.png)
 
 Voici un exemple d'un **diagramme d'interaction** basé sur le cas d'étude [PolyAuto](../polyauto/).
 

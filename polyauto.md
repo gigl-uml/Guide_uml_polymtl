@@ -2,7 +2,7 @@
 layout: page
 title: PolyAuto (cas d'étude)
 permalink: /polyauto/
-nav_order: 11
+nav_order: 12
 has_children: false
 has_toc: false
 ---
