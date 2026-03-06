@@ -23,13 +23,17 @@ d’utilisation primaires d’un système sans aller dans les détails.
 
 ## Comment savoir si un cas d'utilisation est primaire ? 
 
-Les **tests de pertinence** servent à identifier les cas primaires.
+On considère **importants** les cas d’utilisation qui:
+1. Ont un **impact important sur l’architecture du système**, par exemple parce qu’ils introduisent beaucoup de concepts ou classes, ou exigent de la persistance.
+2. Contiennent beaucoup **d’information sur la conception** sans nécessairement nécessiter beaucoup d’effort.
+3. Contiennent des fonctions **risquées, complexes ou urgentes**. 
+4. Impliquent des **efforts** importants de **recherche** ou l’utilisation de **nouvelles technologies**. 
+5. Représentent **l’activité commerciale principale**. 
+6. Impliquent directement des **revenus supplémentaires** ou des **réductions de coûts**.
 
-- Le **test du patron** : mon patron sera-t-il satisfait de moi si je passe ma journée à effectuer ce cas d’utilisation ?​
-- Le **test du processus d’affaire élémentaire** : un processus d’affaire élémentaire est une tâche accomplie par une personne à un endroit et un moment donnés, en réponse à un évènement d’affaire, qui ajoute une quantité mesurable de valeur et laisse les données dans un état consistant.​
-- Le **test de la dimension** : un cas d’utilisation est extrêmement rarement constitué d’une seule action ou étape. Un cas d’utilisation comprend typiquement plusieurs étapes, et dans un format étendu nécessite souvent de 3 à 10 pages de texte afin de le décrire.​
+Dans un **diagramme de contexte**, chaque cas est représenté par un oval contenant son nom et son numéro. **Le nom commence par un verbe.**
 
-Dans un **diagramme de cas d'utilisation**, chaque cas est représenté par un oval contenant son nom et son numéro. **Le nom commence par un verbe.**
+Voici un exemple d'un **diagramme de contexte** basé sur le cas d'étude [PolyCal](../polycal/).
 
 ![Diagramme de contexte](/assets/images/diagramme_contexte.png)
 
