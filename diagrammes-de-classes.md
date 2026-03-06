@@ -112,8 +112,6 @@ En UML, on peut les représenter de cette manière :
 
 ## Exemple
 
+Voici un exemple d'un **diagramme de classes** basé sur le cas d'étude [PolyCal](../polycal/).
+
 ![Diagramme de classes](/assets/images/classes.png)
-
-Voici un exemple complet d'un **diagramme de classes** basé sur le cas d'étude [PolyAuto](../polyauto/).
-
-![](/out/plant_uml/exempleDiagClasse/exempleDiagClasse.svg)

@@ -61,8 +61,6 @@ Vous pouvez trouver plus de détails sur ce sujet dans la section **3.4. Merging
 
 ## Exemple
 
+Voici un exemple d'un **diagramme de paquetages** basé sur le cas d'étude [PolyCal](../polycal/).
+
 ![Diagramme de paquetages](/assets/images/paquetages.png)
-
-Voici un exemple complet d'un **diagramme de paquetages** basé sur le cas d'étude [PolyAuto](../polyauto/).
-
-![](/out/plant_uml/exempleDiagPaquet/exempleDiagPaquet.svg)

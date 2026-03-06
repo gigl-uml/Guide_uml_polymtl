@@ -49,11 +49,8 @@ Comme dans le diagramme de contexte, les **frontières du système** des cas d'u
 
 ## Exemple
 
+Voici des exemples d'un **diagramme de cas d'utilisation** basé sur le cas d'étude [PolyCal](../polycal/).  
+
 ![Cas 1](/assets/images/cu1.png)
 
 ![Cas 2](/assets/images/cu2.png)
-
-Voici un exemple complet d'un **diagramme de cas d'utilisation** basé sur le cas d'étude [PolyAuto](../polyauto/).  
-Le cas d'utilisation choisis représente la réservation d'un véhicule par l'utilisateur.
-
-![](/out/plant_uml/useCaseGlobalExample/useCaseGlobalExample.svg)
