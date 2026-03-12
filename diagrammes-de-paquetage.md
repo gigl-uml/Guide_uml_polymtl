@@ -35,18 +35,17 @@ Il y a 2 façons de représenter le contenu des paquetages.
 
 ## Importer et accéder aux paquetages
 
-Il est possible d'importer des éléments d'un paquetage à l'autre. Pour ce faire, il faut qu'un paquetage `<<import>>` un autre paquetage, ce qui lui permettra d'accéder à toutes les classes de ce dernier. Par exemple:
+Il est possible d'importer des éléments (classes) d'un paquetage à l'autre. Pour ce faire, il faut qu'un paquetage `<<import>>` un autre paquetage, ce qui lui permettra d'accéder aux classes de ce dernier. Par exemple:
 
 ![](/out/plant_uml/importRelationPackage/importRelationPackage.svg)
 
-Dans ce cas-ci, le `PayrollSystem` pourra accéder aux classes présentes dans le paquetage `EmployeeTimeSheet`.
+Dans ce cas-ci, les `Utilisateurs` pourront accéder aux classes présentes dans le paquetage `Reunions`. Tous les éléments **publics** importés peuvent être accédés indirectement, c'est-à-dire par d'autres paquetages qui importeraient `Utilisateurs`dans l'exemple ci-haut.  
 
-Par défaut, les éléments importés sont **publics**, c'est-à-dire qu'ils peuvent être accédés par d'autres paquetages qui importeraient, dans notre cas, `PayrollSystem`.
-Il est possible d'importer des éléments de manière **privée** avec l'annotation `<<access>>`, c'est-à-dire qu'ils ne seront accessibles que par le paquetage qui les importe. Par exemple:
+Il est possible d'importer des éléments de manière **privée** avec l'annotation `<<access>>`, c'est-à-dire qu'ils ne seront accessibles que par le paquetage qui les importe directement. Par exemple:
 
 ![](/out/plant_uml/accessRelationPackage/accessRelationPackage.svg)  
 
-## Visibilité
+## Visibilité des éléments
 
 Les éléments d'un paquetage peuvent être **publics** ou **privés**.  
 
