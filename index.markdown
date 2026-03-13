@@ -29,4 +29,11 @@ Ce site, affilié à Polytechnique Montréal, a été rédigé en français. Cep
 
 Ce projet sera hébergé sur Github en accès libre à l'URL suivant: [Code-source](www.github.com){:target="\_blank"}
 
-# Remerciements
+# Versions
+La version du guide est 2.0.
+
+**Version 1.0**  
+Création du guide UML par Achille Saint-Hillier, Justin Lachapelle et Michel Lominy
+
+**Version 2.0**  
+Ajout de la page diagramme de contexte et ajout d'exemples par Amélie Simard et Eugenia Carcea.

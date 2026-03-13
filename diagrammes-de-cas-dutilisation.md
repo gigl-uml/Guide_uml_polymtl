@@ -11,15 +11,10 @@ has_toc: false
 
 # Diagrammes de cas d'utilisation
 
-Le diagramme de **cas d'utilisation** permet de visualiser les cas
-d’utilisation primaires d’un système.
-
-- Ceci permet de voir rapidement les principales
-  fonctions d’un système.
-- Plus particulièrement, le diagramme de contexte définit:
+Le diagramme de **cas d'utilisation** permet de visualiser en détail un cas d'utilisation d’un système. Il illustre :
   - Les limites du système modélisé.
-  - Les principaux acteurs du modèle.
-  - Les cas d’utilisation primaires.
+  - Les acteurs du cas d'utilisation.
+  - Le cas d’utilisation principal et ses sous-cas.
 
 ## Cas d'utilisation
 

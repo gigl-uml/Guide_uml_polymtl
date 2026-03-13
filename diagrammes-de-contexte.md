@@ -12,16 +12,16 @@ has_toc: false
 # Diagramme de contexte
 
 Le diagramme de **cas de contexte** présentent les cas
-d’utilisation primaires d’un système sans aller dans les détails.
+d’utilisation principaux d’un système sans aller dans les détails.
 
 - Ceci permet de voir rapidement les principales
   fonctions d’un système.
 - Plus particulièrement, le diagramme de contexte définit:
   - Les limites du système modélisé.
   - Les principaux acteurs du modèle.
-  - Les cas d’utilisation primaires.
+  - Les cas d’utilisation principaux.
 
-## Comment savoir si un cas d'utilisation est primaire ? 
+## Comment savoir si un cas d'utilisation fait partie des cas principaux ? 
 
 On considère **importants** les cas d’utilisation qui:
 1. Ont un **impact important sur l’architecture du système**, par exemple parce qu’ils introduisent beaucoup de concepts ou classes, ou exigent de la persistance.

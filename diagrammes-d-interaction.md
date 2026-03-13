@@ -81,6 +81,23 @@ Un opérateur d'interaction est un élément utilisé dans les diagrammes de sé
 | _Loop_ | ![](/out/plant_uml/loopOperatorExample/loopOperatorExample.svg) | Indique que le fragment d'interactions sera exécuté en boucle. La condition de sortie peut être représentée avec une condition de sortie ou comme ceci: loop(min, max). |
 | _ref_ | ![](/out/plant_uml/refOperatorExample/refOperatorExample.svg) | Réfère à une interaction définie dans un autre diagram |
 
+## Le diagramme de séquence du système (SSD) 
+
+Le SSD est un type de diagramme de séquence.
+
+Le SSD présente, pour une instance d’un cas d’utilisation:
+– Les événements générés par les acteurs;
+
+– L’ordre de ces événements;
+
+– Les autres événements inter-système;
+
+– Les opérations du système déclenchées par ces événements.
+
+Voici un exemple d'un **SSD** basé sur le cas d'étude [PolyCal](../polycal/).
+![Diagramme SSD](/assets/images/SSD.png)
+
+
 ## Exemple
 
 Voici un exemple d'un **diagramme d'interaction** basé sur le cas d'étude [PolyCal](../polycal/).
