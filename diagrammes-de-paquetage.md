@@ -20,7 +20,7 @@ manipuler plus facilement.
 Un simple paquetage est représenté ainsi:  
 ![](/out/plant_uml/singlePackagesRepresentation/singlePackagesRepresentation.svg)
 
-Il y a 2 façons de représenter le contenu des paquetages.
+Il y a deux façons de représenter le contenu des paquetages:
 
 |                      À l'intérieur du paquetage                       |                         À l'aide d'un connecteur d'imbrication                         |
 | :-------------------------------------------------------------------: | :-------------------------------------------------------------------: |

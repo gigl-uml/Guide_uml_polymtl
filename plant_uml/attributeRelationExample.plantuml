@@ -4,23 +4,23 @@ hide circle
 skinparam classAttributeIconSize 0
 
 class Voiture {
-  + démarrer()
-  + arreter()
-  + accélérer(float vitesse)
-  + freiner()
+  + démarrer(): void 
+  + arreter(): void
+  + accélérer(float vitesse): void
+  + freiner(): void
 }
 
 class Moteur {
   - cylindres: int
   - puissance: int
-  + démarrer()
-  + arreter()
+  + démarrer(): void
+  + arreter(): void
 }
 
 class Roue {
   - taille: int
   - matière: string
-  + tourner()
+  + tourner(): void
 }
 
 class Passager {
@@ -28,12 +28,12 @@ class Passager {
   - nomDeFamille: string
   - /nom: String
   - age: int
-  + getNom()
-  + getAge()
+  + getNom(): String
+  + getAge(): int
 }
 
-Voiture --> "1" Moteur 
-Voiture "4" --> "1" Roue
-Voiture "1..5" -r-> "1" Passager 
+Voiture "1" --> "1" Moteur 
+Voiture "1" --> "4" Roue
+Voiture "1" --> "1..5" Passager 
 
 @enduml
