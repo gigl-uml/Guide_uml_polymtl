@@ -11,7 +11,7 @@ has_toc: false
 
 # Diagrammes d'interaction
 
-Un diagramme d'interaction fournissent une représentation visuelle claire des **messages échangés** entre les différents acteurs, objets ou composants d'un système pendant un **scénario spécifique**.
+Un diagramme d'interaction fournit une représentation visuelle claire des **messages échangés** entre les différents acteurs, objets ou composants d'un système pendant un **scénario spécifique**.
 
 Deux types principaux de diagrammes d'interactions sont couramment utilisés : les diagrammes de séquence et les diagrammes de communication.
 
@@ -39,7 +39,7 @@ Les participants aux interactions d'un diagramme de séquence sont représentés
 **nom_de_l'objet [sélecteur] : nom_de_la_classe**
 
 | ------------ | ----------- |
-| nom_de_l'objet | Le nom de l'instance impliqué dans l'intéraction |
+| nom_de_l'objet | Le nom de l'instance impliqué dans l'interaction |
 | sélecteur | Permet de selectionner une instance particulière dans un tableau d'élement |
 | nom_de_la_classe | Le nom du type du participant |
 
@@ -77,7 +77,7 @@ Un opérateur d'interaction est un élément utilisé dans les diagrammes de sé
 | _Alternates_ | ![](/out/plant_uml/altOperatorExample/altOperatorExample.svg) | Représente différentes branches d'exécution, chaque branche étant associée à une condition qui détermine si cette branche est exécutée ou non. |
 | _Option_ | ![](/out/plant_uml/optOperatorExample/optOperatorExample.svg) | Similaire à alt, mais avec une seul opérande |
 | _Break_ | ![](/out/plant_uml/breakOperatorExample/breakOperatorExample.svg) | Indique une interruption du scénario, après l'exécution du fragment, si la condition est vraie. Par exemple, si P1.attr == True, alors message3() sera envoyé, mais pas message4(). |
-| _Parallel_ | ![](/out/plant_uml/parOperatorExample/parOperatorExample.svg) | Indique que les 2 fragments d'interactions peuvent s'exécuter en parallèle, en gardant l'ordre des fragments originaux. Par exemple, message2() et message3() doivent être exécutés après message1(). |
+| _Parallel_ | ![](/out/plant_uml/parOperatorExample/parOperatorExample.svg) | Indique que les deux fragments d'interactions peuvent s'exécuter en parallèle, en gardant l'ordre des fragments originaux. Par exemple, message2() et message3() doivent être exécutés après message1(). |
 | _Loop_ | ![](/out/plant_uml/loopOperatorExample/loopOperatorExample.svg) | Indique que le fragment d'interactions sera exécuté en boucle. La condition de sortie peut être représentée avec une condition de sortie ou comme ceci: loop(min, max). |
 | _ref_ | ![](/out/plant_uml/refOperatorExample/refOperatorExample.svg) | Réfère à une interaction définie dans un autre diagram |
 

@@ -29,7 +29,7 @@ Le flux au sein des activités est représenté à l'aide d'arêtes d'activités
 
 ![](/out/plant_uml/custom/activityRepresentation.svg)
 
-Les **activités** possèdent généralement un **point de départ** ainsi qu'un ou plusieurs **points d'arrivées**. Lorsqu'un point d'arrivée est atteint, l'activité prend fin. On les représente de la sorte :
+Les **activités** possèdent généralement un **point de départ** ainsi qu'un ou plusieurs **points d'arrivée**. Lorsqu'un point d'arrivée est atteint, l'activité prend fin. On les représente de la sorte :
 
 ![](/out/plant_uml/custom/activityStartNode.svg)
 
@@ -48,7 +48,7 @@ Les **actions** peuvent avoir des **pré**conditions et des **post**conditions *
 
 ## Décisions et fusions
 
-Dans un diagramme d'activités, il est possible de définir un **nœud de décision**. Ce nœud permet de choisir **un uniduqe chemin** dans le flux d'actions en fonction d'une **condition donnée**. Il possède **une entrée** et **plusieurs sorties**.
+Dans un diagramme d'activités, il est possible de définir un **nœud de décision**. Ce nœud permet de choisir **un unique chemin** dans le flux d'actions en fonction d'une **condition donnée**. Il possède **une entrée** et **plusieurs sorties**.
 
 On représente un **nœud de décision** à l'aide d'un diamant, et les conditions des chemins entre crochets. Une condition dépendante de paramètres peut aussi être représentée sous forme de note avec le mot clé **<<decisionInput>>**.
 
@@ -81,7 +81,7 @@ Il existe une notation alternative pour les **nœuds d'objets**. On peut les rep
 
 ![](/out/plant_uml/custom/activityPins.svg)
 
-Les **nœuds d'objets** peuvent aussi être utilisés pour indiquer les paramètres d'entrée et de sortie de l'activité. Pour se faire, on positionne les rectangles sur les bords du diagramme.
+Les **nœuds d'objets** peuvent aussi être utilisés pour indiquer les paramètres d'entrée et de sortie de l'activité. Pour ce faire, on positionne les rectangles sur les bords du diagramme.
 
 ![](/out/plant_uml/custom/activityObjectParameters.svg)
 
