@@ -2,7 +2,7 @@
 layout: page
 title: Diagrammes de classes
 permalink: /diagrammes-de-classes/
-nav_order: 2
+nav_order: 5
 has_children: true
 has_toc: false
 ---
@@ -91,7 +91,6 @@ Les **relations UML** représentent différents types de connexion entre les cla
 | Composition | ![](/out/plant_uml/compositionRelationshipExample/compositionRelationshipExample.svg) | Relation plus forte que l'agrégation. Indique que B est une partie de A. |
 | Généralisation | ![](/out/plant_uml/generalizationRelationshipExample/generalizationRelationshipExample.svg) | Indique que A est une version générale de B. Exprime une hiérarchie d'héritage. |
 | Réalisation | ![](/out/plant_uml/realizationRelationshipExample/realizationRelationshipExample.svg) | Indique que A fournit l'implémentation des méthodes de B. Représente la mise en œuvre concrète d'une interface par une classe. |
-| Ball and Socket | ![](/out/plant_uml/BallAndSocketRelationExample/BallAndSocketRelationExample.svg) | Indique que A utilise l'implémentation de l'interface C fournie par B. |
 
 ## Interfaces
 
@@ -113,6 +112,6 @@ En UML, on peut les représenter de cette manière :
 
 ## Exemple
 
-Voici un exemple complet d'un **diagramme de classes** basé sur le cas d'étude [PolyAuto](../polyauto/).
+Voici un exemple d'un **diagramme de classes** basé sur le cas d'étude [PolyCal](../polycal/).
 
-![](/out/plant_uml/exempleDiagClasse/exempleDiagClasse.svg)
+![Diagramme de classes](/assets/images/classes.png)

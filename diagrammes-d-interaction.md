@@ -2,7 +2,7 @@
 layout: page
 title: Diagrammes d'interaction
 permalink: /diagrammes-d-interaction/
-nav_order: 8
+nav_order: 6
 has_children: true
 has_toc: false
 ---
@@ -39,7 +39,7 @@ Les participants aux interactions d'un diagramme de séquence sont représentés
 **nom_de_l'objet [sélecteur] : nom_de_la_classe**
 
 | ------------ | ----------- |
-| nom_de_l'objet | Le nom de l'instance impliqué dans l'interaction |
+| nom_de_l'objet | Le nom de l'instance impliqué dans l'intéraction |
 | sélecteur | Permet de selectionner une instance particulière dans un tableau d'élement |
 | nom_de_la_classe | Le nom du type du participant |
 
@@ -81,8 +81,24 @@ Un opérateur d'interaction est un élément utilisé dans les diagrammes de sé
 | _Loop_ | ![](/out/plant_uml/loopOperatorExample/loopOperatorExample.svg) | Indique que le fragment d'interactions sera exécuté en boucle. La condition de sortie peut être représentée avec une condition de sortie ou comme ceci: loop(min, max). |
 | _ref_ | ![](/out/plant_uml/refOperatorExample/refOperatorExample.svg) | Réfère à une interaction définie dans un autre diagram |
 
+## Le diagramme de séquence du système (SSD) 
+
+Le SSD est un type de diagramme de séquence.
+
+Le SSD présente, pour une instance d’un cas d’utilisation:
+– Les événements générés par les acteurs;
+
+– L’ordre de ces événements;
+
+– Les autres événements inter-système;
+
+– Les opérations du système déclenchées par ces événements.
+
+Voici un exemple d'un **SSD** basé sur le cas d'étude [PolyCal](../polycal/).
+![Diagramme SSD](/assets/images/SSD.png)
+
+
 ## Exemple
 
-Voici un exemple d'un **diagramme d'interaction** basé sur le cas d'étude [PolyAuto](../polyauto/).
-
-![](/out/plant_uml/custom/interactionGlobalExample.svg)
+Voici un exemple d'un **diagramme d'interaction** basé sur le cas d'étude [PolyCal](../polycal/).
+![Diagramme d'interaction](/assets/images/interaction.png)
