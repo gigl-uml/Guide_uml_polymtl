@@ -2,7 +2,7 @@
 layout: page
 title: Diagrammes de paquetages
 permalink: /diagrammes-de-paquetages/
-nav_order: 3
+nav_order: 7
 has_children: true
 has_toc: false
 ---
@@ -29,10 +29,8 @@ Il y a deux façons de représenter le contenu des paquetages:
 ## Relations
 
 | ------------ | ----------- | ----------- |
-| _Containment_ | ![](/out/plant_uml/containmentRelationshipExample/containmentRelationshipExample.svg) | Indique que le paquetage A contient l'élément B. |
 | _Import_ | ![](/out/plant_uml/importRelationshipExample/importRelationshipExample.svg) | Indique que le paquetage A importe les éléments du paquetage B. Donc, A aura accès au contenu de B. Cette relation est transitive, donc si A *<<import>>* B, alors tout paquetage qui importe A aura aussi accès aux éléments de B. |
 | _Access_ | ![](/out/plant_uml/accessRelationshipExample/accessRelationshipExample.svg) | Indique que le paquetage A importe les éléments du paquetage B avec une visibilité privée. Ainsi, cette relation n'est pas transitive; si A *<<access>>* B, alors un paquetage qui importe A n'aura pas accès aux éléments de B. |
-| _Merge_ | ![](/out/plant_uml/mergeRelationshipExample/mergeRelationshipExample.svg) | Indique que le paquetage A fusionne le paquetage B en fonction des règles suivantes: {::nomarkdown}<ul><li>Les membres privés d'un paquetage ne sont pas fusionnés.</li><li>Si des classes ont le même nom et le même type, alors l'élément source ajoute conceptuellement les caractéristiques de l'élément cible à ses propres caractéristiques, ce qui donne un élément qui combine les caractéristiques des deux dans le paquetage résultant (similaire à une généralisation).</li><li>Les classes qui n'existent que dans les paquetages fusionnés restent inchangés et sont ajoutés au paquetage résultant.</li><li>Si deux sous-paquetages porte le même nom existe dans les paquetages fusionnés, une autre fusion est lancée entre les deux sous-paquetages.</li><li>Toutes les importations de paquetage des paquetages fusionnés deviennent des importations du paquetage résultant.</li><li>Les sous-paquetages des paquetages fusionnés sont ajoutés au paquetage résultant s'ils n'existent pas déjà.</li></ul>{:/} |
 
 ## Visibilité
 
@@ -63,6 +61,6 @@ Vous pouvez trouver plus de détails sur ce sujet dans la section **3.4. Merging
 
 ## Exemple
 
-Voici un exemple complet d'un **diagramme de paquetages** basé sur le cas d'étude [PolyAuto](../polyauto/).
+Voici un exemple d'un **diagramme de paquetages** basé sur le cas d'étude [PolyCal](../polycal/).
 
-![](/out/plant_uml/exempleDiagPaquet/exempleDiagPaquet.svg)
+![Diagramme de paquetages](/assets/images/paquetages.png)

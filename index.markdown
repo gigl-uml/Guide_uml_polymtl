@@ -42,4 +42,8 @@ Ce projet a été financé dans le cadre du concours 2023 du Fonds d'actions pé
 
 # Historique des révisions
 
-2023/08/24: Version 1.0
+**2023/08/24: Version 1.0**
+Création du guide UML par Achille Saint-Hillier, Justin Lachapelle et Michel Lominy
+
+**2026/03/17: Version 2.0** 
+Ajout de la page diagramme de contexte et ajout d'exemples par Amélie Simard et Eugenia Carcea.
