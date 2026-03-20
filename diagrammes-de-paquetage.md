@@ -71,15 +71,21 @@ et un système de sauvegarde persistante des données (eg. base de données) est
 3. **Système de sauvegarde (persistance)** : représente les systèmes où sont stockées les données utilisées par l'application  
 
 **Visibilité entre les paquetages**  
-- Accès aux paquetages de **présentation**: aucun autre paquetage n’a un accès direct aux entités de la couche de présentation.  
-- Accès aux paquetages de la **logique d'application**: les paquetages de la présentation et certains autres paquetages de la logique d'application peuvent accéder aux paquetages de cette couche.  
-- Accès aux paquetages du **système de sauvegarde**: les paquetages de la logique d'application peuvent accéder aux éléments de la persistance. À noter que les paquetages de la présentation n'accèdent généralement jamais directement au système de sauvegarde.  
+- Accès aux paquetages de **présentation**: Aucun autre paquetage n’a un accès direct aux entités de la couche de présentation.  
+- Accès aux paquetages de la **logique d'application**: Les paquetages de la présentation et certains autres paquetages de la logique d'application peuvent accéder aux paquetages de cette couche.  
+- Accès aux paquetages du **système de sauvegarde**: Les paquetages de la logique d'application peuvent accéder aux éléments de la persistance. À noter que les paquetages de la présentation n'accèdent généralement jamais directement au système de sauvegarde.  
 
-## Architecture MVC
+## Architecture MVC  
+
+Le principe de l'**architecture MVC** est de séparer les classes de la Présentation des autres paquetages du système. Normalement, les éléments de la Présentation sont uniques à l’application alors que les classes de la logique d'application pourraient être réutilisées dans d’autres projets.  
+
+- **Modèle (M)**: Gère l’état et les comportements logiques du  modèle. Met à jour _indirectement_ la **Vue** par un patron (aucun interaction *directe*).
+- **Vue (V)**: Visualisation du modèle et capture des évènements externe (eg. venant des utilisateurs), ne contient aucun donnée ou fonctionnalité. Déclenche des évènements et les envoie au **Contrôleur**.
+- **Contrôleur (C)**: Synchronise le **Modèle** aux changements venant de la **Vue**. Sa seule responsabilité est de rediriger les évènements aux objets dans le **Modèle** pour le mettre à jour, il ne contient aucune donnée.
 
 ## Exemple
 
-Voici un exemple complet d'un **diagramme de paquetages** basé sur le cas d'étude [PolyCal](../polycal/). **mettre a jour lien pour PolyCal**
+Voici un exemple complet d'un **diagramme de paquetages** utilisant l'architecture **multiniveaux** et basé sur le cas d'étude [PolyCal](../polycal/).
 
 ![Diagramme de paquetages](/assets/images/paquetages.png)
 
