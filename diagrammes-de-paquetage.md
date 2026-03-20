@@ -60,8 +60,8 @@ Visibilité **privée (-)**: indique que seulement les autres éléments du mêm
 L'UML offre la possibilité de fusionner des paquetages. Ce mécanisme plutôt complexe est rarement utilisé en industrie.  
 Vous pouvez trouver plus de détails sur ce sujet dans la section **3.4. Merging Packages** du livre **UML 2.0 in a Nutshell** de Pilone et Pitman. -->
 
-## Architecture Multi-Niveaux MAJ TABLE DES MATIERES
-## Architecture MVC MAJ TABLE DES MATIERES
+## Architecture Multi-Niveaux
+## Architecture MVC
 
 ## Exemple
 
