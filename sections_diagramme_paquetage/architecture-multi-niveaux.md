@@ -1,6 +1,6 @@
 ---
-title: Architecture Multi-Niveaux
-permalink: /diagrammes-de-paquetages/#architecture-multi-niveaux
+title: Architecture Multiniveaux
+permalink: /diagrammes-de-paquetages/#architecture-multiniveaux
 nav_order: 6
 parent: Diagrammes de paquetages
 ---

@@ -60,7 +60,21 @@ Visibilité **privée (-)**: indique que seulement les autres éléments du mêm
 L'UML offre la possibilité de fusionner des paquetages. Ce mécanisme plutôt complexe est rarement utilisé en industrie.  
 Vous pouvez trouver plus de détails sur ce sujet dans la section **3.4. Merging Packages** du livre **UML 2.0 in a Nutshell** de Pilone et Pitman. -->
 
-## Architecture Multi-Niveaux
+## Architecture Multiniveaux
+
+Une architecture classique pour la conception d’applications comprenant une interface usager 
+et un système de sauvegarde persistante des données (eg. base de données) est l’**architecture multiniveaux**. Voici un sommaire des couches généralement retrouvées dans ce type d'architecture:  
+1. **Présentation** :  représente les composantes de l'interface utilisateur
+2. **Logique d’application** : représente les objets clés et les services de l'application. Elle est souvent décomposée en couches plus minces organisées autour de classes. Par exemple, les classes Services d'une application peuvent être sub-divisés ainsi:
+- Haut niveau: génération de réunions, envoi des invitations, algorithmes de calcul
+- Bas niveau: gestion de fichiers, communication avec des tiers partis
+3. **Système de sauvegarde (persistance)** : représente les systèmes où sont stockées les données utilisées par l'application  
+
+**Visibilité entre les paquetages**  
+- Accès aux paquetages de **présentation**: aucun autre paquetage n’a un accès direct aux entités de la couche de présentation.  
+- Accès aux paquetages de la **logique d'application**: les paquetages de la présentation et certains autres paquetages de la logique d'application peuvent accéder aux paquetages de cette couche.  
+- Accès aux paquetages du **système de sauvegarde**: les paquetages de la logique d'application peuvent accéder aux éléments de la persistance. À noter que les paquetages de la présentation n'accèdent généralement jamais directement au système de sauvegarde.  
+
 ## Architecture MVC
 
 ## Exemple
