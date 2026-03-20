@@ -50,11 +50,10 @@ Il est possible d'importer des éléments de manière **privée** avec l'annotat
 Les éléments d'un paquetage peuvent être **publics** ou **privés**.  
 
 ![](/out/plant_uml/packageVisibility/packageVisibility.svg)
-**Creer un nouvel exemple avec import**
 
-Visibilité **publique (+)**: indique que cet élément est utilisable en dehors du paquetage. Dans l'exemple, le paquetage **xx** peut accéder à l'élément **yyy** du paquetage **zz**.  
+Visibilité **publique (+)**: indique que cet élément est utilisable en dehors du paquetage. Dans l'exemple, le paquetage **Utilisateurs** peut accéder à la classe **Réunion** du paquetage **Réunions**.  
 
-Visibilité **privée (-)**: indique que seulement les autres éléments du même paquetage peuvent utiliser l'élément privé. Dans l'exemple, le paquetage **xx** n'a pas accées à l'élément **yyy** du paquetage **zz**.
+Visibilité **privée (-)**: indique que seulement les autres éléments du même paquetage peuvent utiliser l'élément privé. Dans l'exemple, le paquetage **Utilisateurs** n'a pas accées à l'élément **Participants** du paquetage **Réunions**.
 
 <!-- ## Fusionner les paquetages
 
