@@ -38,5 +38,5 @@ Tout au long de ce guide vous sont fournis des exemples basés sur le cas **Poly
 - [Diagramme de contexte](../diagrammes-de-contexte)
 - [Diagramme de cas d'utilisation](../diagrammes-de-cas-dutilisation/#exemple) 
 - [Diagramme de classes](../diagrammes-de-classes/#exemple) 
-- [Diagramme de paquetages](../diagrammes-de-paquetages/#exemple)
 - [Diagramme d'interaction](../diagrammes-d-interaction/#exemple)
+- [Diagramme de paquetages](../diagrammes-de-paquetages/#exemple)
