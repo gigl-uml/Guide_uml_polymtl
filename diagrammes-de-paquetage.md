@@ -35,6 +35,8 @@ Il y a deux façons de représenter le contenu des paquetages:
 
 ## Importer et accéder aux paquetages
 
+*Note: La notion d'éléments **publics** et **privés** sont détaillés dans la [section suivante](#visibilité-des-éléments/)*
+
 Il est possible d'importer des éléments (classes) d'un paquetage à l'autre. Pour ce faire, il faut qu'un paquetage `<<import>>` un autre paquetage, ce qui lui permettra d'accéder aux classes de ce dernier. Par exemple:
 
 ![](/out/plant_uml/importRelationPackage/importRelationPackage.svg)
@@ -43,7 +45,8 @@ Dans ce cas-ci, les `Utilisateurs` pourront accéder aux classes présentes dans
 
 Il est possible d'importer des éléments de manière **privée** avec l'annotation `<<access>>`, c'est-à-dire qu'ils ne seront accessibles que par le paquetage qui les importe directement. Par exemple:
 
-![](/out/plant_uml/accessRelationPackage/accessRelationPackage.svg)  
+![](/out/plant_uml/accessRelationPackage/accessRelationPackage.svg) 
+
 
 ## Visibilité des éléments
 
@@ -53,22 +56,25 @@ Les éléments d'un paquetage peuvent être **publics** ou **privés**.
 
 Visibilité **publique (+)**: indique que cet élément est utilisable en dehors du paquetage. Dans l'exemple, le paquetage **Utilisateurs** peut accéder à la classe **Réunion** du paquetage **Réunions**.  
 
-Visibilité **privée (-)**: indique que seulement les autres éléments du même paquetage peuvent utiliser l'élément privé. Dans l'exemple, le paquetage **Utilisateurs** n'a pas accées à l'élément **Participants** du paquetage **Réunions**.
+Visibilité **privée (-)**: indique que seulement les autres éléments du même paquetage peuvent utiliser l'élément privé. Dans l'exemple, le paquetage **Utilisateurs** n'a pas accées à l'élément **Participants** du paquetage **Réunions**.  
+
 
 <!-- ## Fusionner les paquetages
 
 L'UML offre la possibilité de fusionner des paquetages. Ce mécanisme plutôt complexe est rarement utilisé en industrie.  
 Vous pouvez trouver plus de détails sur ce sujet dans la section **3.4. Merging Packages** du livre **UML 2.0 in a Nutshell** de Pilone et Pitman. -->
 
+*Les sections suivantes ne font pas partie de la norme UML, mais illustrent des exemples de leur utilisation dans la représentation d'architectures logicielles.*  
+
 ## Architecture Multiniveaux
 
 Une architecture classique pour la conception d’applications comprenant une interface usager 
-et un système de sauvegarde persistante des données (eg. base de données) est l’**architecture multiniveaux**. Voici un sommaire des couches généralement retrouvées dans ce type d'architecture:  
-1. **Présentation** :  représente les composantes de l'interface utilisateur
-2. **Logique d’application** : représente les objets clés et les services de l'application. Elle est souvent décomposée en couches plus minces organisées autour de classes. Par exemple, les classes Services d'une application peuvent être sub-divisés ainsi:
+et des services techniques, dont un système de sauvegarde des données, est l’**architecture multiniveaux**. Voici un sommaire des couches généralement retrouvées dans ce type d'architecture:  
+1. **Présentation** :  représente les composantes de l'interface utilisateur.
+2. **Logique d’application** : représente les objets clés et les services de l'application. Elle est souvent décomposée en couches plus minces organisées autour de classes. Par exemple, les classes Services d'une application peuvent être sub-divisés ainsi (voir la section [Exemple](#exemple) ci-bas pour un diagramme d'architecture multiniveaux complet):
 - Haut niveau: génération de réunions, envoi des invitations, algorithmes de calcul
-- Bas niveau: gestion de fichiers, communication avec des tiers partis
-3. **Système de sauvegarde (persistance)** : représente les systèmes où sont stockées les données utilisées par l'application  
+- Bas niveau: gestion de fichiers, communication avec des tiers partis.
+3. **Services techniques** : représente, entre autres, les systèmes où sont stockées les données utilisées par l'application (base de données, *logging* des métadonnées), les tiers partis avec lesquels communiquent l'application et le moteur de régles.
 
 **Visibilité entre les paquetages**  
 - Accès aux paquetages de **présentation**: Aucun autre paquetage n’a un accès direct aux entités de la couche de présentation.  
@@ -79,9 +85,14 @@ et un système de sauvegarde persistante des données (eg. base de données) est
 
 Le principe de l'**architecture MVC** est de séparer les classes de la Présentation des autres paquetages du système. Normalement, les éléments de la Présentation sont uniques à l’application alors que les classes de la logique d'application pourraient être réutilisées dans d’autres projets.  
 
-- **Modèle (M)**: Gère l’état et les comportements logiques du  modèle. Met à jour _indirectement_ la **Vue** par un patron (aucun interaction *directe*).
-- **Vue (V)**: Visualisation du modèle et capture des évènements externe (eg. venant des utilisateurs), ne contient aucun donnée ou fonctionnalité. Déclenche des évènements et les envoie au **Contrôleur**.
-- **Contrôleur (C)**: Synchronise le **Modèle** aux changements venant de la **Vue**. Sa seule responsabilité est de rediriger les évènements aux objets dans le **Modèle** pour le mettre à jour, il ne contient aucune donnée.
+- **Modèle (M)**: Gère l’état et les comportements logiques du  modèle.
+- **Vue (V)**: Visualisation du modèle et capture des évènements externe (eg. venant des utilisateurs), ne contient aucun donnée ou fonctionnalité.
+- **Contrôleur (C)**: Synchronise le **Modèle** aux changements venant de la **Vue**. Il ne contient aucune donnée.  
+
+**Visibilité entre les paquetages**  
+- La **Vue** déclenche des évènements et les envoie au **Contrôleur**.
+- La seule responsabilité du **Contrôleur** est de rediriger les évènements venant de la **Vue** aux objets dans le **Modèle** pour le mettre à jour.
+- Le **Modèle** Met à jour *indirectement* la **Vue** par un patron de conception (aucune interaction *directe*).
 
 ## Exemple
 
