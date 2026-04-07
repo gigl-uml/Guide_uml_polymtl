@@ -8,7 +8,7 @@ nav_exclude: true
 
 # Guide UML
 
-Ce guide a été élaboré dans le cadre d'un projet d'innovation pédagogique durant l'été 2023. Il servira de référence pour l'utilisation de l'**UML** au département de génie informatique et génie logiciel, plus particulièrement pour les cours LOG2400, LOG2990 et LOG3990.
+Ce guide a été élaboré dans le cadre d'un projet d'innovation pédagogique durant l'été 2023 et a été mis à jour en hiver 2026. Il servira de référence pour l'utilisation de l'**UML** au département de génie informatique et génie logiciel, plus particulièrement pour les cours LOG2400, LOG3420, LOG2995 et LOG3990.
 
 Il est important de noter que ce guide se base sur la version [**2.5.1**](https://www.omg.org/spec/UML/2.5.1/About-UML){:target="\_blank"} de la **norme UML**. Il est possible que de nouvelles versions soient disponibles. Nous vous invitons à consulter fréquement [l'historique des versions](https://www.omg.org/spec/UML/2.5.1/About-UML#spec-versions){:target="\_blank"} de la norme.
 
@@ -45,5 +45,5 @@ Ce projet a été financé dans le cadre du concours 2023 du Fonds d'actions pé
 **2023/08/24: Version 1.0**
 Création du guide UML par Achille Saint-Hillier, Justin Lachapelle et Michel Lominy
 
-**2026/03/17: Version 2.0** 
+**2026/04/07: Version 2.0** 
 Ajout de la page diagramme de contexte et ajout d'exemples par Amélie Simard et Eugenia Carcea.

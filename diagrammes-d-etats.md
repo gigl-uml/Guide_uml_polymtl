@@ -36,7 +36,7 @@ Voici un exemple de diagramme d'états qui illustre le comportement d'un lave-va
 
 ### Lien avec le Patron État
 
-Les diagrammes d'états sont en quelque sorte une représentation visuelle du Patron État. Ce patron de conception permet à un objet de changer de comportement en fonction de son état. L'objet se comportera comme s'il avait changé de classe.  
+Le diagramme d'états ne correspond pas exactement au digramme du Patron État. Le diagramme d'états illustre des états, alors que ce patron de conception est représenté par un diagramme de classes. Il permet à un objet de changer de comportement en fonction de son état, qui peut être représenté par une classe. L'objet se comportera comme s'il avait changé de classe.  
 Durant l'exécution, l'état de l'objet va varier et son comportement suivra les instructions d'un switch-case, par exemple.
 
 ## Exemple

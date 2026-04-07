@@ -6,12 +6,18 @@ participant ":P1" as P1
 participant ":P2" as P2
 
 P1 -> P2 : message1()
-P1 <- P2 : message2()
+P2 --> P1 : message2()
 
+loop loop(1,3)
 
-break P1.attr == True
-  P1 -> P2 : message3()
-end break
+  P1 -> P2 : message()
 
-P1 <-P2 : message4()
+  break P1.attr == True
+    P1 -> P2 : message3()
+  end
+
+end
+
+P2 --> P1 : message4()
+
 @enduml

@@ -83,7 +83,8 @@ Un opérateur d'interaction est un élément utilisé dans les diagrammes de sé
 
 ## Le diagramme de séquence du système (SSD) 
 
-Le SSD est un type de diagramme de séquence.
+Le SSD est une utilisation particulière du diagramme de séquence qui réutilise sa syntaxe. 
+
 
 Le SSD présente, pour une instance d’un cas d’utilisation:
 – Les événements générés par les acteurs;
