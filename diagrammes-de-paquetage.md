@@ -71,7 +71,7 @@ Vous pouvez trouver plus de détails sur ce sujet dans la section **3.4. Merging
 Une architecture classique pour la conception d’applications comprenant une interface usager 
 et des services techniques, dont un système de sauvegarde des données, est l’**architecture multiniveaux**. Voici un sommaire des couches généralement retrouvées dans ce type d'architecture:  
 1. **Présentation** :  représente les composantes de l'interface utilisateur.
-2. **Logique d’application** : représente les objets clés et les services de l'application. Elle est souvent décomposée en couches plus minces organisées autour de classes. Par exemple, les classes Services d'une application peuvent être sub-divisés ainsi (voir la section [Exemple](#exemple) ci-bas pour un diagramme d'architecture multiniveaux complet):
+2. **Logique d’application** : représente les objets clés et les services de l'application. Elle est souvent décomposée en couches plus minces organisées autour de classes. Par exemple, les classes Services d'une application peuvent être sub-divisés ainsi (voir la section [Exemples](#exemple) ci-bas pour un diagramme d'architecture multiniveaux complet):
 - Haut niveau: génération de réunions, envoi des invitations, algorithmes de calcul
 - Bas niveau: gestion de fichiers, communication avec des tiers partis.
 3. **Services techniques** : représente, entre autres, les systèmes où sont stockées les données utilisées par l'application (base de données, *logging* des métadonnées), les tiers partis avec lesquels communiquent l'application et le moteur de régles.
@@ -92,13 +92,19 @@ Le principe de l'**architecture MVC** est de séparer les classes de la Présent
 **Visibilité entre les paquetages**  
 - La **Vue** déclenche des évènements et les envoie au **Contrôleur**.
 - La seule responsabilité du **Contrôleur** est de rediriger les évènements venant de la **Vue** aux objets dans le **Modèle** pour le mettre à jour.
-- Le **Modèle** Met à jour *indirectement* la **Vue** par un patron de conception (aucune interaction *directe*).
+- Le **Modèle** Met à jour *indirectement* la **Vue** par un patron de conception (aucune interaction *directe*).  
 
-## Exemple
+La section [Exemples](#exemple) ci-bas comporte un diagramme de paquetage représentant l'architecture MVC d'une application.
+
+## Exemples
 
 Voici un exemple complet d'un **diagramme de paquetages** utilisant l'architecture **multiniveaux** et basé sur le cas d'étude [PolyCal](../polycal/).
 
-![Diagramme de paquetages](/assets/images/paquetages.png)
+![Architecture multiniveaux](/assets/images/paquetages.png)
+
+Voici un exemple complet d'un **diagramme de paquetages** utilisant l'architecture **MVC** et basé sur le cas d'étude [PolyCal](../polycal/).
+
+![Architecture MVC](/assets/images/mvc.png)
 
 <!-- Voici un exemple complet d'un **diagramme de paquetages** basé sur le cas d'étude [PolyAuto](../polyauto/).
 
