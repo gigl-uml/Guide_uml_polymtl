@@ -40,3 +40,4 @@ Tout au long de ce guide vous sont fournis des exemples basés sur le cas **Poly
 - [Diagramme de classes](../diagrammes-de-classes/#exemple) 
 - [Diagramme d'interaction](../diagrammes-d-interaction/#exemple)
 - [Diagramme de paquetages](../diagrammes-de-paquetages/#exemple)
+- [Diagramme de déploiement](../diagrammes-de-deploiement/#exemple)
