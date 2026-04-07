@@ -115,3 +115,13 @@ En UML, on peut les représenter de cette manière :
 Voici un exemple d'un **diagramme de classes** basé sur le cas d'étude [PolyCal](../polycal/).
 
 ![Diagramme de classes](/assets/images/classes.png)
+
+La classe PolyCal est une aggrégation des deux autres :
+
+class PolyCal {
+private:
+    std::vector<Compte> comptes;
+    std::vector<Reunion> reunions;
+
+   ...
+};

@@ -87,6 +87,7 @@ Le SSD est une utilisation particulière du diagramme de séquence qui réutilis
 
 
 Le SSD présente, pour une instance d’un cas d’utilisation:
+
 – Les événements générés par les acteurs;
 
 – L’ordre de ces événements;
