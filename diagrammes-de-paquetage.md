@@ -104,7 +104,7 @@ Voici un exemple complet d'un **diagramme de paquetages** utilisant l'architectu
 
 Voici un exemple complet d'un **diagramme de paquetages** utilisant l'architecture **MVC** et basé sur le cas d'étude [PolyCal](../polycal/).
 
-![Architecture MVC](/assets/images/mvc.png)
+![Architecture MVC](/assets/images/paquetages_mvc.png)
 
 <!-- Voici un exemple complet d'un **diagramme de paquetages** basé sur le cas d'étude [PolyAuto](../polyauto/).
 
