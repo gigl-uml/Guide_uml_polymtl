@@ -3,9 +3,9 @@ skinparam backgroundcolor transparent
 skinparam NodeBackgroundColor whitesmoke
 skinparam linetype ortho
  
-node "Appareil mobile Android" as androidDevice <<device>>{
+node "Appareil mobile" as androidDevice <<device>>{
   node "Android 14" <<executionEnvironment>> {
-      artifact "polyAuto.apk"
+      artifact "polyCal.apk"
   }
 }
 
@@ -13,7 +13,9 @@ node "Appareil mobile Android" as androidDevice <<device>>{
 
 node "Serveur d'application (VM AWS EC2)" as backend <<device>> {
   node "Debian (Linux)" <<executionEnvironment>> {
-    artifact serveur.ts
+    node "NodeJS" <<executionEnvironment>> {
+    artifact server.JS
+  }
   }
 }
 
@@ -21,7 +23,7 @@ node "Serveur d'application (VM AWS EC2)" as backend <<device>> {
 
 
 node "Serveurs de Google" <<device>> {
-  component "GoogleMapsAPI" as gmaps
+  component "GoogleCalendarAPI" as gcal
 }
 
 
@@ -31,12 +33,12 @@ node "Serveurs de Google" <<device>> {
 
 node "Serveurs AWS" as vehic <<device>> {
     node "MongoDB - M0" <<database>> {
-      component "PolyAutoCluster"
+      component "PolyCalCluster"
   }
 }
 
-backend --- vehic
-androidDevice --d- backend
-gmaps - backend
+backend --- vehic : MongoDB Wire Protocol
+androidDevice --- backend : HTTP
+gcal --- backend : HTTP
 
 @enduml
