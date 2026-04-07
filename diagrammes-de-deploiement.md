@@ -65,4 +65,4 @@ Il existe 2 façons de montrer le déploiement d'un artéfact dans un noeud.
 
 Voici un exemple d'un **diagramme de déploiement** basé sur le cas d'étude [PolyCal](/polycal.md).
 
-![](/out/plant_uml/exempleDiagDeployment/)
+![Déploiement](/assets/images/deploiement.pn1)

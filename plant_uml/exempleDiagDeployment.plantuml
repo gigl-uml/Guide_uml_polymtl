@@ -37,8 +37,9 @@ node "Serveurs AWS" as vehic <<device>> {
   }
 }
 
-backend --- vehic : MongoDB Wire Protocol
-androidDevice --- backend : HTTP
-gcal --- backend : HTTP
+androidDevice ---down-- backend : HTTP
+backend --left-- gcal : HTTP
+backend --down-- vehic : MongoDB Wire Protocol
+
 
 @enduml
