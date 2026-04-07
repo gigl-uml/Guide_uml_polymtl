@@ -35,7 +35,7 @@ Il y a deux façons de représenter le contenu des paquetages:
 
 ## Importer et accéder aux paquetages
 
-*Note: La notion d'éléments **publics** et **privés** sont détaillés dans la [section suivante](#visibilité-des-éléments/)*
+*Note: La notion d'éléments **publics** et **privés** est détaillé dans la [section suivante](#visibilité-des-éléments/)*
 
 Il est possible d'importer des éléments (classes) d'un paquetage à l'autre. Pour ce faire, il faut qu'un paquetage `<<import>>` un autre paquetage, ce qui lui permettra d'accéder aux classes de ce dernier. Par exemple:
 
