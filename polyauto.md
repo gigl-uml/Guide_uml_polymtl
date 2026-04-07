@@ -45,17 +45,10 @@ Tout au long de ce guide vous sont fournis des exemples basés sur le cas **Poly
 ![](/out/plant_uml/useCaseGlobalExample/useCaseGlobalExample.svg)
 
 - [Diagramme de classes](../diagrammes-de-classes/#exemple) (Réservation de véhicules)
-
-![](/out/plant_uml/exempleDiagClasse/exempleDiagClasse.svg)
-
-- [Diagramme d'interaction](../diagrammes-d-interaction/#exemple) (Réservation d'un véhicule)
-
-![](/out/plant_uml/custom/interactionGlobalExample.svg)
-
 - [Diagramme de paquetages](../diagrammes-de-paquetages/#exemple) (Système complet)
-
-![](/out/plant_uml/exempleDiagPaquet/exempleDiagPaquet.svg)
-
+- [Diagramme de composantes](../diagrammes-de-composantes/#exemple) (Réservation de véhicules)
 - [Diagramme de déploiement](../diagrammes-de-deploiement/#exemple) (Système complet)
-- [Diagramme d'états](../diagrammes-etats/#exemple) (Disponibilité des véhicules)
+- [Diagramme de cas d'utilisation](../diagrammes-de-cas-dutilisation/#exemple) (Système complet, vue générale)
 - [Diagramme d'activités](../diagrammes-d-activites/#exemple) (Validation d'une réservation)
+- [Diagramme d'interaction](../diagrammes-d-interaction/#exemple) (Réservation d'un véhicule)
+- [Diagramme d'états](../diagrammes-etats/#exemple) (Disponibilité des véhicules)

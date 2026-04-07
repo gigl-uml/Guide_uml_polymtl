@@ -4,10 +4,10 @@ skinparam backgroundcolor transparent
 allow_mixing
 skinparam classAttributeIconSize 0
 
-folder SystèmeDePaie
-folder HoraireEmployé
+folder Utilisateurs
+folder Reunions
 
-SystèmeDePaie.>HoraireEmployé:<<import>>
+Utilisateurs.>Reunions:<<import>>
 
 
 @enduml
