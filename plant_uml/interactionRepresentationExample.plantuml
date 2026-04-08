@@ -1,0 +1,22 @@
+@startuml
+hide footbox
+
+skinparam sequenceBoxBackgroundColor white
+skinparam sequenceBoxBorderColor black
+
+box "Rejoindre une réunion"
+
+participant ":Navigateur" as Navigateur
+participant ":Serveur" as Serveur
+
+Navigateur -> Serveur : rejoindreRéunion()
+activate Navigateur
+activate Serveur
+
+Serveur --> Navigateur : confirmationConnexion()
+deactivate Navigateur
+deactivate Serveur
+
+end box
+
+@enduml

@@ -43,7 +43,7 @@ Voici un exemple illustrant un artéfact "Application Web" déployé dans le noe
 ![](/out/plant_uml/deploymentRepresentation/deploymentRepresentation.svg)
 
 
-## Relation
+## Relations
 
 |---|---|---|
 | Manifestation | ![](/out/plant_uml/manifestationRelationshipExample/manifestationRelationshipExample.svg) | Indique que l'artéfact est une manifestation (ou une implémentation) logicielle de la composante. |

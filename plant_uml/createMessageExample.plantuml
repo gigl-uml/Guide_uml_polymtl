@@ -5,7 +5,10 @@ hide footbox
 participant P1
 participant P2
 
-P1 -[dotted]->> P2: <<create>>
+activate P1
+create P2
+P1 --> P2 : <<create>>
 
+activate P2
 
 @enduml

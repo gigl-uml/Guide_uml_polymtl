@@ -21,7 +21,9 @@ d’utilisation principaux d’un système sans aller dans les détails.
   - Les principaux acteurs du modèle.
   - Les cas d’utilisation principaux.
 
-## Comment savoir si un cas d'utilisation fait partie des cas principaux ? 
+## Cas principaux
+
+**Comment savoir si un cas d'utilisation fait partie des cas principaux ?**
 
 On considère **importants** les cas d’utilisation qui:
 1. Ont un **impact important sur l’architecture du système**, par exemple parce qu’ils introduisent beaucoup de concepts ou classes, ou exigent de la persistance.
@@ -32,10 +34,6 @@ On considère **importants** les cas d’utilisation qui:
 6. Impliquent directement des **revenus supplémentaires** ou des **réductions de coûts**.
 
 Dans un **diagramme de contexte**, chaque cas est représenté par un oval contenant son nom et son numéro. **Le nom commence par un verbe.**
-
-Voici un exemple d'un **diagramme de contexte** basé sur le cas d'étude [PolyCal](../polycal/).
-
-![Diagramme de contexte](/assets/images/diagramme_contexte.png)
 
 ## Frontières du système
 
@@ -50,3 +48,9 @@ Par exemple, dans un contexte simple, un acteur peut être représenté comme su
 ![](/out/plant_uml/acteurReprésentation/acteurReprésentation.svg)
 
 Il peut y avoir plusieurs acteurs pour un même cas d'utilisation. C'est le cas du CU 3 du diagramme de contexte ci-dessus.
+
+## Exemple
+
+Voici un exemple d'un **diagramme de contexte** basé sur le cas d'étude [PolyCal](../polycal/).
+
+![Diagramme de contexte](/assets/images/diagramme_contexte.png)
