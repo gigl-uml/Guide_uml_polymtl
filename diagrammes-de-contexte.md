@@ -21,7 +21,9 @@ d’utilisation principaux d’un système sans aller dans les détails.
   - Les principaux acteurs du modèle.
   - Les cas d’utilisation principaux.
 
-## Comment savoir si un cas d'utilisation fait partie des cas principaux ? 
+## Cas principaux
+
+**Comment savoir si un cas d'utilisation fait partie des cas principaux ?**
 
 On considère **importants** les cas d’utilisation qui:
 1. Ont un **impact important sur l’architecture du système**, par exemple parce qu’ils introduisent beaucoup de concepts ou classes, ou exigent de la persistance.

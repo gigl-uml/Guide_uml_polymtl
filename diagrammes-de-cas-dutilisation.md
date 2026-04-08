@@ -32,21 +32,9 @@ Le livre **UML 2.0 in a Nutshell** spécifie trois exigences pour aider à cadre
 2. Quand un cas d'utilisation est jugée complété, alors la fonctionnalité souhaitée a été exécutée ou une erreur s'est produite.
 3. Après la complétion du cas d'utilisation, le système est dans un état où le cas peut-être redémarré, ou le système est dans un état d'erreur.
 
-## Frontières du système
+## Frontières du système et acteurs
 
-Les **cas d'utilisation** capturent par définition les **fonctionnalités d'un sujet spécifique**. Toute fonctionnalité qui n'est pas implémentée par ce sujet est considérée comme étant en dehors des limites du système et doit être **représentée sous forme d'acteur**. Ceci permet de déterminer clairement la portée et les responsabilités associées.  
-Les **frontières du système** sont représentées par un rectangle avec le nom du système en haut.
-
-## Acteurs
-
-Un acteur est une **entité externe** au système qui interagit avec celui-ci selon son rôle particulier.  
-Par exemple, dans un contexte simple, un acteur peut être représenté comme suit:
-
-![](/out/plant_uml/acteurReprésentation/acteurReprésentation.svg)
-
-Il peut y avoir plusieurs acteurs pour un même cas d'utilisation. Par exemple, dans l'exemple suivant, nous cherchons à modéliser le fonctionnement d'un restaurant à haut niveau:
-
-![](/out/plant_uml/restoExemple/restoExemple.svg)
+Comme dans le diagramme de contexte, les **frontières du système** des cas d'utilisation sont représentées par un rectangle avec le nom du système en haut. Les acteurs dans les cas d'utilisations doivent aussi être dans le diagramme de contexte. Un nouvel acteur ne peut pas être indroduit uniquement dans les diagrammes de cas.
 
 ## Relations
 
