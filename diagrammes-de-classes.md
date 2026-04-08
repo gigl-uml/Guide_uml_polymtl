@@ -118,10 +118,9 @@ Voici un exemple d'un **diagramme de classes** basé sur le cas d'étude [PolyCa
 
 La classe PolyCal est une aggrégation des deux autres :
 
-class PolyCal {
-private:
-    std::vector<Compte> comptes;
-    std::vector<Reunion> reunions;
-
-   ...
-};
+    class PolyCal {
+    private:
+      std::vector<Compte> comptes;
+      std::vector<Reunion> reunions;
+      ...
+    };

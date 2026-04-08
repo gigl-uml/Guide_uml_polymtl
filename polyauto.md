@@ -2,9 +2,7 @@
 layout: page
 title: PolyAuto (cas d'étude)
 permalink: /polyauto/
-nav_order: 12
-has_children: false
-has_toc: false
+nav_exclude: true
 ---
 
 [↑](./#top){: .btn .btn-outline .back-to-top }
@@ -57,5 +55,8 @@ Tout au long de ce guide vous sont fournis des exemples basés sur le cas **Poly
 ![](/out/plant_uml/exempleDiagPaquet/exempleDiagPaquet.svg)
 
 - [Diagramme de déploiement](../diagrammes-de-deploiement/#exemple) (Système complet)
+
+![](/out/plant_uml/custom/deploymentExemple.svg)
+
 - [Diagramme d'états](../diagrammes-etats/#exemple) (Disponibilité des véhicules)
 - [Diagramme d'activités](../diagrammes-d-activites/#exemple) (Validation d'une réservation)

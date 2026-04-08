@@ -54,7 +54,7 @@ Il peut y avoir plusieurs acteurs pour un même cas d'utilisation. Par exemple, 
 | Inclusion de cas d'utilisation | ![](/out/plant_uml/useCaseInclusionExample/useCaseInclusionExample.svg) | Indique que le _casUtilisation1_ n'est pas complet, il a **besoin** de la fonctionnalité de _CasUtilisation2_ pour fonctionner. Cette relation permet de pouvoir réutiliser certains cas d'utilisation. |
 | Extension de cas d'utilisation | ![](/out/plant_uml/useCaseExtensionExample/useCaseExtensionExample.svg) | Indique que le casUtilisation1 va ajouter des fonctionnalités (étendre) au casUtilisation2, lequel doit pouvoir fonctionner seul. |
 
-## Exemple
+## Exemples
 
 Voici des exemples d'un **diagramme de cas d'utilisation** basé sur le cas d'étude [PolyCal](../polycal/).  
 

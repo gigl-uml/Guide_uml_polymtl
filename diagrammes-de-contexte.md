@@ -33,10 +33,6 @@ On considère **importants** les cas d’utilisation qui:
 
 Dans un **diagramme de contexte**, chaque cas est représenté par un oval contenant son nom et son numéro. **Le nom commence par un verbe.**
 
-Voici un exemple d'un **diagramme de contexte** basé sur le cas d'étude [PolyCal](../polycal/).
-
-![Diagramme de contexte](/assets/images/diagramme_contexte.png)
-
 ## Frontières du système
 
 Les **cas d'utilisation** capturent par définition les **fonctionnalités d'un sujet spécifique**. Toute fonctionnalité qui n'est pas implémentée par ce sujet est considérée comme étant en dehors des limites du système et doit être **représentée sous forme d'acteur**. Ceci permet de déterminer clairement la portée et les responsabilités associées.  
@@ -50,3 +46,9 @@ Par exemple, dans un contexte simple, un acteur peut être représenté comme su
 ![](/out/plant_uml/acteurReprésentation/acteurReprésentation.svg)
 
 Il peut y avoir plusieurs acteurs pour un même cas d'utilisation. C'est le cas du CU 3 du diagramme de contexte ci-dessus.
+
+## Exemple
+
+Voici un exemple d'un **diagramme de contexte** basé sur le cas d'étude [PolyCal](../polycal/).
+
+![Diagramme de contexte](/assets/images/diagramme_contexte.png)

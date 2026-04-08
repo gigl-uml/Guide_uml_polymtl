@@ -16,8 +16,7 @@ loop loop(1,3)
     P1 -> P2 : message3()
   end
 
+  P2 --> P1 : message4()
 end
-
-P2 --> P1 : message4()
 
 @enduml
