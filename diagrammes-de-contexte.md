@@ -47,7 +47,7 @@ Par exemple, dans un contexte simple, un acteur peut être représenté comme su
 
 ![](/out/plant_uml/acteurReprésentation/acteurReprésentation.svg)
 
-Il peut y avoir plusieurs acteurs pour un même cas d'utilisation. C'est le cas du CU 3 du diagramme de contexte ci-dessus.
+Il peut y avoir plusieurs acteurs pour un même cas d'utilisation. C'est le cas du CU 3 du diagramme de contexte ci-dessous.
 
 ## Exemple
 
