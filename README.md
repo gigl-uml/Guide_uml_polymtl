@@ -4,7 +4,7 @@ _____
 ## Installation sur Windows
 
 ### Installation de Ruby
-1. Téléchargez Ruby sur votre machine au lien suivant: https://rubyinstaller.org/downloads/. *Il n'est pas nécéssaire de télécharger une version avec Devkit*
+1. Téléchargez Ruby 3.2.10-1 sur votre machine au lien suivant: https://rubyinstaller.org/downloads/. *Il n'est pas nécéssaire de télécharger une version avec Devkit*
 
 2. Une fois le programme téléchargé, vous pouvez le lancer, accepter sa license, choisir un emplacement puis vous laisser cochée la case `Run 'ridk install' ... ` avant de cliquer sur Finish
 

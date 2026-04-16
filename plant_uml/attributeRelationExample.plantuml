@@ -32,8 +32,8 @@ class Passager {
   + getAge(): int
 }
 
-Voiture "1" --> "1" Moteur 
-Voiture "1" --> "4" Roue
-Voiture "1" --> "1..5" Passager 
+Voiture --> "1" Moteur 
+Voiture --> "4" Roue
+Voiture --> "1..5" Passager 
 
 @enduml

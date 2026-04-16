@@ -2,7 +2,7 @@
 layout: page
 title: Diagrammes de déploiement
 permalink: /diagrammes-de-deploiement/
-nav_order: 5
+nav_order: 8
 has_children: true
 has_toc: false
 ---
@@ -16,11 +16,11 @@ périphériques ainsi que les **composantes qui s‘y exécutent**.
 
 ## Artéfacts
 
-Un Artéfact représente un morceau de logiciel, de matériel ou de données qui est déployé sur un nœud du système. Il peut être un fichier exécutable, une bibliothèque, une base de données, un fichier de configuration, etc.
+Un **artéfact** représente un morceau de logiciel, de matériel ou de données qui est déployé sur un nœud du système. Il peut être un fichier exécutable, une bibliothèque, une base de données, un fichier de configuration, etc.
 
 ## Nœuds
 
-Un **nœud** est un élément physique qui existe au moment de l'exécution et qui représente une ressource ayant des possibilités d'exécution. La taille des nœuds est variable : elle peut varier d'un simple dispositif embarqué à un ensemble de serveurs.
+Un **nœud** est un élément physique qui existe au moment de l'exécution et qui représente une ressource ayant des possibilités d'exécution. La taille des nœuds est variable: elle peut varier d'un simple dispositif embarqué à un ensemble de serveurs.
 
 Les nœuds indiquent le **lieu d'exécution** du code et comment les différentes parties du système **communiquent lors de l'exécution**.  
 Chaque nœud doit avoir un nom qui le distingue des autres nœuds. En pratique, les noms de nœuds sont des noms pris dans le vocabulaire de l'implémentation.
@@ -43,7 +43,7 @@ Voici un exemple illustrant un artéfact "Application Web" déployé dans le noe
 ![](/out/plant_uml/deploymentRepresentation/deploymentRepresentation.svg)
 
 
-## Relation
+## Relations
 
 |---|---|---|
 | Manifestation | ![](/out/plant_uml/manifestationRelationshipExample/manifestationRelationshipExample.svg) | Indique que l'artéfact est une manifestation (ou une implémentation) logicielle de la composante. |
@@ -63,6 +63,6 @@ Il existe 2 façons de montrer le déploiement d'un artéfact dans un noeud.
 
 ## Exemple
 
-Voici un exemple d'un **diagramme de déploiement** basé sur le cas d'étude [PolyAuto](../polyauto/).
+Voici un exemple d'un **diagramme de déploiement** basé sur le cas d'étude [PolyCal](/polycal.md).
 
-![](/out/plant_uml/custom/deploymentExemple.svg)
+![Déploiement](/assets/images/deploiement.png)

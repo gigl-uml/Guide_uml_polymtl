@@ -1,0 +1,11 @@
+@startuml
+
+rectangle "Rejoindre une réunion" {
+    object ":Navigateur" as Navigateur
+    object ":Serveur" as Serveur
+
+    Navigateur -> Serveur : 1: rejoindreRéunion()
+    Serveur --> Navigateur : 2: confirmationConnexion()
+}
+
+@enduml

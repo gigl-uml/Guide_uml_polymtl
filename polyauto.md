@@ -2,9 +2,7 @@
 layout: page
 title: PolyAuto (cas d'étude)
 permalink: /polyauto/
-nav_order: 11
-has_children: false
-has_toc: false
+nav_exclude: true
 ---
 
 [↑](./#top){: .btn .btn-outline .back-to-top }
@@ -40,11 +38,25 @@ Pour faciliter l'utilisation de **PolyAuto**, la facturation est effectuée auto
 
 Tout au long de ce guide vous sont fournis des exemples basés sur le cas **PolyAuto**. Il est toutefois important de noter que certains de ces exemples ne présentent **qu'une sous-partie** du système.
 
-- [Diagramme de classes](../diagrammes-de-classes/#exemple) (Réservation de véhicules)
-- [Diagramme de paquetages](../diagrammes-de-paquetages/#exemple) (Système complet)
-- [Diagramme de composantes](../diagrammes-de-composantes/#exemple) (Réservation de véhicules)
-- [Diagramme de déploiement](../diagrammes-de-deploiement/#exemple) (Système complet)
 - [Diagramme de cas d'utilisation](../diagrammes-de-cas-dutilisation/#exemple) (Système complet, vue générale)
-- [Diagramme d'activités](../diagrammes-d-activites/#exemple) (Validation d'une réservation)
+
+![](/out/plant_uml/useCaseGlobalExample/useCaseGlobalExample.svg)
+
+- [Diagramme de classes](../diagrammes-de-classes/#exemple) (Réservation de véhicules)
+
+![](/out/plant_uml/exempleDiagClasse/exempleDiagClasse.svg)
+
 - [Diagramme d'interaction](../diagrammes-d-interaction/#exemple) (Réservation d'un véhicule)
+
+![](/out/plant_uml/custom/interactionGlobalExample.svg)
+
+- [Diagramme de paquetages](../diagrammes-de-paquetages/#exemple) (Système complet)
+
+![](/out/plant_uml/exempleDiagPaquet/exempleDiagPaquet.svg)
+
+- [Diagramme de déploiement](../diagrammes-de-deploiement/#exemple) (Système complet)
+
+![](/out/plant_uml/custom/deploymentExemple.svg)
+
 - [Diagramme d'états](../diagrammes-etats/#exemple) (Disponibilité des véhicules)
+- [Diagramme d'activités](../diagrammes-d-activites/#exemple) (Validation d'une réservation)

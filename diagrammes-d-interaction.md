@@ -2,7 +2,7 @@
 layout: page
 title: Diagrammes d'interaction
 permalink: /diagrammes-d-interaction/
-nav_order: 8
+nav_order: 6
 has_children: true
 has_toc: false
 ---
@@ -13,7 +13,7 @@ has_toc: false
 
 Un diagramme d'interaction fournit une représentation visuelle claire des **messages échangés** entre les différents acteurs, objets ou composants d'un système pendant un **scénario spécifique**.
 
-Deux types principaux de diagrammes d'interactions sont couramment utilisés : les diagrammes de séquence et les diagrammes de communication.
+Deux types principaux de diagrammes d'interactions sont couramment utilisés : les **diagrammes de séquence** et les **diagrammes de communication**.
 
 Le diagramme de séquence met en évidence **l'ordre chronologique** des messages échangés entre les différents objets d'un système.
 
@@ -24,7 +24,7 @@ La section suivante comporte une comparaison des 2 types de diagramme, mais nous
 ## Représentation
 
 Un diagramme de séquence doit montrer des messages échangés par des participants lors de la réalisation d'un scénario.
-L'exemple suivant représente les **messages échangés**, lors d'une **requête HTTP** (scénario), entre le **participant Navigateur** et le **participant Serveur**.
+L'exemple suivant représente les **messages échangés**, lors d'une **appel** (scénario), entre le **participant Navigateur** et le **participant Serveur**.
 
 ![](/out/plant_uml/custom/interactionRepresentationExample.svg)
 
@@ -39,7 +39,7 @@ Les participants aux interactions d'un diagramme de séquence sont représentés
 **nom_de_l'objet [sélecteur] : nom_de_la_classe**
 
 | ------------ | ----------- |
-| nom_de_l'objet | Le nom de l'instance impliqué dans l'interaction |
+| nom_de_l'objet | Le nom de l'instance impliqué dans l'intéraction |
 | sélecteur | Permet de selectionner une instance particulière dans un tableau d'élement |
 | nom_de_la_classe | Le nom du type du participant |
 
@@ -81,8 +81,36 @@ Un opérateur d'interaction est un élément utilisé dans les diagrammes de sé
 | _Loop_ | ![](/out/plant_uml/loopOperatorExample/loopOperatorExample.svg) | Indique que le fragment d'interactions sera exécuté en boucle. La condition de sortie peut être représentée avec une condition de sortie ou comme ceci: loop(min, max). |
 | _ref_ | ![](/out/plant_uml/refOperatorExample/refOperatorExample.svg) | Réfère à une interaction définie dans un autre diagram |
 
+## Diagramme de séquence du système (SSD) 
+
+Le SSD est une utilisation particulière du diagramme de séquence qui réutilise sa syntaxe. 
+
+
+Le SSD présente, pour une instance d’un cas d’utilisation:
+
+  - Les événements générés par les acteurs;
+  - L’ordre de ces événements;
+  - Les autres événements inter-système;
+  - Les opérations du système déclenchées par ces événements.
+
+Voici un exemple d'un **SSD** basé sur le cas d'étude [PolyCal](../polycal/).
+![Diagramme SSD](/assets/images/SSD.png)
+
+
 ## Exemple
 
-Voici un exemple d'un **diagramme d'interaction** basé sur le cas d'étude [PolyAuto](../polyauto/).
+Voici un exemple d'un **diagramme de séquence** basé sur le cas d'étude [PolyCal](../polycal/).
+![Diagramme d'interaction](/assets/images/interaction.png)
 
-![](/out/plant_uml/custom/interactionGlobalExample.svg)
+La fonction est contenue dans la classe qui reçoit l'appel :
+
+     class PolyCal {
+     private:
+      std::vector<Compte> comptes;
+      std::vector<Reunion> reunions;
+     public:
+       Compte* trouverCompte(std::string courriels);
+       Reunion* creerReunion( std::vector<std::string> courriels,
+                           std::string periodeReunion);
+     ...
+};

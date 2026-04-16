@@ -1,0 +1,43 @@
+---
+layout: page
+title: PolyCal (cas d'étude)
+permalink: /polycal/
+nav_order: 2
+has_children: false
+has_toc: false
+---
+
+[↑](./#top){: .btn .btn-outline .back-to-top }
+
+# PolyCal
+
+Voici une mise en contexte qui sera réutilisée dans plusieurs les diagrammes. 
+
+L’objectif général de PolyCal est de faciliter l’organisation de réunions, notamment en 
+mettant à contribution les possibilités offertes par l’intelligence artificielle.
+Les principales fonctionnalités offertes par PolyCal seront comme suit : 
+1. **Création de demandes de réunion** : PolyCal permettra à un organisateur de créer 
+des demandes de réunion et de spécifier la période de la réunion, les personnes invitées à y participer.
+2. **Création d'un compte utilisateur** : Toute personne possédant une adresse courriel 
+pourra créer un compte utilisateur, lequel sera requis pour utiliser PolyCal. Chaque 
+utilisateur pourra, à sa guise, se connecter à son compte utilisateur et se 
+déconnecter. Chaque compte utilisateur sera associé à un dossier qui contiendra : 
+a. Le nom complet, l’adresse courriel et le numéro de téléphone cellulaire de 
+la personne; 
+b. Des contraintes et préférences générales affectant la disponibilité 
+de cet utilisateur.
+3. **Participation à la réunion** : L'organisateur et les participants doivent pouvoir 
+échanger à l'oral et par messages. Ils ont l'option d'ouvrir leur caméra et de 
+partager des fichiers.
+
+
+## Diagrammes reliés
+
+Tout au long de ce guide vous sont fournis des exemples basés sur le cas **PolyCal**. Il est toutefois important de noter que certains de ces exemples ne présentent **qu'une sous-partie** du système.
+
+- [Diagramme de contexte](../diagrammes-de-contexte)
+- [Diagramme de cas d'utilisation](../diagrammes-de-cas-dutilisation/#exemple) 
+- [Diagramme de classes](../diagrammes-de-classes/#exemple) 
+- [Diagramme d'interaction](../diagrammes-d-interaction/#exemple)
+- [Diagramme de paquetages](../diagrammes-de-paquetages/#exemple)
+- [Diagramme de déploiement](../diagrammes-de-deploiement/#exemple)

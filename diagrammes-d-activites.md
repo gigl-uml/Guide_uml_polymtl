@@ -2,7 +2,7 @@
 layout: page
 title: Diagrammes d'activités
 permalink: /diagrammes-d-activites/
-nav_order: 7
+nav_order: 10
 has_children: true
 has_toc: false
 ---

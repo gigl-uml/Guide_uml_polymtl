@@ -1,8 +1,12 @@
 @startuml
 hide circle
 skinparam backgroundcolor transparent
-package "Magasinage en ligne" {
-  rectangle "+ Inventaire"
-  rectangle "- Panier "
+package Utilisateurs
+
+package "Réunions" as B{
+  rectangle "+ Réunion"
+  rectangle "- Participants "
 }
+
+Utilisateurs -r[dotted]-> B : <<import>>
 @enduml

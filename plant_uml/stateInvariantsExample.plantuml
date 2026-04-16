@@ -1,0 +1,31 @@
+@startuml
+hide footbox
+skinparam backgroundcolor transparent
+
+participant ":Usager" as Usager
+participant ":Guichet" as Guichet
+participant ":Serveur" as Serveur
+
+title Retirer de l'argent
+
+activate Usager
+Usager -> Guichet : requêteDeRetrait()
+activate Guichet
+
+activate Serveur
+Guichet -> Serveur : getSolde()
+Serveur --> Guichet : :solde
+deactivate Serveur
+
+
+opt solde > 0
+
+  Guichet -> Usager : requêteDeMontant()
+  Usager --> Guichet : :montantRetrait
+  
+  opt solde > montantRetrait
+    Guichet -> Serveur : débiterMontantRetrait
+  end
+end 
+
+@enduml
